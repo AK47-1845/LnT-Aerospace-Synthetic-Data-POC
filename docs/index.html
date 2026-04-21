@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Physical AI Atlas | The Open Standard for Embodied Intelligence</title>
+  <meta name="description" content="The definitive engineering roadmap, mathematical foundations, hardware blueprints, and runnable starter code for Physical AI, VLA models, and humanoid robotics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #07090e;
+      --bg-card: rgba(16, 22, 34, 0.75);
+      --bg-card-hover: rgba(26, 35, 54, 0.9);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-glow: rgba(99, 102, 241, 0.35);
+      --primary: #6366f1;
+      --primary-gradient: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #06b6d4 100%);
+      --accent-cyan: #06b6d4;
+      --accent-emerald: #10b981;
+      --accent-amber: #f59e0b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.6;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(99, 102, 241, 0.12) 0%, transparent 40%),
+        radial-gradient(circle at 85% 65%, rgba(6, 182, 212, 0.1) 0%, transparent 45%),
+        radial-gradient(circle at 50% 90%, rgba(168, 85, 247, 0.08) 0%, transparent 40%);
+      background-attachment: fixed;
+    }
+
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Navigation */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(16px);
+      background: rgba(7, 9, 14, 0.8);
+      border-bottom: 1px solid var(--border-color);
+      padding: 16px 0;
+    }
+    .nav-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-weight: 800;
+      font-size: 1.25rem;
+      letter-spacing: -0.5px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .logo-badge {
+      background: var(--primary-gradient);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover { color: #fff; }
+    .btn-github {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--border-color);
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 9999px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .btn-github:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: var(--border-glow);
+      transform: translateY(-1px);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 80px 0 60px;
+      text-align: center;
+      position: relative;
+    }
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 16px;
+      background: rgba(99, 102, 241, 0.1);
+      border: 1px solid rgba(99, 102, 241, 0.3);
+      border-radius: 9999px;
+      color: #818cf8;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 24px;
+    }
+    .hero-title {
+      font-size: 3.5rem;
+      font-weight: 800;
+      letter-spacing: -1.5px;
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+    .gradient-text {
+      background: var(--primary-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero-desc {
+      font-size: 1.25rem;
+      color: var(--text-muted);
+      max-width: 800px;
+      margin: 0 auto 36px;
+      font-weight: 400;
+    }
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+      max-width: 900px;
+      margin: 40px auto 0;
+    }
+    .stat-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      backdrop-filter: blur(12px);
+    }
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #fff;
+      font-family: var(--font-mono);
+    }
+    .stat-label {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: 4px;
+    }
+
+    /* Section Styling */
+    section {
+      padding: 60px 0;
+    }
+    .section-header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .section-title {
+      font-size: 2.25rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
+    }
+    .section-sub {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+      max-width: 650px;
+      margin: 0 auto;
+    }
+
+    /* Interactive Architecture Diagram */
+    .stack-container {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 32px;
+      backdrop-filter: blur(12px);
+    }
+    .stack-grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .stack-node {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 16px 12px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.25s;
+    }
+    .stack-node:hover, .stack-node.active {
+      background: rgba(99, 102, 241, 0.15);
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(99, 102, 241, 0.2);
+    }
+    .node-icon {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+    .node-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .node-rate {
+      font-size: 0.75rem;
+      color: var(--accent-cyan);
+      font-family: var(--font-mono);
+      margin-top: 4px;
+    }
+    .inspector-panel {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 24px;
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 24px;
+    }
+    .inspector-desc h4 {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    .inspector-desc p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-bottom: 12px;
+    }
+    .inspector-math {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--primary);
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      color: #38bdf8;
+      overflow-x: auto;
+    }
+    .inspector-meta {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+    }
+    .meta-row {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding-bottom: 6px;
+      font-size: 0.9rem;
+    }
+    .meta-label { color: var(--text-muted); }
+    .meta-val { font-weight: 600; color: #fff; font-family: var(--font-mono); }
+
+    /* Interactive Roadmap Stages */
+    .stages-nav {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      padding-bottom: 12px;
+      margin-bottom: 24px;
+    }
+    .stage-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 10px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .stage-btn:hover, .stage-btn.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+    .stage-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 36px;
+      backdrop-filter: blur(12px);
+    }
+    .stage-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 24px;
+    }
+    .stage-title {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    .stage-badge {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: var(--accent-emerald);
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+    .stage-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr;
+      gap: 32px;
+    }
+    .stage-col h5 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #cbd5e1;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .stage-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .stage-list li {
+      position: relative;
+      padding-left: 20px;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .stage-list li::before {
+      content: "•";
+      color: var(--primary);
+      position: absolute;
+      left: 0;
+      font-size: 1.2rem;
+      line-height: 1;
+      top: 2px;
+    }
+
+    /* Paper Search & Filter */
+    .search-bar-wrap {
+      margin-bottom: 24px;
+      display: flex;
+      gap: 12px;
+    }
+    .search-input {
+      flex: 1;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 12px 20px;
+      color: #fff;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .search-input:focus {
+      border-color: var(--primary);
+    }
+    .filter-pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+    .pill {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .pill:hover, .pill.active {
+      background: var(--border-glow);
+      color: #fff;
+      border-color: var(--primary);
+    }
+    .papers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 16px;
+    }
+    .paper-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s;
+    }
+    .paper-card:hover {
+      border-color: var(--border-glow);
+      transform: translateY(-2px);
+    }
+    .paper-cat {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 6px;
+    }
+    .paper-name {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 6px;
+    }
+    .paper-meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+    }
+    .paper-link {
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .paper-link:hover { text-decoration: underline; }
+
+    /* Hardware Budget Calculator */
+    .calc-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 36px;
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 40px;
+    }
+    .calc-options h4 {
+      font-size: 1.1rem;
+      color: #fff;
+      margin-bottom: 16px;
+    }
+    .radio-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .radio-card {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 14px 18px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .radio-card:hover, .radio-card.selected {
+      border-color: var(--primary);
+      background: rgba(99, 102, 241, 0.1);
+    }
+    .radio-card input { accent-color: var(--primary); }
+    .radio-info { flex: 1; }
+    .radio-title { font-weight: 600; color: #fff; font-size: 0.95rem; }
+    .radio-sub { font-size: 0.8rem; color: var(--text-muted); }
+    .radio-price { font-family: var(--font-mono); font-weight: 700; color: var(--accent-emerald); }
+
+    .calc-summary {
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .sum-total-box {
+      text-align: center;
+      padding: 20px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .sum-total-label { font-size: 0.9rem; color: var(--text-muted); text-transform: uppercase; }
+    .sum-total-val { font-size: 2.8rem; font-weight: 800; color: var(--accent-emerald); font-family: var(--font-mono); }
+    .sum-items {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin: 20px 0;
+      font-size: 0.9rem;
+    }
+    .sum-item { display: flex; justify-content: space-between; color: var(--text-muted); }
+    .sum-item span:last-child { color: #fff; font-weight: 600; font-family: var(--font-mono); }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding: 48px 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    footer a { color: var(--primary); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 900px) {
+      .hero-title { font-size: 2.5rem; }
+      .hero-stats { grid-template-columns: repeat(2, 1fr); }
+      .stack-grid { grid-template-columns: repeat(3, 1fr); }
+      .inspector-panel { grid-template-columns: 1fr; }
+      .stage-grid { grid-template-columns: 1fr; }
+      .calc-card { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-content">
+      <a href="#" class="logo">
+        <span>⚡ Physical AI Atlas</span>
+        <span class="logo-badge">Open Standard</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#stack">Architecture</a></li>
+        <li><a href="#roadmap">Roadmap</a></li>
+        <li><a href="#papers">Papers</a></li>
+        <li><a href="#hardware">Hardware Lab</a></li>
+        <li><a href="#briefings">Executive Deck</a></li>
+      </ul>
+      <a href="https://github.com/AK47-1845/physical-ai-atlas" target="_blank" class="btn-github">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+        GitHub Repo
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-tag">🌟 Living Standard & Community Index • 2026 Edition</div>
+      <h1 class="hero-title">
+        The Open Atlas for<br/>
+        <span class="gradient-text">Physical Artificial Intelligence</span>
+      </h1>
+      <p class="hero-desc">
+        Bridging mathematical dynamics, foundation models, and certified industrial systems. From <strong>$250 DIY arms</strong> to <strong>bipedal humanoids</strong> and <strong>brownfield factory automation</strong>.
+      </p>
+      
+      <div class="hero-stats">
+        <div class="stat-box">
+          <div class="stat-number">8</div>
+          <div class="stat-label">Progression Stages</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">5</div>
+          <div class="stat-label">Runnable Code Kits</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">120+</div>
+          <div class="stat-label">Curated Papers</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-number">3</div>
+          <div class="stat-label">Hardware BOM Tiers</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive System Stack -->
+  <section id="stack">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Interactive Physical AI Architecture</h2>
+        <p class="section-sub">Click any module across the pipeline to inspect equations, latency budgets, and safety guarantees.</p>
+      </div>
+
+      <div class="stack-container">
+        <div class="stack-grid">
+          <div class="stack-node active" onclick="selectNode('sensors')">
+            <div class="node-icon">📷</div>
+            <div class="node-title">Sensory Perception</div>
+            <div class="node-rate">30 Hz • 15ms</div>
+          </div>
+          <div class="stack-node" onclick="selectNode('vlm')">
+            <div class="node-icon">🧠</div>
+            <div class="node-title">VLM Backbone</div>
+            <div class="node-rate">2-5 Hz (System 2)</div>
+          </div>
+          <div class="stack-node" onclick="selectNode('world')">
+            <div class="node-icon">🌐</div>
+            <div class="node-title">JEPA World Model</div>
+            <div class="node-rate">Latent &lt;5ms</div>
+          </div>
+          <div class="stack-node" onclick="selectNode('flow')">
+            <div class="node-icon">⚡</div>
+            <div class="node-title">Flow Matching Policy</div>
+            <div class="node-rate">50-100 Hz (System 1)</div>
+          </div>
+          <div class="stack-node" onclick="selectNode('cbf')">
+            <div class="node-icon">🛡️</div>
+            <div class="node-title">CBF Safety QP Filter</div>
+            <div class="node-rate">1,000 Hz • &lt;0.5ms</div>
+          </div>
+          <div class="stack-node" onclick="selectNode('plc')">
+            <div class="node-icon">🏭</div>
+            <div class="node-title">Industrial PLC Bridge</div>
+            <div class="node-rate">50ms Watchdog</div>
+          </div>
+        </div>
+
+        <div class="inspector-panel">
+          <div class="inspector-desc">
+            <h4 id="inspect-title">Sensory Perception Stack</h4>
+            <p id="inspect-desc">RGB-D stereoscopic cameras combined with elastomeric tactile sensing (GelSight) and joint torque proprioception.</p>
+            <div class="inspector-math" id="inspect-math">
+              Observation O_t = [ I_wrist, I_overhead, q_t, dot(q)_t, F_tactile ]
+            </div>
+          </div>
+          <div class="inspector-meta">
+            <div class="meta-row">
+              <span class="meta-label">Primary Hardware:</span>
+              <span class="meta-val" id="inspect-hw">RealSense D435i / D405</span>
+            </div>
+            <div class="meta-row">
+              <span class="meta-label">Latency Contribution:</span>
+              <span class="meta-val" id="inspect-lat">15 ms (USB 3.2 Gen 2)</span>
+            </div>
+            <div class="meta-row">
+              <span class="meta-label">Safety Criticality:</span>
+              <span class="meta-val" id="inspect-safe" style="color: var(--accent-emerald);">High Observability</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Practitioner Roadmap Section -->
+  <section id="roadmap">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">The 8-Stage Engineering Roadmap</h2>
+        <p class="section-sub">A structured, mathematically rigorous progression from foundational mechanics to frontier deployment.</p>
+      </div>
+
+      <div class="stages-nav" id="stages-nav">
+        <button class="stage-btn active" onclick="selectStage(1)">1. Classical Kinematics</button>
+        <button class="stage-btn" onclick="selectStage(2)">2. Physics Simulators</button>
+        <button class="stage-btn" onclick="selectStage(3)">3. Policy Representations</button>
+        <button class="stage-btn" onclick="selectStage(4)">4. VLA Foundation Models</button>
+        <button class="stage-btn" onclick="selectStage(5)">5. World Models</button>
+        <button class="stage-btn" onclick="selectStage(6)">6. Safety & CBFs</button>
+        <button class="stage-btn" onclick="selectStage(7)">7. Edge Quantization</button>
+        <button class="stage-btn" onclick="selectStage(8)">8. Real Hardware</button>
+      </div>
+
+      <div class="stage-card" id="stage-card-body">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Curated Paper Explorer -->
+  <section id="papers">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Curated Frontier Paper Index</h2>
+        <p class="section-sub">Search across categorized research papers in Vision-Language-Action, World Models, and Sim-to-Real.</p>
+      </div>
+
+      <div class="search-bar-wrap">
+        <input type="text" class="search-input" id="paper-search" placeholder="Search papers, architectures, or authors (e.g., OpenVLA, Flow Matching, LeCun)..." oninput="filterPapers()" />
+      </div>
+
+      <div class="filter-pills" id="paper-pills">
+        <button class="pill active" onclick="setPaperFilter('all')">All Papers</button>
+        <button class="pill" onclick="setPaperFilter('vla')">VLAs</button>
+        <button class="pill" onclick="setPaperFilter('diffusion')">Flow & Diffusion</button>
+        <button class="pill" onclick="setPaperFilter('world')">World Models</button>
+        <button class="pill" onclick="setPaperFilter('safety')">Safety & CBFs</button>
+        <button class="pill" onclick="setPaperFilter('humanoid')">Humanoids</button>
+      </div>
+
+      <div class="papers-grid" id="papers-grid">
+        <!-- Rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Hardware Lab Calculator -->
+  <section id="hardware">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Robotics Lab Hardware Blueprint</h2>
+        <p class="section-sub">Configure your budget tier and estimate real-world lab procurement costs.</p>
+      </div>
+
+      <div class="calc-card">
+        <div class="calc-options">
+          <h4>Select Embodiment Tier</h4>
+          <div class="radio-group">
+            <label class="radio-card selected" onclick="updateTier(291, 'Tier 1: SO-ARM100 DIY 6-DoF Arm')">
+              <input type="radio" name="tier" checked />
+              <div class="radio-info">
+                <div class="radio-title">Tier 1: Bedroom Hacker ($250 - $300)</div>
+                <div class="radio-sub">3D printed PETG arm + Feetech STS3215 bus servos + LeRobot teleop.</div>
+              </div>
+              <div class="radio-price">$291</div>
+            </label>
+            <label class="radio-card" onclick="updateTier(4500, 'Tier 2: AgileX Piper / Research Lab')">
+              <input type="radio" name="tier" />
+              <div class="radio-info">
+                <div class="radio-title">Tier 2: Academic R&D ($3,500 - $12,000)</div>
+                <div class="radio-sub">AgileX Piper / UR5e arm + CAN-bus torque sensing + RealSense cameras.</div>
+              </div>
+              <div class="radio-price">$4,500</div>
+            </label>
+            <label class="radio-card" onclick="updateTier(16000, 'Tier 3: Unitree G1 Full Humanoid')">
+              <input type="radio" name="tier" />
+              <div class="radio-info">
+                <div class="radio-title">Tier 3: Frontier Humanoid ($16,000 - $90,000)</div>
+                <div class="radio-sub">Unitree G1 23-DoF bipedal humanoid with whole-body control.</div>
+              </div>
+              <div class="radio-price">$16,000</div>
+            </label>
+          </div>
+
+          <h4>Select Edge Compute Rig</h4>
+          <div class="radio-group">
+            <label class="radio-card selected" onclick="updateCompute(249, 'Jetson Orin Nano (40 TOPS)')">
+              <input type="radio" name="compute" checked />
+              <div class="radio-info">
+                <div class="radio-title">NVIDIA Jetson Orin Nano (40 TOPS)</div>
+                <div class="radio-sub">Low-power edge inference for SmolVLA and diffusion policies.</div>
+              </div>
+              <div class="radio-price">+$249</div>
+            </label>
+            <label class="radio-card" onclick="updateCompute(1999, 'Jetson AGX Orin 64GB (275 TOPS)')">
+              <input type="radio" name="compute" />
+              <div class="radio-info">
+                <div class="radio-title">NVIDIA Jetson AGX Orin 64GB (275 TOPS)</div>
+                <div class="radio-sub">Full 7B OpenVLA streaming inference at 25Hz onboard.</div>
+              </div>
+              <div class="radio-price">+$1,999</div>
+            </label>
+          </div>
+        </div>
+
+        <div class="calc-summary">
+          <div class="sum-total-box">
+            <div class="sum-total-label">Estimated Lab Budget</div>
+            <div class="sum-total-val" id="total-price">$540</div>
+          </div>
+          <div class="sum-items">
+            <div class="sum-item">
+              <span>Embodiment:</span>
+              <span id="sum-arm">Tier 1: SO-ARM100 DIY</span>
+            </div>
+            <div class="sum-item">
+              <span>Edge Compute:</span>
+              <span id="sum-compute">Jetson Orin Nano</span>
+            </div>
+            <div class="sum-item">
+              <span>Perception:</span>
+              <span>Dual USB Cameras ($50)</span>
+            </div>
+          </div>
+          <a href="https://github.com/AK47-1845/physical-ai-atlas/blob/main/HARDWARE_GUIDE.md" target="_blank" class="btn-github" style="justify-content: center;">
+            View Complete BOM &amp; STL Files
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Executive Briefings -->
+  <section id="briefings" style="background: rgba(0,0,0,0.3);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Executive Briefing &amp; Strategic Whitepaper</h2>
+        <p class="section-sub">Commercial state mapping, brownfield integration economics, and the 23-slide master presentation.</p>
+      </div>
+
+      <div style="text-align: center; max-width: 700px; margin: 0 auto; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 16px; padding: 40px;">
+        <h3 style="font-size: 1.5rem; margin-bottom: 12px; color: #fff;">The Practice of Physical AI: Executive Briefing</h3>
+        <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 24px;">
+          Comprehensive 23-slide deck analyzing macro AI economics, the $15M humanoid reality vs multi-hundred-million-dollar systems integration services, and functional safety dossiers.
+        </p>
+        <div style="display: flex; gap: 16px; justify-content: center;">
+          <a href="./briefings/The_Practice_of_Physical_AI_Executive_Deck_Master.pdf" target="_blank" class="btn-github" style="background: var(--primary);">
+            Download Master Presentation (PDF)
+          </a>
+          <a href="https://github.com/AK47-1845/physical-ai-atlas/blob/main/briefings/Executive_Strategic_Briefing.md" target="_blank" class="btn-github">
+            Read Whitepaper
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>The Physical AI Atlas is an open-source initiative maintained by the global Embodied AI community.</p>
+      <p style="margin-top: 8px;">Released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a> • Maintained with mathematical rigor.</p>
+    </div>
+  </footer>
+
+  <script>
+    // System Stack Data
+    const stackData = {
+      sensors: {
+        title: "Sensory Perception Stack",
+        desc: "High-bandwidth multimodal ingestion: Eye-in-hand macro depth cameras (RealSense D405), wide-angle scene cameras (D435i), and elastomeric tactile sensors (GelSight Mini) capturing shear stress and contact friction.",
+        math: "Observation O_t = [ I_wrist, I_overhead, q_t, dot(q)_t, F_tactile ] in R^{D_obs}",
+        hw: "Intel RealSense D405 / GelSight Mini",
+        lat: "15 ms (USB 3.2 Gen 2 / CSI-2)",
+        safe: "High Observability"
+      },
+      vlm: {
+        title: "Vision-Language Backbone (System 2)",
+        desc: "Slow semantic reasoning layer operating at 1-5 Hz. Projects multi-view images and natural language instructions into a grounded token space, decomposing long-horizon instructions into immediate geometric sub-goals.",
+        math: "s_goal = LLM( Tokens(Prompt), Tokens(I_t) )",
+        hw: "OpenVLA-7B / SmolVLA / PaLM-E",
+        lat: "150 ms - 300 ms",
+        safe: "Non-Deterministic"
+      },
+      world: {
+        title: "JEPA World Model (Latent Dynamics)",
+        desc: "Predicts future latent state transitions conditioned on hypothesized action candidates. By predicting in abstract feature space rather than generating pixels, evaluation requires sub-5ms forward passes.",
+        math: "s_{t+1} = f_theta( s_t, a_t ),  Loss = || s_{t+1} - Enc(I_{t+1}) ||^2",
+        hw: "V-JEPA 2 / DreamerV3",
+        lat: "4 ms (TensorRT FP16)",
+        safe: "Controllability Filtered"
+      },
+      flow: {
+        title: "Continuous Action Flow Policy (System 1)",
+        desc: "Fast visuomotor reactive policy running at 50-100 Hz. Uses Optimal Transport Flow Matching to integrate straight vector fields from Gaussian noise in 3-5 Euler steps, outputting smooth continuous action chunks.",
+        math: "x_t = (1 - t)x_0 + t x_1,   u_t = x_1 - x_0,   x_{t+dt} = x_t + v_theta * dt",
+        hw: "pi-0 / ManiFlow Flow Matching Head",
+        lat: "8 ms (4-step Euler ODE)",
+        safe: "C^1 Continuous"
+      },
+      cbf: {
+        title: "Control Barrier Function (CBF) Safety Filter",
+        desc: "Deterministic mathematical safety envelope running at 1 kHz on a hard Real-Time OS. Formulates a convex Quadratic Program that minimally overrides neural commands to prevent collisions with humans or obstacles.",
+        math: "min 0.5 ||u - u_vla||^2   s.t.   L_f h(x) + L_g h(x)u + alpha(h(x)) >= 0",
+        hw: "OSQP / qpOASES on RT-Linux",
+        lat: "< 0.5 ms",
+        safe: "ISO 13849 PL-d Verified"
+      },
+      plc: {
+        title: "Industrial Brownfield PLC Bridge",
+        desc: "Serializes continuous actions into industrial fieldbus registers (Modbus TCP, EtherCAT, OPC-UA) with a strict 50ms watchdog timer. If AI latency spikes, hardware Safe Torque Off halts actuators.",
+        math: "Watchdog: Delta_t <= 50ms  ==>  PLC_Register[16..22] = FixedPoint(u_safe)",
+        hw: "Siemens S7-1500 / Beckhoff TwinCAT",
+        lat: "2 ms (Fieldbus cycle)",
+        safe: "IEC 61508 SIL-3 Interlock"
+      }
+    };
+
+    function selectNode(key) {
+      document.querySelectorAll('.stack-node').forEach(el => el.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+      const d = stackData[key];
+      document.getElementById('inspect-title').innerText = d.title;
+      document.getElementById('inspect-desc').innerText = d.desc;
+      document.getElementById('inspect-math').innerText = d.math;
+      document.getElementById('inspect-hw').innerText = d.hw;
+      document.getElementById('inspect-lat').innerText = d.lat;
+      document.getElementById('inspect-safe').innerText = d.safe;
+    }
+
+    // Roadmap Data
+    const roadmapStages = [
+      {
+        num: 1,
+        title: "Stage 1: Classical Mechanics, Kinematics & Spatial Algebra",
+        badge: "Mathematical Foundations",
+        concepts: [
+          "Special Euclidean Group SE(3) & Lie Algebra se(3)",
+          "Manipulator Geometric Jacobians: dot(x) = J(q) dot(q)",
+          "Yoshikawa Manipulability Index mu(q) and Damped Least-Squares (DLS)",
+          "Cartesian Impedance Control vs Stiff Position Control"
+        ],
+        labs: [
+          "Implement forward kinematics and numerical Jacobian in NumPy",
+          "Build a DLS inverse kinematics solver preventing velocity explosion near singularities",
+          "Simulate a 2-link planar arm under operational space PD control"
+        ]
+      },
+      {
+        num: 2,
+        title: "Stage 2: Physics Simulators & Synthetic Data Foundries",
+        badge: "Simulation & Dynamics",
+        concepts: [
+          "GPU-Parallelized Simulators: NVIDIA Isaac Lab & MIT/Stanford Genesis",
+          "Contact dynamics & Coulomb friction constraints in MuJoCo Playground",
+          "The Accumulate-and-Filter Law: Preventing synthetic model collapse",
+          "Domain Randomization (mass, friction, sensor latency buffers)"
+        ],
+        labs: [
+          "Spawn 1,024 parallel Franka Panda environments in Isaac Lab / Genesis",
+          "Implement visual domain randomization with randomized HDRI lighting",
+          "Collect 10,000 synthetic pick-and-place trajectories with rejection filtering"
+        ]
+      },
+      {
+        num: 3,
+        title: "Stage 3: Visuomotor Imitation Learning & Policy Representations",
+        badge: "Action Representations",
+        concepts: [
+          "Compounding errors in standard Behavioral Cloning O(epsilon * T^2)",
+          "Action Chunking with Transformers (ACT) & Temporal Ensembling",
+          "Diffusion Policy (DDPM/DDIM) on multi-modal continuous trajectories",
+          "Optimal Transport Flow Matching: Straight vector fields in 3-5 steps"
+        ],
+        labs: [
+          "Run 'examples/01_diffusion_policy_minimal.py' and inspect action chunks",
+          "Run 'examples/02_flow_matching_action.py' to compare ODE integration speed",
+          "Train a 1D ConvNet action head on simulated demonstration data"
+        ]
+      },
+      {
+        num: 4,
+        title: "Stage 4: Vision-Language-Action (VLA) Foundation Models",
+        badge: "Foundation Models",
+        concepts: [
+          "Anatomy of OpenVLA (7B): Prismatic VLM + Llama 2 Backbone",
+          "Compact Edge VLAs: SmolVLA (450M) for embedded deployment",
+          "Fast-in-Slow Dual-System: Slow System 2 Reasoning + Fast System 1 Execution",
+          "Cross-Embodiment Training on Open X-Embodiment & DROID"
+        ],
+        labs: [
+          "Execute 'examples/04_vla_inference_pipeline.py' with mock/real weights",
+          "Fine-tune a pretrained VLA using LoRA on custom table-clearing data",
+          "Benchmark multi-view camera inputs vs single wrist camera accuracy"
+        ]
+      },
+      {
+        num: 5,
+        title: "Stage 5: World Models & Predictive Latent Dynamics",
+        badge: "Predictive Intelligence",
+        concepts: [
+          "The 3 Schools: Generative Video (Sora/Genie 2) vs Latent JEPA vs 3D Spatial",
+          "Why video models hallucinate small objects (screws, cables disappearing)",
+          "Joint-Embedding Predictive Architecture (I-JEPA, V-JEPA 2)",
+          "3D PointWorld and Gaussian Splatting dynamics"
+        ],
+        labs: [
+          "Train a latent next-state predictor using frozen DINOv2 embeddings",
+          "Evaluate multi-step rollout error against ground truth physics",
+          "Implement Model Predictive Path Integral (MPPI) planning over latent dynamics"
+        ]
+      },
+      {
+        num: 6,
+        title: "Stage 6: Sim-to-Real, Safety & Formal Verification",
+        badge: "Safety & ISO Verification",
+        concepts: [
+          "Control Barrier Functions (CBFs) and forward invariant safe sets",
+          "Real-time Quadratic Program (QP) minimal-intervention filters",
+          "alpha,beta-CROWN neural network verification for ISO 13849 Performance Levels",
+          "Reality Gap: Sensor latency, gear backlash, and soft-body deformation"
+        ],
+        labs: [
+          "Run 'examples/03_cbf_safety_filter.py' and test collision rejection",
+          "Verify obstacle boundary compliance under hallucinated motor commands",
+          "Construct an ISO 13849 functional safety envelope for collaborative robots"
+        ]
+      },
+      {
+        num: 7,
+        title: "Stage 7: Edge Quantization & Industrial Fieldbus Bridges",
+        badge: "Edge & Industrial Systems",
+        concepts: [
+          "Channel-Aware Quantization (AutoQVLA): INT4 with sensitive FP16 channels",
+          "NVIDIA Jetson AGX Orin 64GB vs Workstation RTX 4090 latency benchmarks",
+          "Brownfield PLC Fieldbus Integration (Modbus TCP, EtherCAT, OPC-UA)",
+          "Deterministic 50ms Watchdog Heartbeats & Safe Torque Off (STO)"
+        ],
+        labs: [
+          "Run 'examples/05_brownfield_plc_bridge.py' and trigger watchdog fault injection",
+          "Deploy TensorRT-accelerated policy on Jetson edge hardware",
+          "Measure end-to-end latency from camera photon to motor torque"
+        ]
+      },
+      {
+        num: 8,
+        title: "Stage 8: Physical Hardware, Bimanual Teleop & Humanoids",
+        badge: "Embodied Hardware",
+        concepts: [
+          "Building the $250 SO-ARM100 6-DoF arm with 3D printed parts & bus servos",
+          "Bilateral leader-follower teleoperation with Hugging Face LeRobot",
+          "Whole-Body Control (WBC) & Hierarchical Inverse Dynamics for Humanoids",
+          "Sim-to-Real RL for bipedal locomotion balance recovery (Unitree G1)"
+        ],
+        labs: [
+          "Assemble and wire a 6-DoF SO-ARM100 with Waveshare bus board",
+          "Record 50 teleoperated demonstrations of a block-stacking task",
+          "Deploy trained Diffusion Policy and measure physical real-world success rate"
+        ]
+      }
+    ];
+
+    function renderStage(stage) {
+      const card = document.getElementById('stage-card-body');
+      card.innerHTML = `
+        <div class="stage-header">
+          <div>
+            <h3 class="stage-title">${stage.title}</h3>
+          </div>
+          <span class="stage-badge">${stage.badge}</span>
+        </div>
+        <div class="stage-grid">
+          <div class="stage-col">
+            <h5>Core Principles &amp; Mathematical Concepts</h5>
+            <ul class="stage-list">
+              ${stage.concepts.map(c => `<li>${c}</li>`).join('')}
+            </ul>
+          </div>
+          <div class="stage-col">
+            <h5>Actionable Hands-On Labs</h5>
+            <ul class="stage-list">
+              ${stage.labs.map(l => `<li>${l}</li>`).join('')}
+            </ul>
+          </div>
+        </div>
+      `;
+    }
+
+    function selectStage(num) {
+      document.querySelectorAll('.stage-btn').forEach(btn => btn.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+      const stage = roadmapStages.find(s => s.num === num);
+      renderStage(stage);
+    }
+
+    // Curated Papers Data
+    const papersData = [
+      { name: "pi-0 (pi-zero)", cat: "diffusion", year: "2024", authors: "Physical Intelligence", desc: "A Vision-Language-Action Flow Model for General Robot Control via Optimal Transport Flow Matching.", url: "https://arxiv.org/abs/2410.24164" },
+      { name: "OpenVLA", cat: "vla", year: "2024", authors: "Kim et al. (Stanford / UC Berkeley)", desc: "An open-source 7B Vision-Language-Action model trained on Open X-Embodiment datasets.", url: "https://arxiv.org/abs/2406.09246" },
+      { name: "Diffusion Policy", cat: "diffusion", year: "2023", authors: "Chi et al. (Columbia / TRI)", desc: "Visuomotor Policy Learning via Action Diffusion, reformulating robot learning as conditional score matching.", url: "https://arxiv.org/abs/2303.04137" },
+      { name: "SmolVLA", cat: "vla", year: "2025", authors: "Hugging Face Robotics", desc: "A 450M parameter compact VLA designed for sub-$500 edge robotics hardware.", url: "https://huggingface.co/blog/smolvla" },
+      { name: "V-JEPA 2", cat: "world", year: "2025", authors: "Meta AI Research", desc: "Self-Supervised Video Models Enable Understanding, Prediction and Planning in continuous latent space.", url: "https://arxiv.org/abs/2506.09985" },
+      { name: "Control Barrier Functions", cat: "safety", year: "2019", authors: "Ames et al.", desc: "Theory and Applications of Control Barrier Functions for safety-critical nonlinear systems.", url: "https://arxiv.org/abs/1903.11199" },
+      { name: "Fast-in-Slow", cat: "vla", year: "2025", authors: "Tsinghua / Shanghai AI Lab", desc: "A Dual-System Foundation Model Unifying Fast Manipulation within Slow High-Level Reasoning.", url: "https://arxiv.org/abs/2506.01953" },
+      { name: "Cosmos-Predict2.5", cat: "world", year: "2025", authors: "NVIDIA Research", desc: "World Simulation with Video Foundation Models for Physical AI and autonomous manipulation.", url: "https://arxiv.org/abs/2511.00062" },
+      { name: "Crossformer", cat: "humanoid", year: "2024", authors: "CoRL Oral", desc: "Scaling Cross-Embodied Learning: One unified transformer policy for Manipulation, Navigation, and Locomotion.", url: "https://arxiv.org/abs/2408.11812" },
+      { name: "PointWorld", cat: "world", year: "2026", authors: "NVIDIA GEAR", desc: "Scaling 3D Spatial World Models for In-The-Wild Robotic Manipulation and volume conservation.", url: "https://arxiv.org/abs/2601.03782" },
+      { name: "AutoQVLA", cat: "safety", year: "2026", authors: "ICLR 2026", desc: "Channel-Aware Quantization: Not All Channels Are Equal in Vision-Language-Action Model Quantization.", url: "https://github.com/AK47-1845/physical-ai-atlas" },
+      { name: "EgoScale", cat: "humanoid", year: "2026", authors: "NVIDIA GEAR", desc: "Scaling Dexterous Manipulation with Diverse Egocentric Human Data for cross-embodiment transfer.", url: "https://arxiv.org/abs/2602.16710" }
+    ];
+
+    let currentPaperFilter = 'all';
+
+    function renderPapers(list) {
+      const grid = document.getElementById('papers-grid');
+      grid.innerHTML = list.map(p => `
+        <div class="paper-card">
+          <div>
+            <div class="paper-cat">${p.cat.toUpperCase()} • ${p.year}</div>
+            <div class="paper-name">${p.name}</div>
+            <div class="paper-meta">${p.authors}</div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); margin-bottom: 16px;">${p.desc}</p>
+          </div>
+          <a href="${p.url}" target="_blank" class="paper-link">
+            Read Paper &rarr;
+          </a>
+        </div>
+      `).join('');
+    }
+
+    function filterPapers() {
+      const query = document.getElementById('paper-search').value.toLowerCase();
+      const filtered = papersData.filter(p => {
+        const matchesCategory = (currentPaperFilter === 'all') || (p.cat === currentPaperFilter);
+        const matchesQuery = p.name.toLowerCase().includes(query) || 
+                             p.desc.toLowerCase().includes(query) || 
+                             p.authors.toLowerCase().includes(query);
+        return matchesCategory && matchesQuery;
+      });
+      renderPapers(filtered);
+    }
+
+    function setPaperFilter(cat) {
+      currentPaperFilter = cat;
+      document.querySelectorAll('#paper-pills .pill').forEach(el => el.classList.remove('active'));
+      event.currentTarget.classList.add('active');
+      filterPapers();
+    }
+
+    // Hardware Budget Calculator State
+    let tierPrice = 291;
+    let tierName = "Tier 1: SO-ARM100 DIY";
+    let computePrice = 249;
+    let computeName = "Jetson Orin Nano";
+
+    function updateTier(price, name) {
+      tierPrice = price;
+      tierName = name;
+      updateTotal();
+    }
+
+    function updateCompute(price, name) {
+      computePrice = price;
+      computeName = name;
+      updateTotal();
+    }
+
+    function updateTotal() {
+      const total = tierPrice + computePrice;
+      document.getElementById('total-price').innerText = '$' + total.toLocaleString();
+      document.getElementById('sum-arm').innerText = tierName;
+      document.getElementById('sum-compute').innerText = computeName;
+    }
+
+    // Initialize
+    window.addEventListener('DOMContentLoaded', () => {
+      renderStage(roadmapStages[0]);
+      renderPapers(papersData);
+    });
+  </script>
+</body>
+</html>
