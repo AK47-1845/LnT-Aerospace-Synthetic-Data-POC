@@ -1,0 +1,9 @@
+strategy,balance_score,tstr_f1,composite,n_rows,Source
+smote_nc,0.9663,0.9903,0.9783,999,Real
+adasyn,0.9663,0.9903,0.9783,999,Real
+undersampled,0.9646,0.7858,0.8752,207,Real
+genuity_conditional,0.9311,0.6984,0.8147,1000,Real
+undersampled,0.9769,1.0,0.9884,3369,KDE Synthetic
+smote_nc,0.9661,0.9533,0.9597,999,KDE Synthetic
+adasyn,0.9661,0.9533,0.9597,999,KDE Synthetic
+genuity_conditional,0.8667,0.9719,0.9193,1000,KDE Synthetic

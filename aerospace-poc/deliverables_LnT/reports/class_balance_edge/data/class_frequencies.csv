@@ -1,0 +1,115 @@
+Dataset,Target,Class,Count,Pct
+Real,Vibration Damping,Moderate,109,36.3
+Real,Vibration Damping,Low,104,34.7
+Real,Vibration Damping,High,87,29.0
+Real,Computational Time,Medium,119,39.7
+Real,Computational Time,Long,92,30.7
+Real,Computational Time,Short,89,29.7
+Real,Weight Efficiency,Good,109,36.3
+Real,Weight Efficiency,Poor,97,32.3
+Real,Weight Efficiency,Excellent,94,31.3
+Real,Durability,Medium,108,36.0
+Real,Durability,Low,99,33.0
+Real,Durability,High,93,31.0
+KDE,Vibration Damping,Moderate,1846,36.9
+KDE,Vibration Damping,Low,1666,33.3
+KDE,Vibration Damping,High,1488,29.8
+KDE,Computational Time,Medium,2018,40.4
+KDE,Computational Time,Long,1509,30.2
+KDE,Computational Time,Short,1473,29.5
+KDE,Weight Efficiency,Good,1826,36.5
+KDE,Weight Efficiency,Poor,1609,32.2
+KDE,Weight Efficiency,Excellent,1565,31.3
+KDE,Durability,Medium,1827,36.5
+KDE,Durability,Low,1619,32.4
+KDE,Durability,High,1554,31.1
+GMM,Vibration Damping,Moderate,1742,34.8
+GMM,Vibration Damping,Low,1737,34.7
+GMM,Vibration Damping,High,1521,30.4
+GMM,Computational Time,Medium,2004,40.1
+GMM,Computational Time,Long,1515,30.3
+GMM,Computational Time,Short,1481,29.6
+GMM,Weight Efficiency,Good,1816,36.3
+GMM,Weight Efficiency,Poor,1596,31.9
+GMM,Weight Efficiency,Excellent,1588,31.8
+GMM,Durability,Medium,1823,36.5
+GMM,Durability,Low,1618,32.4
+GMM,Durability,High,1559,31.2
+Copula,Vibration Damping,Moderate,1768,35.4
+Copula,Vibration Damping,Low,1722,34.4
+Copula,Vibration Damping,High,1510,30.2
+Copula,Computational Time,Medium,1960,39.2
+Copula,Computational Time,Long,1527,30.5
+Copula,Computational Time,Short,1513,30.3
+Copula,Weight Efficiency,Good,1800,36.0
+Copula,Weight Efficiency,Poor,1604,32.1
+Copula,Weight Efficiency,Excellent,1596,31.9
+Copula,Durability,Medium,1778,35.6
+Copula,Durability,Low,1650,33.0
+Copula,Durability,High,1572,31.4
+TabuDiff,Vibration Damping,High,1868,37.4
+TabuDiff,Vibration Damping,Moderate,1717,34.3
+TabuDiff,Vibration Damping,Low,1415,28.3
+TabuDiff,Computational Time,Medium,2465,49.3
+TabuDiff,Computational Time,Short,1585,31.7
+TabuDiff,Computational Time,Long,950,19.0
+TabuDiff,Weight Efficiency,Poor,2275,45.5
+TabuDiff,Weight Efficiency,Good,1406,28.1
+TabuDiff,Weight Efficiency,Excellent,1319,26.4
+TabuDiff,Durability,High,1829,36.6
+TabuDiff,Durability,Medium,1621,32.4
+TabuDiff,Durability,Low,1550,31.0
+TabuDiffPremium,Vibration Damping,High,382,38.2
+TabuDiffPremium,Vibration Damping,Low,312,31.2
+TabuDiffPremium,Vibration Damping,Moderate,306,30.6
+TabuDiffPremium,Computational Time,Long,356,35.6
+TabuDiffPremium,Computational Time,Medium,352,35.2
+TabuDiffPremium,Computational Time,Short,292,29.2
+TabuDiffPremium,Weight Efficiency,Good,401,40.1
+TabuDiffPremium,Weight Efficiency,Poor,354,35.4
+TabuDiffPremium,Weight Efficiency,Excellent,245,24.5
+TabuDiffPremium,Durability,Medium,424,42.4
+TabuDiffPremium,Durability,Low,292,29.2
+TabuDiffPremium,Durability,High,284,28.4
+TVAE,Vibration Damping,Moderate,768,76.8
+TVAE,Vibration Damping,Low,232,23.2
+TVAE,Computational Time,Medium,1000,100.0
+TVAE,Weight Efficiency,Good,970,97.0
+TVAE,Weight Efficiency,Poor,26,2.6
+TVAE,Weight Efficiency,Excellent,4,0.4
+TVAE,Durability,Medium,846,84.6
+TVAE,Durability,Low,149,14.9
+TVAE,Durability,High,5,0.5
+TVAEPremium,Vibration Damping,Moderate,724,72.4
+TVAEPremium,Vibration Damping,Low,276,27.6
+TVAEPremium,Computational Time,Medium,1000,100.0
+TVAEPremium,Weight Efficiency,Good,981,98.1
+TVAEPremium,Weight Efficiency,Poor,11,1.1
+TVAEPremium,Weight Efficiency,Excellent,8,0.8
+TVAEPremium,Durability,Medium,923,92.3
+TVAEPremium,Durability,Low,57,5.7
+TVAEPremium,Durability,High,20,2.0
+CTGANPremium,Vibration Damping,High,464,46.4
+CTGANPremium,Vibration Damping,Low,344,34.4
+CTGANPremium,Vibration Damping,Moderate,192,19.2
+CTGANPremium,Computational Time,Long,427,42.7
+CTGANPremium,Computational Time,Short,337,33.7
+CTGANPremium,Computational Time,Medium,236,23.6
+CTGANPremium,Weight Efficiency,Excellent,475,47.5
+CTGANPremium,Weight Efficiency,Poor,315,31.5
+CTGANPremium,Weight Efficiency,Good,210,21.0
+CTGANPremium,Durability,Medium,357,35.7
+CTGANPremium,Durability,Low,327,32.7
+CTGANPremium,Durability,High,316,31.6
+MaskedPredictor,Vibration Damping,Moderate,109,36.3
+MaskedPredictor,Vibration Damping,Low,104,34.7
+MaskedPredictor,Vibration Damping,High,87,29.0
+MaskedPredictor,Computational Time,Medium,119,39.7
+MaskedPredictor,Computational Time,Long,92,30.7
+MaskedPredictor,Computational Time,Short,89,29.7
+MaskedPredictor,Weight Efficiency,Good,109,36.3
+MaskedPredictor,Weight Efficiency,Poor,97,32.3
+MaskedPredictor,Weight Efficiency,Excellent,94,31.3
+MaskedPredictor,Durability,Medium,108,36.0
+MaskedPredictor,Durability,Low,99,33.0
+MaskedPredictor,Durability,High,93,31.0

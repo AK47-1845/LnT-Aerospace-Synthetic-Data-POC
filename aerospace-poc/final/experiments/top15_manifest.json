@@ -1,0 +1,107 @@
+[
+  {
+    "rank": 1,
+    "file": "top01_copula_s11_n1000.csv",
+    "composite": 0.7377,
+    "model": "copula",
+    "n_rows": 1000
+  },
+  {
+    "rank": 2,
+    "file": "top02_copula_s123_n1000.csv",
+    "composite": 0.7317,
+    "model": "copula",
+    "n_rows": 1000
+  },
+  {
+    "rank": 3,
+    "file": "top03_copula_s42_n1000_r01.csv",
+    "composite": 0.7315,
+    "model": "copula",
+    "n_rows": 1000
+  },
+  {
+    "rank": 4,
+    "file": "top04_copula_s42_n1000.csv",
+    "composite": 0.7313,
+    "model": "copula",
+    "n_rows": 1000
+  },
+  {
+    "rank": 5,
+    "file": "top05_copula_s11_n600.csv",
+    "composite": 0.7277,
+    "model": "copula",
+    "n_rows": 600
+  },
+  {
+    "rank": 6,
+    "file": "top06_copula_s11_n300.csv",
+    "composite": 0.7229,
+    "model": "copula",
+    "n_rows": 300
+  },
+  {
+    "rank": 7,
+    "file": "top07_tabudiff_s11_n1000.csv",
+    "composite": 0.5326,
+    "model": "tabudiff",
+    "n_rows": 1000
+  },
+  {
+    "rank": 8,
+    "file": "top08_tabudiff_s42_n1000.csv",
+    "composite": 0.5326,
+    "model": "tabudiff",
+    "n_rows": 1000
+  },
+  {
+    "rank": 9,
+    "file": "top09_tabudiff_s123_n1000.csv",
+    "composite": 0.5326,
+    "model": "tabudiff",
+    "n_rows": 1000
+  },
+  {
+    "rank": 10,
+    "file": "top10_tabudiff_s42_n600.csv",
+    "composite": 0.5308,
+    "model": "tabudiff",
+    "n_rows": 600
+  },
+  {
+    "rank": 11,
+    "file": "top11_tabudiff_s11_n600.csv",
+    "composite": 0.5308,
+    "model": "tabudiff",
+    "n_rows": 600
+  },
+  {
+    "rank": 12,
+    "file": "top12_tabudiff_s123_n600.csv",
+    "composite": 0.5308,
+    "model": "tabudiff",
+    "n_rows": 600
+  },
+  {
+    "rank": 13,
+    "file": "top13_tabudiff_s42_n300.csv",
+    "composite": 0.5217,
+    "model": "tabudiff",
+    "n_rows": 300
+  },
+  {
+    "rank": 14,
+    "file": "top14_tabudiff_s123_n300.csv",
+    "composite": 0.5217,
+    "model": "tabudiff",
+    "n_rows": 300
+  },
+  {
+    "rank": 15,
+    "file": "top15_tabudiff_s11_n300.csv",
+    "composite": 0.5217,
+    "model": "tabudiff",
+    "n_rows": 300
+  }
+]

@@ -1,0 +1,601 @@
+Material Type,E (GPa),ν,ρ (kg/m³),Tensile Strength (MPa),Young’s Modulus,Altitude (m),Temperature (°C),Pressure (Pa),Operational Life (years),Wing Span (m),Fuselage Length (m),Structural Thickness (mm),Structural Shape,Load Distribution,Vibration Damping,Computational Time,Weight Efficiency,Durability,Quantum Algorithm Type,Number of Iterations,Optimization Time (sec)
+Carbon Fiber,125.087,0.326,3073.298,883.709,76.0,12594.977,-49.046,148004.86,31.0,39.368,51.647,10.437,Cylindrical,uniform,Low,Long,Poor,High,Chaotic Quantum Genetic,1217.587,105.847
+Carbon Fiber,125.087,0.326,3073.009,883.617,75.999,12607.619,-49.046,148002.23,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Long,Good,Low,Shark Optimizer,1217.554,105.842
+Carbon Fiber,125.089,0.326,3073.596,883.915,75.999,12618.733,-49.046,148021.05,31.0,39.368,51.648,10.437,Cylindrical,uniform,Moderate,Medium,Poor,High,Shark Optimizer,1217.977,105.85
+Carbon Fiber,125.091,0.326,3076.921,883.955,76.001,12601.141,-49.043,147986.67,31.0,39.369,51.647,10.439,Cylindrical,point load,Low,Medium,Poor,High,Shark Optimizer,1217.578,105.833
+Titanium,125.088,0.326,3075.602,883.969,76.003,12613.685,-49.046,148103.12,31.0,39.368,51.647,10.439,Tapered,uniform,High,Medium,Excellent,High,Shark Optimizer,1217.63,105.84
+Carbon Fiber,125.087,0.326,3072.477,883.494,75.998,12591.952,-49.047,147975.89,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Medium,Excellent,High,Shark Optimizer,1217.535,105.829
+Aluminum,125.088,0.326,3073.156,884.408,75.998,12610.475,-49.045,148066.67,31.0,39.368,51.647,10.438,Tapered,uniform,High,Medium,Excellent,Medium,Shark Optimizer,1217.529,105.849
+Titanium,125.09,0.326,3076.147,884.388,76.0,12638.972,-49.046,148001.6,31.0,39.368,51.648,10.439,Cylindrical,point load,Low,Medium,Good,Low,Chaotic Quantum Genetic,1217.633,105.844
+Carbon Fiber,125.089,0.326,3073.587,883.996,75.999,12612.523,-49.044,148035.16,31.0,39.368,51.648,10.437,Cylindrical,uniform,High,Short,Poor,Medium,Chaotic Quantum Genetic,1217.643,105.883
+Carbon Fiber,125.086,0.326,3073.616,883.307,75.998,12589.01,-49.048,147945.72,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Short,Excellent,Low,Shark Optimizer,1217.523,105.826
+Carbon Fiber,125.087,0.326,3076.602,884.024,76.001,12593.478,-49.046,147969.95,31.0,39.368,51.647,10.437,Cylindrical,distributed,Low,Medium,Poor,Low,Shark Optimizer,1217.542,105.84
+Aluminum,125.088,0.326,3073.285,883.861,75.998,12592.357,-49.044,148002.02,31.0,39.368,51.647,10.438,Cylindrical,uniform,Low,Long,Poor,Medium,Chaotic Quantum Genetic,1217.617,105.866
+Carbon Fiber,125.087,0.326,3072.349,884.031,75.997,12595.178,-49.047,147975.36,31.0,39.367,51.647,10.437,Cylindrical,point load,High,Medium,Good,Low,Chaotic Quantum Genetic,1217.521,105.832
+Aluminum,125.088,0.326,3072.36,884.756,75.998,12593.643,-49.046,147961.27,31.0,39.368,51.647,10.438,Tapered,point load,High,Long,Good,Medium,Chaotic Quantum Genetic,1217.618,105.838
+Aluminum,125.087,0.326,3074.274,883.429,75.998,12590.347,-49.047,147983.19,31.0,39.367,51.647,10.438,Rectangular,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.551,105.843
+Carbon Fiber,125.089,0.326,3075.652,884.618,75.999,12607.879,-49.044,147983.45,31.0,39.368,51.647,10.438,Cylindrical,distributed,High,Medium,Poor,Low,Chaotic Quantum Genetic,1217.627,105.863
+Titanium,125.089,0.326,3076.867,884.054,75.999,12591.059,-49.046,147978.84,31.0,39.367,51.647,10.438,Cylindrical,point load,Moderate,Long,Good,Medium,Chaotic Quantum Genetic,1217.607,105.844
+Carbon Fiber,125.087,0.326,3072.664,883.437,75.998,12590.748,-49.047,147958.03,31.0,39.368,51.647,10.437,Cylindrical,point load,High,Short,Good,Medium,Shark Optimizer,1217.522,105.834
+Carbon Fiber,125.088,0.326,3076.445,884.011,76.001,12595.74,-49.046,147965.22,31.0,39.37,51.647,10.438,Rectangular,distributed,High,Medium,Good,Low,Chaotic Quantum Genetic,1217.617,105.867
+Aluminum,125.087,0.326,3072.23,883.502,76.0,12599.398,-49.045,147960.11,31.0,39.367,51.647,10.438,Cylindrical,point load,Moderate,Long,Poor,High,Shark Optimizer,1217.546,105.836
+Titanium,125.089,0.326,3075.015,883.969,76.001,12597.712,-49.041,148010.28,31.0,39.368,51.647,10.438,Cylindrical,point load,Low,Medium,Poor,Low,Shark Optimizer,1217.672,105.876
+Titanium,125.09,0.326,3073.741,884.077,75.998,12604.597,-49.045,148255.61,31.0,39.368,51.648,10.44,Cylindrical,point load,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.741,105.84
+Carbon Fiber,125.089,0.326,3074.248,883.865,76.005,12613.747,-49.045,147997.62,31.0,39.37,51.647,10.439,Tapered,uniform,Moderate,Medium,Poor,High,Shark Optimizer,1217.776,105.862
+Titanium,125.09,0.326,3074.728,884.223,76.007,12626.699,-49.045,148043.19,31.0,39.369,51.648,10.44,Tapered,distributed,Low,Short,Good,Low,Shark Optimizer,1217.751,105.911
+Aluminum,125.087,0.326,3076.127,883.615,75.998,12593.41,-49.046,148027.22,31.0,39.368,51.647,10.438,Cylindrical,uniform,Low,Short,Poor,High,Shark Optimizer,1217.616,105.851
+Aluminum,125.087,0.326,3071.87,883.621,75.997,12615.641,-49.044,147981.9,31.0,39.367,51.647,10.437,Tapered,distributed,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.519,105.828
+Aluminum,125.087,0.326,3072.034,883.411,75.997,12587.789,-49.048,147973.52,31.0,39.367,51.647,10.437,Tapered,point load,High,Long,Poor,Medium,Chaotic Quantum Genetic,1217.559,105.826
+Titanium,125.087,0.326,3072.064,883.765,75.997,12592.523,-49.047,148013.45,31.0,39.368,51.647,10.438,Cylindrical,point load,Moderate,Short,Good,High,Chaotic Quantum Genetic,1217.535,105.842
+Titanium,125.087,0.326,3075.444,883.949,75.998,12601.377,-49.047,148106.08,31.0,39.368,51.647,10.438,Rectangular,point load,Moderate,Short,Good,Low,Chaotic Quantum Genetic,1217.528,105.923
+Carbon Fiber,125.086,0.326,3071.913,883.537,75.997,12591.004,-49.048,147949.66,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.512,105.826
+Carbon Fiber,125.087,0.326,3074.084,883.519,75.998,12593.904,-49.047,148006.69,31.0,39.367,51.647,10.437,Tapered,distributed,High,Medium,Poor,Medium,Shark Optimizer,1217.527,105.826
+Carbon Fiber,125.088,0.326,3082.166,884.357,76.002,12627.405,-49.041,148108.61,31.0,39.369,51.648,10.441,Tapered,point load,Low,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.654,105.871
+Carbon Fiber,125.087,0.326,3079.703,883.67,75.999,12593.08,-49.046,147983.31,31.0,39.367,51.648,10.437,Cylindrical,uniform,High,Long,Poor,Medium,Shark Optimizer,1217.56,105.832
+Aluminum,125.088,0.326,3076.428,884.082,75.998,12605.574,-49.045,148209.39,31.0,39.367,51.647,10.439,Cylindrical,uniform,High,Medium,Good,Medium,Shark Optimizer,1217.62,105.838
+Aluminum,125.089,0.326,3076.556,885.023,75.998,12608.816,-49.046,148047.02,31.0,39.368,51.647,10.437,Cylindrical,uniform,Low,Long,Excellent,Low,Shark Optimizer,1217.784,105.849
+Carbon Fiber,125.087,0.326,3071.734,883.316,75.998,12587.933,-49.048,147958.55,31.0,39.367,51.648,10.437,Cylindrical,uniform,Moderate,Short,Poor,High,Shark Optimizer,1217.521,105.825
+Carbon Fiber,125.087,0.326,3075.102,883.549,75.999,12593.497,-49.047,147974.58,31.0,39.371,51.647,10.437,Tapered,uniform,High,Medium,Poor,Low,Shark Optimizer,1217.536,105.843
+Titanium,125.087,0.326,3072.534,883.534,75.998,12599.054,-49.044,147996.5,31.0,39.367,51.647,10.437,Tapered,point load,High,Medium,Poor,Medium,Shark Optimizer,1217.569,105.855
+Carbon Fiber,125.087,0.326,3073.61,883.494,75.998,12591.462,-49.046,147957.78,31.0,39.367,51.647,10.438,Cylindrical,distributed,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.542,105.835
+Aluminum,125.09,0.326,3075.966,884.327,76.0,12604.945,-49.044,148126.67,31.0,39.369,51.647,10.438,Cylindrical,distributed,Low,Medium,Poor,Medium,Shark Optimizer,1218.494,105.876
+Aluminum,125.087,0.326,3071.772,883.339,75.999,12594.1,-49.046,147988.16,31.0,39.367,51.647,10.438,Cylindrical,point load,Low,Long,Poor,Medium,Shark Optimizer,1217.642,105.842
+Aluminum,125.088,0.326,3073.537,884.941,75.999,12595.79,-49.047,148004.06,31.0,39.367,51.647,10.438,Tapered,distributed,High,Medium,Good,Medium,Shark Optimizer,1217.649,105.847
+Titanium,125.087,0.326,3075.024,883.802,76.001,12602.839,-49.044,148099.27,31.0,39.368,51.647,10.438,Tapered,uniform,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.607,105.837
+Carbon Fiber,125.088,0.326,3076.399,883.773,76.003,12598.737,-49.047,148018.28,31.0,39.367,51.647,10.44,Cylindrical,distributed,Low,Short,Good,High,Chaotic Quantum Genetic,1217.674,105.831
+Carbon Fiber,125.091,0.326,3072.018,883.707,75.998,12598.139,-49.047,147966.42,31.0,39.367,51.647,10.437,Rectangular,point load,High,Medium,Good,Low,Chaotic Quantum Genetic,1217.541,105.835
+Carbon Fiber,125.087,0.326,3073.461,884.25,75.999,12591.369,-49.044,148048.75,31.0,39.368,51.647,10.437,Rectangular,distributed,Low,Long,Poor,Low,Shark Optimizer,1217.59,105.841
+Aluminum,125.087,0.326,3071.753,883.438,75.998,12587.464,-49.047,147960.47,31.0,39.367,51.647,10.437,Tapered,point load,Moderate,Short,Poor,High,Chaotic Quantum Genetic,1217.511,105.834
+Titanium,125.088,0.326,3072.511,883.686,76.001,12596.952,-49.047,148110.77,31.0,39.368,51.647,10.437,Rectangular,distributed,Moderate,Medium,Excellent,High,Chaotic Quantum Genetic,1217.595,105.832
+Aluminum,125.092,0.326,3073.612,884.57,76.002,12604.989,-49.045,148045.1,31.0,39.368,51.648,10.439,Cylindrical,point load,Moderate,Medium,Good,High,Shark Optimizer,1217.606,105.874
+Carbon Fiber,125.087,0.326,3078.421,884.142,75.999,12597.586,-49.046,148026.23,31.0,39.368,51.647,10.44,Cylindrical,distributed,High,Short,Good,High,Shark Optimizer,1217.619,105.829
+Carbon Fiber,125.088,0.326,3077.922,883.691,76.001,12626.508,-49.044,148235.66,31.0,39.368,51.647,10.438,Rectangular,point load,High,Medium,Good,Low,Shark Optimizer,1217.671,105.884
+Aluminum,125.087,0.326,3074.777,883.587,75.998,12611.439,-49.046,148014.45,31.0,39.367,51.647,10.439,Cylindrical,uniform,Low,Short,Excellent,Low,Shark Optimizer,1217.939,105.855
+Aluminum,125.089,0.326,3076.176,883.922,76.002,12615.726,-49.044,148058.14,31.0,39.368,51.648,10.439,Rectangular,point load,Low,Short,Poor,Medium,Shark Optimizer,1217.66,106.03
+Carbon Fiber,125.086,0.326,3072.428,883.347,75.997,12588.103,-49.048,147951.6,31.0,39.367,51.647,10.437,Cylindrical,distributed,High,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.518,105.827
+Aluminum,125.088,0.326,3075.853,883.654,75.998,12593.52,-49.043,148102.86,31.0,39.369,51.647,10.438,Cylindrical,distributed,Low,Long,Poor,Medium,Shark Optimizer,1217.852,105.866
+Carbon Fiber,125.087,0.326,3072.813,883.384,75.997,12593.17,-49.047,147974.61,31.0,39.367,51.647,10.437,Tapered,distributed,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.534,105.849
+Carbon Fiber,125.086,0.326,3071.823,883.352,75.997,12588.338,-49.048,147950.11,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.505,105.827
+Carbon Fiber,125.092,0.326,3084.655,886.826,76.0,12627.548,-49.047,148063.78,31.0,39.369,51.647,10.438,Rectangular,uniform,Moderate,Long,Excellent,Low,Chaotic Quantum Genetic,1217.69,105.857
+Aluminum,125.087,0.326,3072.074,883.381,75.997,12593.185,-49.047,147969.4,31.0,39.367,51.647,10.437,Tapered,point load,High,Medium,Poor,High,Chaotic Quantum Genetic,1217.538,105.831
+Carbon Fiber,125.088,0.326,3074.766,885.013,76.003,12596.315,-49.047,147975.73,31.0,39.369,51.647,10.438,Rectangular,point load,Low,Short,Good,Low,Shark Optimizer,1217.594,105.876
+Carbon Fiber,125.088,0.326,3080.85,884.444,76.0,12612.436,-49.047,148018.3,31.0,39.367,51.647,10.438,Cylindrical,uniform,High,Short,Good,Medium,Shark Optimizer,1217.695,105.838
+Titanium,125.088,0.326,3075.566,883.628,75.999,12588.875,-49.047,147967.58,31.0,39.368,51.647,10.438,Cylindrical,point load,High,Medium,Good,Medium,Shark Optimizer,1217.592,105.858
+Titanium,125.088,0.326,3075.22,884.138,75.998,12627.475,-49.046,148058.88,31.0,39.368,51.648,10.438,Cylindrical,point load,Low,Short,Excellent,Low,Shark Optimizer,1217.597,105.851
+Carbon Fiber,125.088,0.326,3081.54,884.603,76.0,12603.641,-49.042,148111.69,31.0,39.37,51.647,10.439,Cylindrical,distributed,Low,Medium,Poor,Medium,Shark Optimizer,1217.878,105.867
+Titanium,125.091,0.326,3076.432,884.096,76.007,12609.126,-49.043,148192.23,31.0,39.368,51.648,10.439,Tapered,uniform,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.731,105.859
+Carbon Fiber,125.087,0.326,3072.504,883.582,75.998,12589.782,-49.048,147972.92,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Long,Excellent,High,Shark Optimizer,1217.572,105.826
+Titanium,125.09,0.326,3073.085,883.681,76.001,12628.071,-49.047,148032.42,31.0,39.368,51.647,10.439,Cylindrical,point load,Low,Short,Poor,Low,Shark Optimizer,1217.628,105.852
+Titanium,125.087,0.326,3072.642,883.473,75.997,12587.545,-49.047,147955.66,31.0,39.367,51.647,10.437,Tapered,point load,High,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.555,105.825
+Carbon Fiber,125.091,0.326,3086.895,885.901,76.014,12630.912,-49.039,148217.17,31.0,39.369,51.657,10.441,Rectangular,distributed,Low,Long,Poor,Medium,Shark Optimizer,1217.782,105.96
+Carbon Fiber,125.088,0.326,3075.681,883.887,75.999,12600.608,-49.045,148000.22,31.0,39.368,51.647,10.44,Cylindrical,point load,High,Short,Good,Medium,Chaotic Quantum Genetic,1217.572,105.854
+Carbon Fiber,125.087,0.326,3073.783,883.411,75.999,12601.774,-49.047,147959.11,31.0,39.368,51.647,10.437,Tapered,point load,Low,Short,Poor,Low,Chaotic Quantum Genetic,1217.592,105.854
+Carbon Fiber,125.087,0.326,3072.834,884.173,76.001,12590.275,-49.046,147973.72,31.0,39.368,51.647,10.437,Rectangular,uniform,Low,Long,Poor,Medium,Shark Optimizer,1217.56,105.859
+Carbon Fiber,125.087,0.326,3073.457,883.491,75.998,12593.229,-49.045,147987.28,31.0,39.368,51.647,10.437,Tapered,distributed,High,Medium,Good,Medium,Shark Optimizer,1217.545,105.835
+Titanium,125.088,0.326,3074.221,883.451,75.997,12589.036,-49.047,148077.17,31.0,39.367,51.647,10.437,Cylindrical,point load,High,Medium,Excellent,Medium,Shark Optimizer,1217.607,105.831
+Carbon Fiber,125.087,0.326,3071.638,883.391,75.997,12590.406,-49.047,147951.58,31.0,39.367,51.647,10.437,Rectangular,uniform,Low,Medium,Poor,Low,Shark Optimizer,1217.503,105.826
+Carbon Fiber,125.087,0.326,3075.809,884.132,76.003,12615.074,-49.045,148108.6,31.0,39.368,51.648,10.443,Tapered,point load,Moderate,Medium,Good,Medium,Shark Optimizer,1217.622,105.94
+Carbon Fiber,125.088,0.326,3072.536,883.428,75.999,12592.525,-49.047,147949.34,31.0,39.368,51.647,10.437,Cylindrical,point load,Low,Short,Poor,Low,Chaotic Quantum Genetic,1217.523,105.838
+Carbon Fiber,125.087,0.326,3072.162,883.459,76.001,12590.317,-49.047,147952.03,31.0,39.368,51.647,10.437,Rectangular,point load,High,Medium,Poor,Medium,Shark Optimizer,1217.52,105.848
+Aluminum,125.087,0.326,3073.526,883.725,75.997,12593.434,-49.046,148094.92,31.0,39.367,51.647,10.438,Rectangular,uniform,Low,Long,Good,High,Shark Optimizer,1217.624,105.841
+Carbon Fiber,125.089,0.326,3080.95,884.414,76.002,12639.863,-49.044,148093.38,31.0,39.368,51.648,10.439,Cylindrical,uniform,Moderate,Short,Good,Low,Shark Optimizer,1217.73,105.854
+Titanium,125.088,0.326,3074.338,884.152,75.999,12590.006,-49.045,148041.16,31.0,39.367,51.647,10.438,Tapered,point load,Low,Long,Excellent,High,Shark Optimizer,1217.616,105.858
+Aluminum,125.089,0.326,3078.504,885.254,76.002,12615.299,-49.041,148117.47,31.0,39.368,51.647,10.439,Tapered,uniform,Moderate,Medium,Poor,High,Shark Optimizer,1217.695,105.876
+Carbon Fiber,125.087,0.326,3076.534,884.229,76.005,12596.741,-49.042,148025.14,31.0,39.368,51.647,10.438,Tapered,distributed,Low,Medium,Poor,Low,Shark Optimizer,1217.788,105.866
+Carbon Fiber,125.087,0.326,3074.68,883.47,75.998,12595.12,-49.047,147967.17,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.548,105.839
+Aluminum,125.087,0.326,3073.262,883.635,75.997,12588.528,-49.047,147970.69,31.0,39.367,51.647,10.438,Cylindrical,distributed,High,Long,Poor,High,Shark Optimizer,1217.69,105.826
+Aluminum,125.087,0.326,3072.334,883.943,75.999,12589.164,-49.047,148015.73,31.0,39.367,51.647,10.437,Rectangular,point load,Moderate,Medium,Good,High,Shark Optimizer,1217.527,105.828
+Carbon Fiber,125.088,0.326,3074.515,884.075,75.998,12637.14,-49.044,148075.89,31.0,39.368,51.647,10.438,Cylindrical,uniform,High,Medium,Poor,High,Shark Optimizer,1217.77,105.832
+Carbon Fiber,125.087,0.326,3072.035,883.32,75.997,12600.105,-49.047,147953.34,31.0,39.368,51.647,10.437,Rectangular,point load,Low,Short,Excellent,Low,Chaotic Quantum Genetic,1217.546,105.827
+Titanium,125.087,0.326,3078.46,884.016,75.999,12609.088,-49.047,148186.83,31.0,39.368,51.648,10.438,Rectangular,point load,Low,Medium,Good,Medium,Shark Optimizer,1217.633,105.917
+Aluminum,125.088,0.326,3077.18,883.796,75.998,12599.111,-49.046,148075.84,31.0,39.369,51.647,10.438,Cylindrical,uniform,Low,Medium,Poor,High,Shark Optimizer,1217.974,105.842
+Aluminum,125.088,0.326,3074.249,884.79,75.999,12618.765,-49.046,148138.84,31.0,39.368,51.647,10.438,Tapered,uniform,Low,Medium,Poor,High,Shark Optimizer,1217.566,105.901
+Aluminum,125.087,0.326,3071.637,883.446,75.997,12595.976,-49.047,147949.05,31.0,39.367,51.647,10.438,Tapered,uniform,Moderate,Long,Good,Medium,Shark Optimizer,1217.527,105.836
+Titanium,125.187,0.326,3080.146,885.274,76.015,12636.159,-49.045,148330.38,31.0,39.369,51.648,10.441,Cylindrical,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1217.656,106.036
+Titanium,125.09,0.326,3072.834,883.741,75.999,12597.906,-49.046,148053.45,31.0,39.368,51.647,10.439,Cylindrical,point load,Moderate,Medium,Good,Low,Chaotic Quantum Genetic,1217.572,105.859
+Titanium,125.088,0.326,3072.432,883.4,75.997,12591.938,-49.043,148101.94,31.0,39.367,51.647,10.437,Tapered,distributed,High,Medium,Good,High,Chaotic Quantum Genetic,1217.579,105.838
+Titanium,125.088,0.326,3073.154,884.087,76.003,12599.227,-49.045,148165.84,31.0,39.368,51.647,10.438,Tapered,uniform,Moderate,Medium,Poor,High,Shark Optimizer,1217.607,105.857
+Titanium,125.088,0.326,3073.65,883.565,76.0,12591.233,-49.046,147977.66,31.0,39.368,51.647,10.438,Cylindrical,point load,Low,Short,Poor,Low,Chaotic Quantum Genetic,1217.543,105.831
+Aluminum,125.087,0.326,3073.341,883.5,75.998,12591.126,-49.046,147997.48,31.0,39.368,51.647,10.439,Rectangular,point load,Moderate,Short,Excellent,Medium,Shark Optimizer,1217.564,105.9
+Carbon Fiber,125.102,0.326,3075.3,884.402,76.005,12613.803,-49.046,148104.06,31.0,39.369,51.648,10.439,Cylindrical,point load,Low,Short,Poor,Medium,Shark Optimizer,1217.644,105.866
+Titanium,125.087,0.326,3072.448,883.545,75.997,12593.405,-49.047,147975.8,31.0,39.368,51.647,10.439,Rectangular,point load,Moderate,Short,Good,High,Chaotic Quantum Genetic,1217.526,105.854
+Titanium,125.087,0.326,3073.747,884.066,75.998,12603.406,-49.046,148020.97,31.0,39.368,51.647,10.438,Cylindrical,point load,Moderate,Short,Good,High,Chaotic Quantum Genetic,1217.615,105.893
+Carbon Fiber,125.088,0.326,3081.885,883.718,76.001,12593.322,-49.046,147999.78,31.0,39.368,51.647,10.438,Cylindrical,point load,High,Medium,Good,Medium,Shark Optimizer,1217.631,105.835
+Carbon Fiber,125.087,0.326,3075.594,883.478,75.998,12598.531,-49.048,147971.94,31.0,39.367,51.647,10.438,Cylindrical,distributed,Low,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.565,105.84
+Titanium,125.089,0.326,3073.083,884.21,75.999,12588.64,-49.046,147974.45,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Long,Poor,High,Shark Optimizer,1217.516,105.855
+Titanium,125.088,0.326,3072.113,883.425,75.998,12600.349,-49.047,147991.81,31.0,39.369,51.647,10.438,Rectangular,distributed,Moderate,Long,Excellent,Low,Chaotic Quantum Genetic,1217.61,105.832
+Titanium,125.087,0.326,3076.026,883.485,75.997,12591.251,-49.047,147956.31,31.0,39.368,51.647,10.437,Cylindrical,uniform,Low,Long,Excellent,Low,Chaotic Quantum Genetic,1217.574,105.834
+Carbon Fiber,125.087,0.326,3072.415,883.484,75.997,12587.815,-49.048,147965.33,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Medium,Good,Low,Shark Optimizer,1217.514,105.827
+Carbon Fiber,125.087,0.326,3072.691,883.454,75.997,12587.917,-49.047,147962.44,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Long,Poor,Low,Chaotic Quantum Genetic,1217.508,105.828
+Titanium,125.087,0.326,3072.53,883.501,75.998,12591.943,-49.047,147974.05,31.0,39.367,51.647,10.438,Tapered,distributed,Low,Long,Poor,Medium,Chaotic Quantum Genetic,1217.578,105.83
+Carbon Fiber,125.087,0.326,3071.824,883.59,75.998,12589.135,-49.048,147949.42,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Long,Excellent,Low,Chaotic Quantum Genetic,1217.537,105.836
+Carbon Fiber,125.088,0.326,3072.762,884.19,76.0,12597.992,-49.046,147963.16,31.0,39.368,51.647,10.437,Rectangular,uniform,Moderate,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.752,105.858
+Aluminum,125.087,0.326,3082.589,884.34,75.999,12606.396,-49.044,147990.17,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Long,Poor,Medium,Shark Optimizer,1218.691,105.95
+Titanium,125.088,0.326,3074.753,884.152,75.999,12594.662,-49.045,147980.61,31.0,39.367,51.647,10.438,Cylindrical,point load,Moderate,Medium,Good,Low,Chaotic Quantum Genetic,1217.559,105.858
+Carbon Fiber,125.092,0.326,3083.385,884.189,76.006,12629.601,-49.042,148107.02,31.0,39.369,51.648,10.439,Rectangular,distributed,Moderate,Medium,Poor,Medium,Shark Optimizer,1217.616,105.986
+Carbon Fiber,125.087,0.326,3075.119,883.929,75.999,12599.649,-49.044,148018.25,31.0,39.368,51.647,10.438,Rectangular,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.576,105.899
+Carbon Fiber,125.087,0.326,3072.25,883.55,75.998,12590.858,-49.045,147972.62,31.0,39.368,51.647,10.437,Cylindrical,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1217.545,105.831
+Aluminum,125.087,0.326,3072.018,883.59,75.997,12602.153,-49.047,147959.39,31.0,39.367,51.647,10.437,Tapered,distributed,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.515,105.824
+Titanium,125.087,0.326,3072.637,883.55,75.997,12589.677,-49.047,148039.73,31.0,39.368,51.647,10.438,Rectangular,uniform,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.544,105.835
+Aluminum,125.087,0.326,3072.26,883.613,75.997,12596.781,-49.047,147969.98,31.0,39.367,51.647,10.438,Cylindrical,distributed,Low,Long,Excellent,High,Shark Optimizer,1217.618,105.827
+Carbon Fiber,125.087,0.326,3075.712,883.523,75.998,12602.874,-49.047,148009.5,31.0,39.368,51.647,10.438,Rectangular,point load,Low,Short,Excellent,Low,Chaotic Quantum Genetic,1217.631,105.845
+Titanium,125.09,0.326,3081.059,884.043,76.001,12596.172,-49.046,148095.39,31.0,39.368,51.647,10.438,Rectangular,distributed,High,Medium,Good,Medium,Shark Optimizer,1217.659,105.883
+Titanium,125.089,0.326,3083.24,883.878,76.005,12615.032,-49.045,148172.11,31.0,39.369,51.647,10.442,Rectangular,distributed,Moderate,Medium,Good,Low,Shark Optimizer,1217.797,105.886
+Aluminum,125.089,0.326,3082.439,883.736,76.0,12648.401,-49.045,148175.75,31.0,39.368,51.647,10.438,Rectangular,uniform,High,Medium,Excellent,Medium,Shark Optimizer,1217.615,105.844
+Aluminum,125.087,0.326,3072.166,883.585,75.998,12587.896,-49.047,147989.52,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Long,Excellent,High,Shark Optimizer,1217.523,105.825
+Titanium,125.087,0.326,3072.036,883.351,75.997,12588.755,-49.047,147951.88,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.523,105.826
+Carbon Fiber,125.088,0.326,3077.872,883.542,75.998,12592.521,-49.047,148056.64,31.0,39.368,51.647,10.437,Cylindrical,distributed,Low,Long,Excellent,Low,Shark Optimizer,1217.586,105.832
+Aluminum,125.087,0.326,3072.405,883.527,75.998,12590.755,-49.047,147952.61,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Short,Poor,High,Chaotic Quantum Genetic,1217.522,105.831
+Carbon Fiber,125.087,0.326,3073.013,883.488,75.997,12594.34,-49.047,147960.47,31.0,39.367,51.647,10.437,Tapered,uniform,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.523,105.827
+Titanium,125.091,0.326,3085.626,886.297,76.002,12616.098,-49.041,148114.42,31.0,39.37,51.648,10.441,Cylindrical,point load,Low,Long,Good,Low,Chaotic Quantum Genetic,1217.738,105.907
+Carbon Fiber,125.087,0.326,3073.69,883.532,75.998,12614.563,-49.047,147967.94,31.0,39.367,51.647,10.438,Cylindrical,distributed,Low,Short,Good,Low,Shark Optimizer,1217.536,105.837
+Carbon Fiber,125.087,0.326,3075.919,883.318,75.997,12593.734,-49.048,147955.7,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Long,Excellent,Low,Chaotic Quantum Genetic,1217.511,105.829
+Aluminum,125.088,0.326,3075.852,883.915,76.0,12596.407,-49.047,148038.27,31.0,39.368,51.647,10.438,Cylindrical,uniform,Low,Long,Excellent,High,Shark Optimizer,1217.658,105.834
+Titanium,125.09,0.326,3074.151,884.066,76.001,12602.353,-49.047,148112.19,31.0,39.368,51.647,10.439,Rectangular,point load,Moderate,Short,Poor,High,Shark Optimizer,1217.717,105.967
+Titanium,125.088,0.326,3073.061,883.543,75.997,12589.67,-49.047,148000.19,31.0,39.368,51.647,10.438,Tapered,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.562,105.839
+Carbon Fiber,125.087,0.326,3074.96,883.484,76.002,12596.326,-49.046,147953.94,31.0,39.368,51.647,10.437,Cylindrical,point load,Low,Long,Poor,Low,Chaotic Quantum Genetic,1217.692,105.84
+Aluminum,125.088,0.326,3073.005,883.653,75.999,12594.265,-49.046,148120.75,31.0,39.368,51.647,10.438,Rectangular,distributed,Moderate,Long,Excellent,High,Chaotic Quantum Genetic,1217.632,105.834
+Aluminum,125.087,0.326,3072.623,883.778,76.001,12589.045,-49.045,148066.34,31.0,39.368,51.647,10.438,Rectangular,uniform,Moderate,Long,Poor,High,Shark Optimizer,1217.649,105.843
+Titanium,125.088,0.326,3074.47,886.746,75.998,12624.705,-49.044,148140.84,31.0,39.37,51.647,10.439,Cylindrical,point load,Low,Short,Excellent,High,Chaotic Quantum Genetic,1217.739,105.848
+Carbon Fiber,125.089,0.326,3076.261,883.926,76.004,12599.15,-49.047,147965.28,31.0,39.368,51.648,10.438,Tapered,distributed,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.644,105.881
+Carbon Fiber,125.088,0.326,3073.252,884.146,75.998,12593.676,-49.047,147980.17,31.0,39.371,51.647,10.438,Rectangular,uniform,High,Medium,Excellent,Medium,Shark Optimizer,1217.589,105.839
+Titanium,125.087,0.326,3071.909,883.441,75.997,12588.994,-49.047,147961.11,31.0,39.367,51.647,10.437,Cylindrical,point load,Moderate,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.514,105.833
+Carbon Fiber,125.086,0.326,3071.87,883.492,75.998,12593.837,-49.047,147994.11,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Medium,Excellent,Medium,Shark Optimizer,1217.537,105.833
+Titanium,125.087,0.326,3071.968,883.572,75.997,12589.497,-49.045,148009.8,31.0,39.367,51.647,10.437,Rectangular,point load,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.568,105.847
+Carbon Fiber,125.087,0.326,3071.865,883.334,75.997,12589.997,-49.048,147944.0,31.0,39.367,51.647,10.437,Tapered,distributed,Low,Short,Poor,High,Chaotic Quantum Genetic,1217.512,105.83
+Aluminum,125.088,0.326,3072.914,883.832,76.0,12602.412,-49.046,147983.88,31.0,39.368,51.647,10.438,Tapered,distributed,Low,Medium,Good,High,Shark Optimizer,1217.562,105.846
+Aluminum,125.089,0.326,3074.649,884.927,76.003,12599.782,-49.043,147991.86,31.0,39.368,51.647,10.439,Tapered,point load,Moderate,Medium,Excellent,High,Chaotic Quantum Genetic,1217.6,105.912
+Carbon Fiber,125.087,0.326,3072.154,883.799,75.998,12588.568,-49.047,147959.5,31.0,39.368,51.647,10.437,Rectangular,point load,High,Medium,Good,Low,Shark Optimizer,1217.53,105.843
+Aluminum,125.088,0.326,3077.551,884.468,76.0,12631.026,-49.043,148132.66,31.0,39.368,51.648,10.439,Tapered,distributed,Low,Medium,Poor,Medium,Chaotic Quantum Genetic,1217.762,105.925
+Carbon Fiber,125.088,0.326,3071.826,883.453,75.997,12598.133,-49.047,147982.61,31.0,39.367,51.647,10.437,Rectangular,uniform,Low,Medium,Good,Low,Shark Optimizer,1217.537,105.83
+Carbon Fiber,125.089,0.326,3074.134,883.793,76.005,12593.375,-49.043,147972.02,31.0,39.369,51.647,10.437,Cylindrical,uniform,High,Long,Poor,Low,Chaotic Quantum Genetic,1217.599,105.973
+Aluminum,125.087,0.326,3076.007,883.735,76.003,12617.685,-49.044,148011.97,31.0,39.367,51.647,10.441,Rectangular,point load,Moderate,Long,Poor,Medium,Shark Optimizer,1217.608,105.864
+Carbon Fiber,125.087,0.326,3072.825,884.344,75.998,12604.36,-49.047,147978.16,31.0,39.368,51.647,10.439,Tapered,point load,High,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.525,105.867
+Titanium,125.087,0.326,3071.7,883.76,75.998,12597.225,-49.047,147988.89,31.0,39.367,51.647,10.438,Rectangular,point load,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.523,105.837
+Aluminum,125.087,0.326,3074.279,883.584,75.998,12592.564,-49.046,148095.11,31.0,39.368,51.647,10.438,Tapered,distributed,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.543,105.852
+Carbon Fiber,125.088,0.326,3079.82,884.035,75.998,12631.268,-49.047,148006.06,31.0,39.368,51.647,10.439,Tapered,uniform,High,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.568,105.87
+Carbon Fiber,125.089,0.326,3085.486,884.55,76.004,12601.562,-49.043,147978.62,31.0,39.369,51.647,10.438,Cylindrical,distributed,High,Medium,Good,Low,Chaotic Quantum Genetic,1217.624,105.935
+Carbon Fiber,125.087,0.326,3071.654,883.299,75.997,12589.712,-49.048,147945.17,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Short,Poor,Low,Shark Optimizer,1217.517,105.824
+Titanium,125.09,0.326,3074.331,884.38,76.004,12600.74,-49.046,148100.19,31.0,39.368,51.647,10.438,Tapered,distributed,Moderate,Medium,Good,High,Shark Optimizer,1217.931,105.859
+Aluminum,125.088,0.326,3075.83,884.312,76.007,12605.799,-49.045,147997.98,31.0,39.368,51.647,10.441,Cylindrical,point load,High,Medium,Good,High,Shark Optimizer,1217.617,105.871
+Carbon Fiber,125.088,0.326,3072.761,884.03,76.0,12599.783,-49.046,147951.9,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Medium,Good,Low,Shark Optimizer,1217.537,105.836
+Titanium,125.087,0.326,3072.892,883.755,75.999,12591.554,-49.047,148049.9,31.0,39.367,51.647,10.438,Rectangular,uniform,Low,Long,Excellent,High,Chaotic Quantum Genetic,1217.528,105.83
+Titanium,125.087,0.326,3073.793,883.797,76.001,12611.785,-49.045,148274.27,31.0,39.368,51.647,10.44,Rectangular,point load,Moderate,Short,Good,Medium,Chaotic Quantum Genetic,1217.821,105.85
+Titanium,125.091,0.326,3073.662,885.031,75.999,12616.568,-49.044,148140.11,31.0,39.369,51.648,10.439,Cylindrical,point load,Low,Short,Good,High,Shark Optimizer,1217.696,105.872
+Carbon Fiber,125.088,0.326,3072.572,883.568,75.998,12600.519,-49.047,147985.44,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Medium,Poor,Low,Chaotic Quantum Genetic,1217.541,105.837
+Titanium,125.086,0.326,3071.562,883.303,75.997,12588.411,-49.048,147943.23,31.0,39.367,51.647,10.437,Rectangular,point load,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.507,105.825
+Aluminum,125.088,0.326,3073.214,884.613,75.998,12595.44,-49.046,148047.08,31.0,39.367,51.647,10.439,Tapered,uniform,High,Long,Excellent,High,Chaotic Quantum Genetic,1217.532,105.831
+Carbon Fiber,125.088,0.326,3077.007,884.287,76.003,12596.984,-49.045,148069.16,31.0,39.37,51.647,10.437,Tapered,distributed,Low,Medium,Poor,Low,Shark Optimizer,1217.735,105.905
+Titanium,125.088,0.326,3073.939,883.699,76.003,12602.615,-49.043,148064.7,31.0,39.367,51.648,10.44,Tapered,point load,Low,Medium,Poor,Medium,Chaotic Quantum Genetic,1217.587,105.88
+Aluminum,125.087,0.326,3071.962,883.744,76.0,12596.522,-49.047,148023.98,31.0,39.368,51.647,10.438,Tapered,distributed,Moderate,Medium,Good,High,Shark Optimizer,1217.591,105.836
+Titanium,125.087,0.326,3073.05,883.597,75.998,12588.287,-49.047,147984.72,31.0,39.368,51.647,10.438,Rectangular,distributed,Low,Long,Excellent,High,Chaotic Quantum Genetic,1217.514,105.825
+Carbon Fiber,125.087,0.326,3071.828,883.347,75.997,12588.049,-49.048,147952.95,31.0,39.367,51.647,10.437,Rectangular,point load,Moderate,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.508,105.841
+Titanium,125.088,0.326,3073.729,884.157,75.999,12603.906,-49.046,148273.62,31.0,39.37,51.647,10.439,Cylindrical,distributed,Low,Long,Excellent,Medium,Shark Optimizer,1217.588,105.838
+Aluminum,125.087,0.326,3072.733,883.482,75.999,12591.137,-49.047,148081.25,31.0,39.368,51.647,10.437,Rectangular,uniform,Moderate,Long,Good,High,Shark Optimizer,1217.586,105.827
+Aluminum,125.087,0.326,3071.868,883.481,75.997,12588.627,-49.047,148013.11,31.0,39.367,51.647,10.438,Rectangular,point load,Moderate,Long,Poor,High,Chaotic Quantum Genetic,1217.528,105.835
+Carbon Fiber,125.088,0.326,3072.114,883.65,76.001,12590.313,-49.047,147987.94,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Long,Excellent,High,Chaotic Quantum Genetic,1217.596,105.829
+Carbon Fiber,125.087,0.326,3071.688,883.436,75.997,12595.482,-49.047,147999.42,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Long,Good,Low,Shark Optimizer,1217.522,105.841
+Titanium,125.087,0.326,3072.064,883.572,75.997,12587.778,-49.047,147966.11,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.558,105.829
+Carbon Fiber,125.087,0.326,3073.108,883.498,75.998,12591.904,-49.047,147977.7,31.0,39.367,51.647,10.439,Cylindrical,uniform,Moderate,Medium,Excellent,High,Shark Optimizer,1217.794,105.828
+Aluminum,125.087,0.326,3074.718,883.504,76.001,12594.896,-49.047,148023.88,31.0,39.367,51.647,10.437,Tapered,uniform,High,Medium,Good,Medium,Shark Optimizer,1217.562,105.841
+Aluminum,125.087,0.326,3072.802,883.394,75.998,12594.263,-49.048,147979.02,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Short,Poor,High,Shark Optimizer,1217.537,105.83
+Aluminum,125.087,0.326,3074.162,883.367,75.997,12594.08,-49.046,148016.25,31.0,39.367,51.647,10.437,Rectangular,distributed,High,Medium,Good,Medium,Shark Optimizer,1217.519,105.861
+Titanium,125.088,0.326,3077.222,883.436,75.999,12596.506,-49.045,148205.22,31.0,39.369,51.647,10.439,Rectangular,distributed,Moderate,Medium,Good,Low,Chaotic Quantum Genetic,1217.715,105.848
+Aluminum,125.087,0.326,3071.895,883.972,76.0,12592.219,-49.046,147992.94,31.0,39.367,51.647,10.437,Tapered,point load,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.529,105.832
+Carbon Fiber,125.087,0.326,3072.842,883.394,75.997,12593.359,-49.048,147981.27,31.0,39.367,51.647,10.437,Tapered,point load,High,Long,Excellent,High,Shark Optimizer,1217.546,105.825
+Carbon Fiber,125.087,0.326,3071.965,883.735,75.999,12591.84,-49.048,147960.69,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Medium,Poor,Low,Shark Optimizer,1217.516,105.832
+Carbon Fiber,125.089,0.326,3073.318,884.348,75.998,12601.884,-49.047,147988.39,31.0,39.368,51.647,10.438,Rectangular,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.555,105.833
+Aluminum,125.087,0.326,3074.224,885.283,76.0,12607.704,-49.047,147984.97,31.0,39.368,51.647,10.438,Tapered,distributed,High,Long,Good,Low,Shark Optimizer,1217.588,105.877
+Carbon Fiber,125.093,0.326,3081.165,886.397,76.002,12634.298,-49.046,148201.16,31.0,39.369,51.648,10.44,Rectangular,point load,Moderate,Medium,Poor,Low,Shark Optimizer,1217.786,105.895
+Aluminum,125.088,0.326,3072.534,884.266,75.998,12617.963,-49.047,148008.98,31.0,39.367,51.647,10.439,Cylindrical,uniform,Low,Medium,Good,Medium,Shark Optimizer,1217.643,105.833
+Carbon Fiber,125.087,0.326,3073.962,883.527,75.998,12600.264,-49.046,147967.56,31.0,39.367,51.647,10.437,Tapered,point load,High,Medium,Excellent,Medium,Shark Optimizer,1217.599,105.842
+Carbon Fiber,125.087,0.326,3074.258,883.752,75.998,12599.745,-49.047,148114.36,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Long,Excellent,High,Chaotic Quantum Genetic,1217.527,105.834
+Titanium,125.088,0.326,3077.47,883.686,75.998,12599.023,-49.046,148181.88,31.0,39.367,51.647,10.439,Tapered,point load,High,Medium,Poor,High,Chaotic Quantum Genetic,1217.588,105.832
+Aluminum,125.087,0.326,3074.298,883.484,76.0,12606.399,-49.047,148077.39,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Medium,Poor,High,Shark Optimizer,1217.642,105.836
+Carbon Fiber,125.088,0.326,3075.304,884.435,76.0,12610.052,-49.044,148054.23,31.0,39.372,51.647,10.44,Cylindrical,point load,High,Short,Excellent,Low,Shark Optimizer,1217.752,105.906
+Carbon Fiber,125.088,0.326,3072.352,883.437,75.997,12596.962,-49.047,148118.81,31.0,39.369,51.647,10.437,Rectangular,uniform,Moderate,Medium,Good,Low,Shark Optimizer,1217.624,105.836
+Carbon Fiber,125.087,0.326,3073.278,883.523,75.997,12591.774,-49.045,148001.11,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Medium,Poor,Low,Shark Optimizer,1217.534,105.844
+Carbon Fiber,125.09,0.326,3074.79,884.26,75.999,12594.21,-49.047,148026.1,31.0,39.367,51.647,10.439,Cylindrical,point load,High,Short,Good,Low,Chaotic Quantum Genetic,1217.576,105.838
+Aluminum,125.087,0.326,3073.521,884.236,75.998,12602.357,-49.046,147987.27,31.0,39.368,51.647,10.437,Tapered,uniform,Low,Medium,Poor,High,Shark Optimizer,1217.571,105.856
+Carbon Fiber,125.087,0.326,3076.096,883.601,76.004,12611.945,-49.047,148037.61,31.0,39.368,51.647,10.439,Tapered,distributed,High,Long,Poor,Low,Shark Optimizer,1217.586,105.829
+Carbon Fiber,125.087,0.326,3072.362,883.578,75.998,12590.776,-49.047,148022.05,31.0,39.367,51.647,10.437,Tapered,distributed,High,Medium,Good,Low,Shark Optimizer,1217.523,105.837
+Carbon Fiber,125.087,0.326,3071.968,883.428,75.997,12594.803,-49.047,147951.6,31.0,39.367,51.647,10.437,Rectangular,uniform,Low,Medium,Poor,Low,Chaotic Quantum Genetic,1217.508,105.827
+Aluminum,125.087,0.326,3073.874,883.618,75.999,12603.508,-49.043,148014.48,31.0,39.368,51.647,10.438,Cylindrical,distributed,Moderate,Long,Poor,Medium,Chaotic Quantum Genetic,1217.592,105.841
+Carbon Fiber,125.088,0.326,3078.08,883.659,76.004,12595.39,-49.047,148059.72,31.0,39.368,51.647,10.438,Rectangular,distributed,Low,Short,Good,Medium,Shark Optimizer,1217.668,105.863
+Carbon Fiber,125.088,0.326,3072.39,883.592,76.0,12621.294,-49.047,147993.97,31.0,39.368,51.647,10.439,Cylindrical,uniform,Low,Short,Excellent,Medium,Chaotic Quantum Genetic,1217.61,105.848
+Carbon Fiber,125.089,0.326,3073.886,883.521,75.998,12615.835,-49.047,147976.34,31.0,39.368,51.647,10.438,Rectangular,uniform,Moderate,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.818,105.909
+Titanium,125.093,0.326,3072.651,883.694,75.999,12595.188,-49.046,148029.22,31.0,39.368,51.647,10.438,Cylindrical,point load,Low,Long,Excellent,High,Shark Optimizer,1217.562,105.841
+Carbon Fiber,125.087,0.326,3073.51,884.545,75.998,12598.389,-49.047,147994.25,31.0,39.368,51.651,10.437,Cylindrical,point load,Low,Short,Excellent,Medium,Shark Optimizer,1217.581,105.861
+Carbon Fiber,125.088,0.326,3082.547,883.969,76.0,12604.396,-49.046,148121.89,31.0,39.369,51.647,10.438,Cylindrical,distributed,Low,Short,Good,Medium,Shark Optimizer,1217.603,105.872
+Titanium,125.087,0.326,3072.303,883.32,75.998,12587.289,-49.048,147976.75,31.0,39.367,51.647,10.437,Tapered,uniform,Moderate,Short,Poor,High,Shark Optimizer,1217.558,105.827
+Titanium,125.088,0.326,3072.772,885.049,75.998,12597.562,-49.047,147978.12,31.0,39.367,51.647,10.438,Rectangular,point load,Low,Medium,Good,Low,Chaotic Quantum Genetic,1217.537,105.829
+Carbon Fiber,125.089,0.326,3073.863,883.435,75.999,12603.288,-49.046,148013.05,31.0,39.368,51.647,10.438,Rectangular,point load,Moderate,Short,Good,Low,Chaotic Quantum Genetic,1217.67,105.881
+Titanium,125.09,0.326,3075.061,884.677,75.998,12599.336,-49.045,148041.25,31.0,39.368,51.647,10.439,Tapered,point load,Low,Medium,Excellent,High,Shark Optimizer,1217.666,105.842
+Carbon Fiber,125.087,0.326,3072.289,883.319,75.997,12588.946,-49.048,147946.72,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Short,Excellent,Low,Shark Optimizer,1217.514,105.826
+Titanium,125.096,0.326,3076.934,885.422,76.005,12636.243,-49.044,148170.77,31.0,39.369,51.648,10.439,Cylindrical,uniform,High,Medium,Poor,High,Shark Optimizer,1217.663,105.881
+Titanium,125.088,0.326,3072.304,883.437,75.998,12601.638,-49.048,147975.97,31.0,39.367,51.647,10.437,Rectangular,point load,Low,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.542,105.832
+Carbon Fiber,125.087,0.326,3073.279,884.12,75.998,12592.374,-49.047,148062.53,31.0,39.367,51.647,10.438,Cylindrical,uniform,High,Long,Excellent,High,Shark Optimizer,1217.536,105.828
+Carbon Fiber,125.087,0.326,3071.926,883.407,75.997,12588.99,-49.047,147989.27,31.0,39.367,51.647,10.437,Tapered,uniform,High,Long,Good,High,Shark Optimizer,1217.508,105.824
+Titanium,125.087,0.326,3071.801,883.484,75.998,12590.468,-49.047,148000.81,31.0,39.367,51.647,10.437,Tapered,uniform,Moderate,Medium,Poor,High,Shark Optimizer,1217.563,105.836
+Carbon Fiber,125.087,0.326,3075.216,883.597,75.998,12592.173,-49.046,147965.77,31.0,39.368,51.647,10.438,Cylindrical,distributed,High,Medium,Good,High,Shark Optimizer,1217.596,105.833
+Titanium,125.087,0.326,3072.514,883.411,75.999,12596.863,-49.048,147978.25,31.0,39.367,51.647,10.438,Rectangular,distributed,Low,Medium,Excellent,Medium,Shark Optimizer,1217.542,105.83
+Titanium,125.089,0.326,3072.377,883.482,76.0,12591.451,-49.047,147961.44,31.0,39.368,51.647,10.438,Cylindrical,point load,Moderate,Medium,Poor,Medium,Shark Optimizer,1217.566,105.852
+Aluminum,125.091,0.326,3081.933,886.948,76.009,12660.943,-49.039,148597.86,31.0,39.369,51.649,10.443,Cylindrical,uniform,Low,Short,Poor,Medium,Shark Optimizer,1217.869,106.035
+Aluminum,125.088,0.326,3075.2,883.998,75.998,12628.161,-49.045,147990.61,31.0,39.368,51.647,10.438,Tapered,uniform,High,Medium,Good,High,Chaotic Quantum Genetic,1217.633,105.83
+Titanium,125.091,0.326,3073.911,884.345,76.001,12606.889,-49.047,148118.12,31.0,39.369,51.647,10.439,Tapered,point load,Low,Short,Good,High,Shark Optimizer,1217.697,105.87
+Titanium,125.087,0.326,3079.97,884.275,76.0,12594.556,-49.046,148209.11,31.0,39.368,51.647,10.437,Tapered,uniform,High,Medium,Poor,Low,Shark Optimizer,1217.584,105.861
+Carbon Fiber,125.088,0.326,3074.86,884.574,75.999,12608.411,-49.039,148060.55,31.0,39.369,51.647,10.44,Rectangular,distributed,Moderate,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.716,105.894
+Carbon Fiber,125.089,0.326,3081.914,884.237,75.998,12596.87,-49.045,148067.23,31.0,39.369,51.647,10.44,Cylindrical,point load,High,Medium,Excellent,High,Shark Optimizer,1217.733,105.832
+Carbon Fiber,125.09,0.326,3081.824,884.218,76.0,12605.04,-49.045,148117.52,31.0,39.368,51.647,10.439,Rectangular,distributed,Low,Medium,Poor,Medium,Shark Optimizer,1217.69,105.875
+Titanium,125.087,0.326,3075.668,883.517,75.999,12590.234,-49.045,147971.75,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Long,Poor,Medium,Chaotic Quantum Genetic,1217.563,105.861
+Titanium,125.087,0.326,3072.057,883.366,75.997,12594.03,-49.048,147971.75,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Short,Excellent,High,Chaotic Quantum Genetic,1217.544,105.83
+Carbon Fiber,125.089,0.326,3076.522,884.774,76.002,12606.62,-49.032,148050.66,31.0,39.37,51.647,10.439,Tapered,uniform,Moderate,Medium,Excellent,High,Chaotic Quantum Genetic,1217.81,105.948
+Carbon Fiber,125.091,0.326,3075.595,883.757,76.0,12634.212,-49.045,148041.94,31.0,39.369,51.656,10.439,Rectangular,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.723,105.864
+Carbon Fiber,125.087,0.326,3078.705,883.926,76.0,12599.197,-49.047,147988.64,31.0,39.368,51.647,10.441,Cylindrical,distributed,Low,Short,Good,Medium,Shark Optimizer,1217.596,105.833
+Aluminum,125.087,0.326,3072.147,883.783,75.998,12593.384,-49.045,147982.47,31.0,39.367,51.647,10.438,Rectangular,point load,Low,Short,Excellent,Medium,Shark Optimizer,1217.633,105.839
+Titanium,125.088,0.326,3073.422,884.414,76.003,12596.093,-49.043,148112.92,31.0,39.371,51.647,10.441,Rectangular,point load,Moderate,Medium,Good,Medium,Shark Optimizer,1217.654,105.962
+Titanium,125.087,0.326,3074.118,883.781,75.998,12591.479,-49.047,147988.64,31.0,39.368,51.647,10.442,Rectangular,point load,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.533,105.844
+Carbon Fiber,125.089,0.326,3073.424,884.216,75.998,12605.442,-49.047,147978.48,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.521,105.83
+Carbon Fiber,125.089,0.326,3076.247,884.002,76.013,12601.364,-49.046,148014.1,31.0,39.369,51.647,10.438,Rectangular,point load,Moderate,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.616,105.945
+Carbon Fiber,125.088,0.326,3074.787,885.274,76.001,12603.694,-49.046,148067.02,31.0,39.368,51.647,10.44,Rectangular,distributed,Low,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.623,105.841
+Aluminum,125.089,0.326,3074.058,884.209,75.998,12604.532,-49.046,147987.81,31.0,39.367,51.647,10.44,Rectangular,distributed,Moderate,Medium,Good,Low,Shark Optimizer,1217.618,105.841
+Titanium,125.088,0.326,3072.897,883.431,75.997,12596.264,-49.047,147970.56,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Short,Good,Low,Shark Optimizer,1217.537,105.857
+Carbon Fiber,125.087,0.326,3076.014,883.852,75.999,12603.158,-49.045,147992.03,31.0,39.369,51.648,10.439,Rectangular,point load,Moderate,Short,Good,Medium,Chaotic Quantum Genetic,1217.676,105.922
+Carbon Fiber,125.087,0.326,3072.461,883.536,75.997,12589.589,-49.047,147980.53,31.0,39.367,51.647,10.437,Rectangular,point load,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.539,105.833
+Aluminum,125.087,0.326,3073.538,883.738,75.999,12594.398,-49.048,147964.69,31.0,39.367,51.647,10.437,Cylindrical,distributed,High,Short,Good,High,Shark Optimizer,1217.544,105.826
+Aluminum,125.088,0.326,3076.838,883.576,76.005,12599.761,-49.045,147998.4,31.0,39.368,51.647,10.438,Tapered,point load,Moderate,Medium,Excellent,High,Shark Optimizer,1217.677,105.87
+Aluminum,125.088,0.326,3073.581,883.734,76.0,12614.366,-49.047,147983.44,31.0,39.367,51.647,10.439,Tapered,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1217.55,105.861
+Carbon Fiber,125.087,0.326,3072.431,883.434,75.998,12593.561,-49.047,147976.73,31.0,39.367,51.647,10.437,Tapered,uniform,High,Medium,Poor,High,Shark Optimizer,1217.516,105.827
+Carbon Fiber,125.087,0.326,3073.522,883.556,75.999,12593.367,-49.044,148021.38,31.0,39.369,51.647,10.437,Rectangular,point load,High,Medium,Poor,Medium,Shark Optimizer,1217.552,105.842
+Titanium,125.086,0.326,3071.588,883.318,75.997,12587.752,-49.048,147944.48,31.0,39.367,51.647,10.437,Tapered,point load,Moderate,Medium,Excellent,High,Chaotic Quantum Genetic,1217.503,105.828
+Carbon Fiber,125.087,0.326,3073.582,883.644,75.998,12598.545,-49.047,148146.45,31.0,39.367,51.647,10.438,Rectangular,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.567,105.855
+Carbon Fiber,125.087,0.326,3073.884,883.921,76.004,12592.71,-49.047,147999.97,31.0,39.368,51.647,10.438,Rectangular,distributed,Low,Long,Poor,High,Chaotic Quantum Genetic,1217.633,105.83
+Titanium,125.111,0.326,3078.034,885.183,76.01,12602.078,-49.044,148193.45,31.0,39.368,51.648,10.439,Cylindrical,point load,High,Medium,Excellent,High,Shark Optimizer,1217.721,105.846
+Titanium,125.089,0.326,3073.422,883.554,75.998,12592.757,-49.048,147981.27,31.0,39.367,51.647,10.437,Cylindrical,point load,High,Short,Poor,High,Chaotic Quantum Genetic,1217.604,105.827
+Aluminum,125.087,0.326,3072.429,883.556,75.998,12606.674,-49.044,147973.12,31.0,39.367,51.647,10.438,Tapered,distributed,High,Medium,Poor,Medium,Chaotic Quantum Genetic,1217.564,105.831
+Titanium,125.087,0.326,3072.486,883.332,75.998,12587.716,-49.048,147953.14,31.0,39.367,51.647,10.437,Tapered,uniform,High,Long,Poor,Low,Chaotic Quantum Genetic,1217.521,105.826
+Carbon Fiber,125.089,0.326,3073.666,883.959,76.002,12606.218,-49.044,148077.88,31.0,39.37,51.647,10.439,Rectangular,uniform,High,Long,Good,Medium,Chaotic Quantum Genetic,1217.616,105.837
+Titanium,125.087,0.326,3072.878,883.501,75.998,12593.166,-49.047,147989.9,31.0,39.367,51.647,10.438,Rectangular,uniform,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.568,105.832
+Titanium,125.087,0.326,3073.522,883.548,75.999,12593.587,-49.046,147975.06,31.0,39.367,51.647,10.437,Cylindrical,point load,High,Medium,Good,High,Shark Optimizer,1217.591,105.849
+Aluminum,125.087,0.326,3073.202,883.844,76.0,12616.476,-49.047,147989.6,31.0,39.367,51.647,10.439,Tapered,distributed,Low,Medium,Excellent,Medium,Shark Optimizer,1217.645,105.843
+Titanium,125.087,0.326,3073.3,883.752,75.998,12593.147,-49.047,148058.8,31.0,39.368,51.647,10.438,Rectangular,uniform,Moderate,Short,Good,Medium,Chaotic Quantum Genetic,1217.575,105.844
+Carbon Fiber,125.087,0.326,3072.447,883.505,75.997,12595.415,-49.047,147970.48,31.0,39.368,51.647,10.437,Rectangular,distributed,Low,Medium,Excellent,High,Chaotic Quantum Genetic,1217.54,105.834
+Carbon Fiber,125.087,0.326,3083.602,884.721,76.006,12602.465,-49.039,148078.52,31.0,39.369,51.648,10.439,Rectangular,uniform,Low,Short,Poor,Low,Shark Optimizer,1217.763,105.867
+Carbon Fiber,125.087,0.326,3072.939,883.463,75.997,12594.42,-49.047,148132.34,31.0,39.368,51.647,10.437,Rectangular,distributed,Low,Long,Excellent,Medium,Shark Optimizer,1217.54,105.855
+Aluminum,125.087,0.326,3071.638,883.37,75.998,12587.401,-49.048,147958.8,31.0,39.367,51.647,10.437,Rectangular,distributed,Moderate,Short,Excellent,High,Chaotic Quantum Genetic,1217.505,105.825
+Carbon Fiber,125.087,0.326,3072.909,884.244,75.999,12616.439,-49.047,148038.22,31.0,39.369,51.647,10.439,Cylindrical,uniform,Low,Medium,Good,Medium,Shark Optimizer,1217.667,105.853
+Titanium,125.107,0.326,3079.211,883.981,76.008,12613.103,-49.047,148159.61,31.0,39.368,51.648,10.439,Cylindrical,point load,High,Medium,Poor,High,Shark Optimizer,1217.906,105.867
+Titanium,125.087,0.326,3073.28,883.534,75.999,12589.918,-49.047,148153.9,31.0,39.368,51.647,10.438,Rectangular,distributed,Moderate,Medium,Excellent,High,Shark Optimizer,1217.593,105.847
+Titanium,125.087,0.326,3074.082,883.653,75.999,12621.737,-49.046,148072.03,31.0,39.368,51.648,10.438,Rectangular,point load,Moderate,Medium,Excellent,High,Chaotic Quantum Genetic,1217.791,105.843
+Carbon Fiber,125.089,0.326,3078.093,883.688,75.998,12613.409,-49.047,148035.94,31.0,39.368,51.647,10.438,Rectangular,point load,Low,Short,Excellent,Low,Chaotic Quantum Genetic,1217.747,105.871
+Aluminum,125.087,0.326,3074.533,883.6,75.998,12594.19,-49.047,147996.1,31.0,39.367,51.647,10.437,Cylindrical,point load,High,Short,Poor,High,Shark Optimizer,1217.537,105.826
+Aluminum,125.088,0.326,3073.295,883.8,76.001,12601.284,-49.047,148044.55,31.0,39.368,51.647,10.437,Tapered,uniform,Moderate,Short,Poor,High,Shark Optimizer,1217.607,105.832
+Aluminum,125.087,0.326,3071.693,883.399,75.997,12593.136,-49.048,147952.56,31.0,39.367,51.647,10.437,Cylindrical,uniform,Low,Long,Poor,High,Shark Optimizer,1217.518,105.828
+Aluminum,125.088,0.326,3074.227,884.067,75.999,12623.1,-49.046,147970.83,31.0,39.368,51.647,10.438,Tapered,distributed,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.664,105.862
+Carbon Fiber,125.089,0.326,3076.736,883.851,76.004,12598.154,-49.043,148190.88,31.0,39.369,51.647,10.438,Rectangular,uniform,High,Medium,Good,High,Shark Optimizer,1217.745,105.852
+Titanium,125.089,0.326,3095.636,884.888,76.003,12623.183,-49.043,148130.17,31.0,39.371,51.647,10.439,Cylindrical,point load,Low,Long,Excellent,Low,Chaotic Quantum Genetic,1217.957,105.903
+Titanium,125.089,0.326,3078.825,883.732,75.999,12594.95,-49.047,148123.4,31.0,39.368,51.647,10.437,Cylindrical,distributed,Low,Medium,Poor,Low,Shark Optimizer,1217.584,105.866
+Aluminum,125.087,0.326,3072.868,883.457,75.997,12592.65,-49.048,147964.55,31.0,39.367,51.647,10.437,Tapered,distributed,Moderate,Medium,Excellent,High,Shark Optimizer,1217.522,105.827
+Aluminum,125.087,0.326,3071.69,883.356,75.997,12589.579,-49.047,147954.75,31.0,39.367,51.647,10.437,Cylindrical,point load,Moderate,Long,Poor,Medium,Shark Optimizer,1217.564,105.833
+Aluminum,125.088,0.326,3073.379,883.84,76.0,12602.996,-49.045,147980.9,31.0,39.367,51.647,10.438,Cylindrical,point load,Low,Short,Poor,Medium,Shark Optimizer,1217.569,105.846
+Carbon Fiber,125.088,0.326,3076.157,884.954,75.998,12597.679,-49.047,147998.98,31.0,39.367,51.647,10.438,Tapered,point load,High,Medium,Good,Low,Chaotic Quantum Genetic,1217.54,105.838
+Titanium,125.089,0.326,3083.536,884.812,76.009,12617.377,-49.044,148181.19,31.0,39.369,51.647,10.445,Cylindrical,distributed,Low,Medium,Good,Medium,Shark Optimizer,1218.528,106.035
+Aluminum,125.088,0.326,3078.334,883.875,76.003,12614.934,-49.045,148028.3,31.0,39.368,51.647,10.438,Cylindrical,uniform,Moderate,Medium,Poor,Medium,Shark Optimizer,1217.627,105.873
+Aluminum,125.088,0.326,3072.981,883.47,75.997,12592.104,-49.045,148003.89,31.0,39.367,51.647,10.438,Rectangular,uniform,High,Medium,Good,Medium,Shark Optimizer,1217.529,105.856
+Aluminum,125.087,0.326,3074.88,883.667,75.999,12600.189,-49.046,147988.17,31.0,39.369,51.647,10.44,Cylindrical,distributed,Low,Short,Poor,Medium,Shark Optimizer,1217.614,105.85
+Aluminum,125.087,0.326,3078.084,883.544,75.998,12589.713,-49.047,147976.98,31.0,39.368,51.647,10.437,Rectangular,distributed,Low,Short,Good,Low,Shark Optimizer,1217.544,105.848
+Carbon Fiber,125.088,0.326,3073.624,883.366,75.998,12595.338,-49.047,147964.86,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Short,Poor,Low,Chaotic Quantum Genetic,1217.542,105.845
+Aluminum,125.088,0.326,3074.502,884.389,75.999,12598.915,-49.047,148000.88,31.0,39.368,51.647,10.439,Tapered,uniform,Low,Long,Good,High,Chaotic Quantum Genetic,1217.708,105.845
+Titanium,125.087,0.326,3072.004,883.443,75.998,12590.552,-49.047,147984.62,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Short,Good,High,Chaotic Quantum Genetic,1217.565,105.828
+Carbon Fiber,125.087,0.326,3075.83,884.537,76.002,12618.896,-49.043,147991.9,31.0,39.369,51.647,10.439,Rectangular,uniform,Low,Short,Poor,Low,Chaotic Quantum Genetic,1217.695,105.902
+Titanium,125.087,0.326,3074.876,883.653,76.001,12604.943,-49.046,148162.17,31.0,39.369,51.647,10.438,Rectangular,point load,Moderate,Medium,Good,High,Shark Optimizer,1217.9,105.855
+Carbon Fiber,125.088,0.326,3077.699,883.956,75.999,12590.356,-49.039,147989.7,31.0,39.369,51.647,10.437,Tapered,uniform,Low,Long,Poor,Low,Shark Optimizer,1217.658,105.848
+Carbon Fiber,125.087,0.326,3072.074,883.458,75.997,12587.238,-49.046,147957.44,31.0,39.367,51.647,10.437,Cylindrical,uniform,Low,Long,Poor,Low,Shark Optimizer,1217.56,105.828
+Titanium,125.087,0.326,3074.719,883.31,75.998,12594.909,-49.048,147951.5,31.0,39.367,51.647,10.437,Tapered,distributed,Low,Short,Excellent,Low,Chaotic Quantum Genetic,1217.58,105.835
+Titanium,125.087,0.326,3073.702,883.456,75.997,12591.078,-49.046,147964.0,31.0,39.367,51.647,10.437,Tapered,uniform,High,Short,Good,Low,Shark Optimizer,1217.505,105.839
+Carbon Fiber,125.087,0.326,3072.291,883.494,75.997,12589.928,-49.048,147962.08,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Short,Good,Medium,Chaotic Quantum Genetic,1217.53,105.832
+Titanium,125.087,0.326,3072.574,883.42,76.001,12591.896,-49.047,147983.03,31.0,39.367,51.648,10.437,Rectangular,uniform,Moderate,Medium,Poor,High,Chaotic Quantum Genetic,1217.556,105.832
+Titanium,125.09,0.326,3074.413,883.695,76.007,12592.95,-49.045,148035.02,31.0,39.368,51.647,10.441,Tapered,point load,Low,Medium,Good,Low,Shark Optimizer,1217.871,105.917
+Carbon Fiber,125.086,0.326,3072.191,883.32,75.997,12590.801,-49.047,147952.75,31.0,39.367,51.647,10.437,Tapered,uniform,High,Medium,Excellent,Medium,Shark Optimizer,1217.508,105.825
+Aluminum,125.087,0.326,3072.21,883.357,75.999,12587.776,-49.048,147973.5,31.0,39.367,51.647,10.438,Rectangular,uniform,Moderate,Short,Excellent,High,Chaotic Quantum Genetic,1217.512,105.842
+Carbon Fiber,125.087,0.326,3074.968,883.808,76.006,12591.645,-49.045,148123.89,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.553,105.854
+Aluminum,125.088,0.326,3072.968,883.513,75.998,12606.558,-49.047,147986.48,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Short,Poor,High,Shark Optimizer,1217.564,105.83
+Titanium,125.087,0.326,3071.996,883.518,75.998,12592.897,-49.048,147960.39,31.0,39.367,51.647,10.437,Cylindrical,uniform,Low,Short,Excellent,High,Chaotic Quantum Genetic,1217.586,105.831
+Carbon Fiber,125.088,0.326,3074.782,884.138,76.001,12590.927,-49.047,147995.02,31.0,39.369,51.647,10.437,Rectangular,distributed,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.556,105.888
+Aluminum,125.087,0.326,3071.834,884.108,75.997,12592.824,-49.047,147971.28,31.0,39.367,51.647,10.437,Tapered,distributed,Low,Medium,Excellent,High,Shark Optimizer,1217.523,105.83
+Carbon Fiber,125.087,0.326,3072.546,883.459,75.999,12587.596,-49.048,147972.38,31.0,39.367,51.647,10.437,Tapered,point load,High,Medium,Good,Low,Chaotic Quantum Genetic,1217.533,105.829
+Titanium,125.089,0.326,3074.868,883.747,75.998,12631.808,-49.046,148139.6,31.0,39.367,51.647,10.439,Rectangular,distributed,Moderate,Medium,Good,Medium,Shark Optimizer,1217.598,105.861
+Aluminum,125.087,0.326,3079.363,883.986,76.007,12600.773,-49.046,147992.36,31.0,39.368,51.647,10.438,Tapered,uniform,High,Medium,Poor,Medium,Shark Optimizer,1217.653,105.842
+Carbon Fiber,125.088,0.326,3074.59,883.592,76.001,12591.554,-49.046,147987.2,31.0,39.37,51.647,10.438,Rectangular,distributed,Low,Medium,Good,Low,Chaotic Quantum Genetic,1217.537,105.852
+Aluminum,125.09,0.326,3074.241,883.364,75.999,12590.666,-49.047,148019.73,31.0,39.367,51.647,10.437,Rectangular,distributed,Moderate,Medium,Poor,Low,Chaotic Quantum Genetic,1217.528,105.841
+Aluminum,125.089,0.326,3075.085,884.59,76.009,12621.071,-49.039,148131.25,31.0,39.368,51.648,10.44,Cylindrical,distributed,Low,Long,Poor,High,Shark Optimizer,1217.693,105.858
+Titanium,125.088,0.326,3073.281,883.754,75.997,12596.303,-49.041,148007.25,31.0,39.369,51.647,10.44,Rectangular,distributed,Moderate,Long,Good,Low,Chaotic Quantum Genetic,1217.567,105.836
+Carbon Fiber,125.091,0.326,3082.544,884.394,76.005,12627.801,-49.045,148175.44,31.0,39.371,51.647,10.44,Cylindrical,uniform,High,Short,Good,Medium,Shark Optimizer,1217.726,105.837
+Carbon Fiber,125.088,0.326,3073.136,883.949,75.998,12594.715,-49.047,147970.31,31.0,39.368,51.647,10.438,Tapered,distributed,Moderate,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.554,105.848
+Titanium,125.088,0.326,3077.634,883.728,75.998,12597.946,-49.043,148259.1,31.0,39.368,51.648,10.438,Rectangular,uniform,High,Medium,Poor,Low,Shark Optimizer,1217.916,105.87
+Aluminum,125.087,0.326,3072.046,883.512,75.997,12593.134,-49.047,147973.05,31.0,39.368,51.647,10.438,Cylindrical,uniform,Low,Long,Good,High,Shark Optimizer,1217.643,105.825
+Carbon Fiber,125.093,0.326,3075.514,883.741,75.999,12595.098,-49.046,148052.17,31.0,39.368,51.648,10.44,Tapered,uniform,Moderate,Short,Poor,High,Chaotic Quantum Genetic,1217.724,105.924
+Carbon Fiber,125.087,0.326,3073.032,883.479,76.0,12592.964,-49.047,147979.69,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Short,Poor,Medium,Chaotic Quantum Genetic,1217.555,105.839
+Carbon Fiber,125.088,0.326,3072.864,884.233,76.002,12600.164,-49.044,148003.53,31.0,39.369,51.647,10.437,Rectangular,distributed,High,Medium,Poor,Medium,Chaotic Quantum Genetic,1217.561,105.857
+Aluminum,125.087,0.326,3071.909,884.041,75.998,12588.681,-49.047,148002.56,31.0,39.367,51.647,10.438,Tapered,point load,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.532,105.836
+Aluminum,125.087,0.326,3072.034,883.455,75.997,12592.924,-49.048,147960.3,31.0,39.367,51.647,10.437,Tapered,point load,High,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.512,105.825
+Titanium,125.089,0.326,3075.596,883.698,76.0,12598.729,-49.042,148060.1,31.0,39.368,51.647,10.439,Cylindrical,point load,Low,Long,Poor,Low,Chaotic Quantum Genetic,1217.604,105.88
+Carbon Fiber,125.087,0.326,3073.59,883.55,76.003,12603.203,-49.047,148036.75,31.0,39.368,51.647,10.438,Cylindrical,distributed,Moderate,Medium,Excellent,High,Chaotic Quantum Genetic,1217.576,105.85
+Carbon Fiber,125.088,0.326,3073.796,883.556,75.998,12601.892,-49.047,147987.98,31.0,39.369,51.647,10.439,Tapered,distributed,Moderate,Short,Excellent,Low,Chaotic Quantum Genetic,1217.807,105.878
+Carbon Fiber,125.091,0.326,3080.198,885.793,76.0,12630.429,-49.046,147982.12,31.0,39.368,51.647,10.438,Rectangular,distributed,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.576,105.884
+Aluminum,125.087,0.326,3072.395,883.562,75.997,12589.616,-49.048,147989.42,31.0,39.367,51.647,10.437,Tapered,point load,High,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.529,105.829
+Titanium,125.13,0.326,3075.103,884.795,76.004,12605.069,-49.038,148381.94,31.0,39.434,51.648,10.44,Rectangular,uniform,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.709,105.989
+Aluminum,125.087,0.326,3072.094,883.491,76.003,12593.175,-49.046,148020.25,31.0,39.368,51.647,10.438,Tapered,uniform,Moderate,Medium,Good,High,Shark Optimizer,1217.521,105.833
+Titanium,125.087,0.326,3079.905,883.651,76.0,12595.697,-49.041,148205.58,31.0,39.368,51.647,10.438,Tapered,uniform,High,Medium,Good,High,Shark Optimizer,1217.606,105.865
+Carbon Fiber,125.088,0.326,3075.091,884.29,76.001,12607.663,-49.046,148078.75,31.0,39.372,51.648,10.437,Rectangular,distributed,High,Long,Poor,Low,Chaotic Quantum Genetic,1217.586,105.868
+Carbon Fiber,125.087,0.326,3075.087,883.626,76.001,12592.537,-49.048,147956.1,31.0,39.367,51.647,10.438,Cylindrical,uniform,Low,Short,Excellent,High,Chaotic Quantum Genetic,1217.657,105.835
+Carbon Fiber,125.087,0.326,3072.065,883.378,75.997,12590.447,-49.045,147952.19,31.0,39.367,51.647,10.437,Tapered,distributed,Moderate,Medium,Poor,Medium,Shark Optimizer,1217.538,105.831
+Aluminum,125.089,0.326,3082.494,883.904,76.001,12600.405,-49.045,148200.69,31.0,39.368,51.647,10.439,Rectangular,point load,Moderate,Medium,Good,High,Shark Optimizer,1217.645,105.909
+Aluminum,125.087,0.326,3073.581,883.5,75.999,12599.954,-49.046,147959.56,31.0,39.367,51.647,10.439,Cylindrical,point load,Moderate,Medium,Good,Medium,Shark Optimizer,1217.512,105.841
+Carbon Fiber,125.088,0.326,3071.919,883.376,75.997,12593.747,-49.048,147955.23,31.0,39.367,51.647,10.437,Cylindrical,point load,High,Medium,Good,Low,Chaotic Quantum Genetic,1217.513,105.833
+Aluminum,125.087,0.326,3072.689,883.733,75.999,12597.244,-49.045,147968.34,31.0,39.367,51.647,10.438,Tapered,point load,High,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.542,105.829
+Aluminum,125.093,0.326,3074.152,885.28,76.01,12629.514,-49.045,148081.61,31.0,39.368,51.648,10.439,Rectangular,uniform,Moderate,Long,Poor,High,Shark Optimizer,1217.836,105.868
+Aluminum,125.088,0.326,3074.551,883.809,75.997,12596.416,-49.046,148053.64,31.0,39.368,51.647,10.438,Rectangular,point load,Moderate,Short,Good,Medium,Chaotic Quantum Genetic,1217.535,105.858
+Aluminum,125.089,0.326,3075.33,884.069,76.0,12601.427,-49.047,147989.31,31.0,39.369,51.647,10.438,Rectangular,uniform,Moderate,Medium,Poor,Medium,Shark Optimizer,1217.715,105.926
+Titanium,125.088,0.326,3077.126,884.234,76.003,12610.802,-49.046,148083.48,31.0,39.369,51.647,10.438,Cylindrical,distributed,Low,Medium,Excellent,High,Shark Optimizer,1217.646,105.862
+Carbon Fiber,125.09,0.326,3075.803,884.087,76.0,12604.878,-49.047,148052.69,31.0,39.37,51.647,10.438,Rectangular,distributed,Moderate,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.686,105.852
+Titanium,125.088,0.326,3072.745,883.451,76.0,12595.147,-49.045,148075.66,31.0,39.368,51.648,10.438,Tapered,uniform,Moderate,Short,Good,High,Shark Optimizer,1217.626,105.849
+Carbon Fiber,125.088,0.326,3073.459,883.486,75.997,12597.417,-49.047,147984.27,31.0,39.367,51.647,10.437,Cylindrical,distributed,High,Medium,Good,Low,Chaotic Quantum Genetic,1217.527,105.845
+Titanium,125.087,0.326,3072.356,883.356,75.997,12590.956,-49.048,147945.45,31.0,39.367,51.647,10.437,Tapered,uniform,Low,Short,Poor,Low,Shark Optimizer,1217.512,105.831
+Carbon Fiber,125.09,0.326,3083.331,885.228,76.009,12602.35,-49.036,148191.4,31.0,39.368,51.647,10.438,Cylindrical,distributed,High,Medium,Poor,Low,Shark Optimizer,1217.626,105.902
+Titanium,125.169,0.326,3084.107,884.442,76.013,12637.373,-49.038,148213.44,31.0,39.369,51.648,10.444,Rectangular,distributed,Low,Long,Poor,Medium,Chaotic Quantum Genetic,1217.777,105.853
+Carbon Fiber,125.088,0.326,3074.602,883.455,75.998,12594.788,-49.048,147962.38,31.0,39.367,51.647,10.437,Cylindrical,distributed,High,Short,Good,Low,Shark Optimizer,1217.544,105.829
+Aluminum,125.087,0.326,3073.188,883.97,75.999,12599.762,-49.047,147988.23,31.0,39.367,51.647,10.438,Tapered,distributed,High,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.615,105.853
+Aluminum,125.087,0.326,3072.377,883.674,75.997,12589.139,-49.046,147992.19,31.0,39.367,51.647,10.438,Rectangular,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.562,105.871
+Aluminum,125.088,0.326,3072.755,883.739,75.997,12595.555,-49.047,148056.14,31.0,39.368,51.647,10.437,Tapered,uniform,Moderate,Long,Good,High,Chaotic Quantum Genetic,1217.529,105.833
+Aluminum,125.09,0.326,3076.17,886.637,76.005,12613.363,-49.046,148030.47,31.0,39.369,51.647,10.44,Rectangular,point load,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.58,105.868
+Carbon Fiber,125.087,0.326,3073.624,883.391,75.997,12588.736,-49.044,147984.97,31.0,39.367,51.647,10.437,Cylindrical,distributed,Moderate,Long,Poor,Medium,Shark Optimizer,1217.527,105.836
+Titanium,125.088,0.326,3074.099,884.609,75.999,12599.782,-49.047,148004.92,31.0,39.368,51.647,10.438,Rectangular,point load,Moderate,Medium,Poor,Medium,Chaotic Quantum Genetic,1217.551,105.898
+Carbon Fiber,125.087,0.326,3071.88,883.418,75.997,12590.735,-49.048,147954.97,31.0,39.367,51.647,10.437,Cylindrical,point load,High,Medium,Good,Low,Chaotic Quantum Genetic,1217.506,105.827
+Aluminum,125.088,0.326,3072.69,883.648,75.998,12592.728,-49.046,147987.03,31.0,39.368,51.647,10.438,Tapered,uniform,Moderate,Short,Poor,High,Shark Optimizer,1217.551,105.851
+Carbon Fiber,125.187,0.326,3077.181,883.678,76.0,12602.553,-49.045,148022.72,31.0,39.368,51.647,10.439,Cylindrical,point load,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.578,105.844
+Titanium,125.088,0.326,3072.043,883.773,75.997,12593.671,-49.046,147969.9,31.0,39.368,51.647,10.437,Cylindrical,point load,High,Short,Excellent,High,Chaotic Quantum Genetic,1217.528,105.846
+Aluminum,125.087,0.326,3073.847,883.592,75.998,12594.298,-49.046,147970.88,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Long,Poor,Low,Shark Optimizer,1217.553,105.836
+Carbon Fiber,125.087,0.326,3074.169,883.532,75.997,12593.988,-49.047,147995.52,31.0,39.368,51.647,10.438,Rectangular,point load,Moderate,Short,Excellent,Medium,Chaotic Quantum Genetic,1217.57,105.891
+Carbon Fiber,125.087,0.326,3072.229,883.423,75.997,12592.496,-49.047,147954.31,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Short,Poor,Medium,Shark Optimizer,1217.564,105.831
+Carbon Fiber,125.088,0.326,3072.299,883.414,75.997,12600.507,-49.047,147972.56,31.0,39.368,51.647,10.437,Rectangular,uniform,Moderate,Short,Excellent,Low,Chaotic Quantum Genetic,1217.64,105.881
+Titanium,125.092,0.326,3085.404,884.42,76.002,12599.945,-49.044,148112.14,31.0,39.371,51.65,10.439,Cylindrical,uniform,Low,Short,Poor,Low,Shark Optimizer,1217.587,105.909
+Carbon Fiber,125.086,0.326,3072.038,883.307,75.997,12589.254,-49.048,147946.28,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Short,Good,High,Shark Optimizer,1217.506,105.825
+Carbon Fiber,125.087,0.326,3073.287,883.698,75.998,12602.146,-49.046,148038.5,31.0,39.369,51.647,10.438,Rectangular,uniform,Low,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.606,105.859
+Carbon Fiber,125.088,0.326,3072.318,883.479,76.001,12590.262,-49.047,148027.05,31.0,39.368,51.647,10.438,Rectangular,uniform,High,Long,Poor,High,Shark Optimizer,1217.56,105.83
+Titanium,125.087,0.326,3072.067,883.821,75.998,12593.62,-49.047,147997.72,31.0,39.368,51.647,10.438,Tapered,point load,Moderate,Short,Good,Medium,Chaotic Quantum Genetic,1217.559,105.838
+Aluminum,125.087,0.326,3073.838,883.544,76.0,12593.754,-49.047,147994.61,31.0,39.367,51.647,10.438,Tapered,distributed,High,Long,Good,Medium,Chaotic Quantum Genetic,1217.574,105.83
+Carbon Fiber,125.088,0.326,3074.803,883.622,76.002,12598.779,-49.043,148114.38,31.0,39.37,51.647,10.438,Cylindrical,distributed,High,Medium,Poor,Low,Shark Optimizer,1217.732,105.911
+Carbon Fiber,125.087,0.326,3072.662,883.481,75.998,12591.396,-49.047,147979.3,31.0,39.367,51.647,10.437,Tapered,distributed,High,Medium,Poor,High,Shark Optimizer,1217.574,105.83
+Aluminum,125.088,0.326,3075.027,883.783,75.999,12602.18,-49.043,148027.02,31.0,39.368,51.647,10.439,Rectangular,uniform,Moderate,Medium,Good,Medium,Shark Optimizer,1217.574,105.968
+Carbon Fiber,125.087,0.326,3072.338,883.774,75.997,12587.826,-49.047,147988.11,31.0,39.367,51.647,10.437,Tapered,distributed,Low,Long,Poor,Medium,Chaotic Quantum Genetic,1217.508,105.827
+Aluminum,125.088,0.326,3076.206,883.776,76.0,12589.856,-49.047,147955.75,31.0,39.367,51.647,10.438,Rectangular,distributed,Moderate,Medium,Excellent,High,Shark Optimizer,1217.581,105.838
+Titanium,125.091,0.326,3075.232,884.352,76.016,12627.419,-49.044,148186.77,31.0,39.37,51.647,10.439,Tapered,point load,Low,Medium,Excellent,High,Shark Optimizer,1217.732,105.877
+Aluminum,125.088,0.326,3074.376,884.372,76.0,12613.177,-49.032,147997.1,31.0,39.368,51.647,10.44,Tapered,uniform,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.57,105.845
+Carbon Fiber,125.087,0.326,3071.962,883.446,75.998,12593.108,-49.047,148000.69,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Medium,Excellent,Medium,Shark Optimizer,1217.545,105.846
+Carbon Fiber,125.089,0.326,3075.409,884.124,76.011,12599.006,-49.046,147966.92,31.0,39.368,51.647,10.438,Rectangular,distributed,Low,Short,Poor,Low,Chaotic Quantum Genetic,1217.556,105.848
+Aluminum,125.088,0.326,3074.792,883.548,75.998,12596.056,-49.046,148003.66,31.0,39.368,51.647,10.437,Cylindrical,point load,Low,Short,Poor,High,Shark Optimizer,1217.6,105.829
+Carbon Fiber,125.087,0.326,3078.477,883.498,75.997,12613.634,-49.039,148096.34,31.0,39.368,51.647,10.438,Cylindrical,uniform,High,Medium,Good,Medium,Shark Optimizer,1217.784,105.852
+Titanium,125.089,0.326,3073.568,884.298,75.998,12617.692,-49.045,148025.25,31.0,39.368,51.648,10.44,Cylindrical,uniform,Moderate,Medium,Good,Low,Chaotic Quantum Genetic,1217.628,105.848
+Carbon Fiber,125.088,0.326,3073.26,883.986,75.998,12592.354,-49.043,148043.52,31.0,39.368,51.647,10.438,Rectangular,point load,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.579,105.868
+Carbon Fiber,125.087,0.326,3072.616,883.786,75.997,12590.741,-49.048,147981.14,31.0,39.368,51.647,10.437,Rectangular,distributed,Low,Long,Excellent,High,Chaotic Quantum Genetic,1217.54,105.829
+Carbon Fiber,125.089,0.326,3082.41,883.954,76.008,12621.242,-49.044,148073.8,31.0,39.404,51.647,10.441,Tapered,distributed,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.661,105.974
+Carbon Fiber,125.087,0.326,3074.242,883.704,75.998,12590.781,-49.047,147970.89,31.0,39.368,51.647,10.437,Cylindrical,distributed,High,Long,Poor,High,Shark Optimizer,1217.587,105.832
+Titanium,125.087,0.326,3073.22,883.975,75.997,12589.457,-49.048,148042.48,31.0,39.368,51.647,10.437,Tapered,distributed,Moderate,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.536,105.828
+Titanium,125.09,0.326,3074.238,883.55,75.999,12598.744,-49.046,148015.22,31.0,39.368,51.647,10.438,Rectangular,distributed,Moderate,Long,Good,Medium,Chaotic Quantum Genetic,1217.7,105.834
+Titanium,125.089,0.326,3081.093,883.807,76.001,12600.728,-49.047,148112.28,31.0,39.368,51.647,10.437,Rectangular,point load,Low,Short,Poor,Medium,Shark Optimizer,1217.743,105.929
+Aluminum,125.089,0.326,3073.381,884.84,76.0,12602.656,-49.046,147970.73,31.0,39.368,51.647,10.44,Cylindrical,uniform,Low,Medium,Good,Medium,Shark Optimizer,1217.573,105.849
+Carbon Fiber,125.087,0.326,3073.172,883.442,75.999,12596.358,-49.047,147959.6,31.0,39.368,51.647,10.437,Rectangular,distributed,Low,Short,Poor,Low,Chaotic Quantum Genetic,1217.566,105.839
+Aluminum,125.087,0.326,3072.846,883.592,75.999,12609.782,-49.047,147962.34,31.0,39.367,51.647,10.437,Tapered,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1217.544,105.841
+Carbon Fiber,125.087,0.326,3072.856,883.588,75.999,12595.334,-49.047,147956.81,31.0,39.367,51.647,10.437,Rectangular,point load,Low,Short,Excellent,Medium,Chaotic Quantum Genetic,1217.566,105.851
+Titanium,125.087,0.326,3075.29,883.463,75.999,12597.844,-49.045,148096.89,31.0,39.369,51.647,10.437,Tapered,point load,High,Long,Good,Medium,Chaotic Quantum Genetic,1217.556,105.869
+Titanium,125.087,0.326,3071.994,883.539,75.998,12595.854,-49.047,147999.69,31.0,39.368,51.647,10.437,Tapered,point load,Low,Medium,Excellent,High,Chaotic Quantum Genetic,1217.565,105.855
+Titanium,125.087,0.326,3071.705,883.387,75.998,12589.121,-49.047,147994.5,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Long,Poor,Low,Shark Optimizer,1217.521,105.825
+Carbon Fiber,125.087,0.326,3073.7,883.998,76.0,12604.727,-49.047,148033.11,31.0,39.368,51.647,10.438,Cylindrical,point load,Low,Long,Excellent,Medium,Shark Optimizer,1217.59,105.844
+Carbon Fiber,125.088,0.326,3076.602,883.808,76.002,12597.875,-49.043,148043.39,31.0,39.368,51.647,10.439,Cylindrical,point load,Low,Medium,Good,Medium,Shark Optimizer,1217.639,105.97
+Titanium,125.088,0.326,3072.733,883.476,75.998,12597.774,-49.048,147949.23,31.0,39.368,51.647,10.437,Cylindrical,distributed,Low,Short,Poor,Low,Chaotic Quantum Genetic,1217.523,105.836
+Aluminum,125.087,0.326,3074.207,883.631,76.0,12605.518,-49.046,148058.34,31.0,39.367,51.647,10.437,Tapered,uniform,High,Medium,Excellent,High,Chaotic Quantum Genetic,1217.556,105.842
+Carbon Fiber,125.089,0.326,3075.365,883.529,75.998,12594.1,-49.047,147995.72,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Medium,Good,Low,Shark Optimizer,1217.526,105.842
+Aluminum,125.087,0.326,3073.562,883.708,75.999,12592.772,-49.046,148079.8,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Long,Excellent,Medium,Shark Optimizer,1217.531,105.845
+Carbon Fiber,125.089,0.326,3072.914,883.958,75.998,12603.754,-49.047,148043.98,31.0,39.369,51.648,10.438,Rectangular,point load,Moderate,Short,Excellent,Low,Chaotic Quantum Genetic,1217.561,105.853
+Carbon Fiber,125.088,0.326,3081.77,884.73,75.999,12605.231,-49.044,148040.08,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Long,Poor,Low,Shark Optimizer,1217.878,105.927
+Titanium,125.089,0.326,3072.701,883.574,75.997,12604.708,-49.044,148095.88,31.0,39.369,51.648,10.439,Rectangular,point load,Moderate,Short,Good,High,Chaotic Quantum Genetic,1217.672,105.835
+Aluminum,125.087,0.326,3071.826,883.527,75.998,12591.765,-49.047,147959.06,31.0,39.367,51.647,10.437,Tapered,distributed,High,Long,Good,Medium,Chaotic Quantum Genetic,1217.556,105.825
+Carbon Fiber,125.087,0.326,3072.606,883.447,75.999,12588.627,-49.047,147953.64,31.0,39.367,51.647,10.437,Cylindrical,uniform,High,Long,Poor,Medium,Shark Optimizer,1217.598,105.827
+Carbon Fiber,125.087,0.326,3072.03,883.512,75.997,12588.447,-49.048,147947.95,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Long,Excellent,High,Chaotic Quantum Genetic,1217.51,105.825
+Carbon Fiber,125.087,0.326,3073.283,883.831,75.998,12594.355,-49.047,147974.56,31.0,39.368,51.647,10.438,Tapered,distributed,Low,Medium,Excellent,High,Chaotic Quantum Genetic,1217.58,105.827
+Titanium,125.088,0.326,3072.774,884.055,76.0,12607.252,-49.047,148067.5,31.0,39.368,51.647,10.438,Rectangular,point load,Moderate,Medium,Good,High,Shark Optimizer,1217.554,105.86
+Carbon Fiber,125.089,0.326,3078.29,883.764,76.001,12650.812,-49.044,147986.05,31.0,39.369,51.648,10.438,Cylindrical,point load,Moderate,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.65,105.894
+Carbon Fiber,125.087,0.326,3073.253,883.338,75.997,12587.541,-49.047,147957.17,31.0,39.367,51.647,10.437,Rectangular,distributed,Moderate,Short,Good,Medium,Chaotic Quantum Genetic,1217.505,105.847
+Titanium,125.088,0.326,3075.664,884.166,76.001,12598.812,-49.046,148056.03,31.0,39.368,51.647,10.44,Rectangular,distributed,Moderate,Long,Excellent,Low,Chaotic Quantum Genetic,1217.585,105.839
+Carbon Fiber,125.087,0.326,3074.785,883.692,75.998,12597.765,-49.048,147947.47,31.0,39.367,51.647,10.437,Rectangular,point load,Low,Short,Good,Low,Shark Optimizer,1217.508,105.836
+Titanium,125.087,0.326,3071.836,883.481,75.997,12591.729,-49.047,147953.97,31.0,39.367,51.647,10.437,Tapered,distributed,High,Medium,Poor,Medium,Chaotic Quantum Genetic,1217.532,105.826
+Titanium,125.087,0.326,3073.68,883.743,75.998,12606.461,-49.046,147983.84,31.0,39.367,51.647,10.437,Rectangular,point load,Low,Long,Excellent,Low,Chaotic Quantum Genetic,1217.622,105.832
+Carbon Fiber,125.087,0.326,3073.462,883.56,75.997,12588.442,-49.047,147956.86,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Long,Poor,Low,Shark Optimizer,1217.547,105.829
+Aluminum,125.087,0.326,3072.692,883.606,75.999,12601.324,-49.044,147985.55,31.0,39.367,51.647,10.438,Rectangular,distributed,Low,Long,Poor,Medium,Chaotic Quantum Genetic,1217.636,105.839
+Carbon Fiber,125.088,0.326,3074.854,885.124,75.998,12599.945,-49.046,148054.31,31.0,39.369,51.647,10.439,Cylindrical,uniform,Low,Medium,Good,Medium,Shark Optimizer,1217.585,105.841
+Titanium,125.089,0.326,3077.062,883.715,75.998,12597.908,-49.047,147957.97,31.0,39.368,51.647,10.437,Cylindrical,distributed,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.535,105.834
+Carbon Fiber,125.09,0.326,3081.206,884.453,76.002,12632.876,-49.045,148015.92,31.0,39.371,51.652,10.439,Rectangular,uniform,Moderate,Short,Good,Low,Chaotic Quantum Genetic,1217.76,105.836
+Titanium,125.088,0.326,3075.743,883.9,76.0,12604.268,-49.045,148138.62,31.0,39.369,51.647,10.439,Rectangular,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1217.666,105.853
+Titanium,125.089,0.326,3072.908,883.586,75.999,12596.506,-49.047,147962.12,31.0,39.368,51.647,10.438,Tapered,distributed,Low,Short,Good,Low,Shark Optimizer,1217.566,105.874
+Titanium,125.087,0.326,3071.771,883.325,75.998,12587.134,-49.047,147986.67,31.0,39.367,51.647,10.437,Tapered,uniform,Moderate,Short,Poor,High,Shark Optimizer,1217.514,105.83
+Aluminum,125.087,0.326,3071.846,883.377,75.998,12588.422,-49.047,147954.45,31.0,39.367,51.647,10.437,Rectangular,point load,Moderate,Short,Excellent,High,Chaotic Quantum Genetic,1217.514,105.849
+Titanium,125.087,0.326,3078.379,883.457,75.997,12625.617,-49.046,148017.33,31.0,39.368,51.647,10.438,Cylindrical,uniform,Low,Short,Excellent,Low,Chaotic Quantum Genetic,1217.594,105.858
+Titanium,125.087,0.326,3074.092,883.512,75.998,12593.979,-49.046,148618.86,31.0,39.367,51.647,10.438,Tapered,point load,High,Long,Poor,Medium,Shark Optimizer,1217.549,105.832
+Carbon Fiber,125.088,0.326,3080.641,884.01,76.0,12595.592,-49.047,148046.75,31.0,39.372,51.648,10.439,Cylindrical,uniform,Low,Long,Excellent,High,Shark Optimizer,1217.613,105.877
+Carbon Fiber,125.088,0.326,3075.214,883.607,75.999,12591.703,-49.045,147988.55,31.0,39.368,51.647,10.438,Cylindrical,point load,Moderate,Long,Excellent,High,Chaotic Quantum Genetic,1217.676,105.848
+Aluminum,125.087,0.326,3072.24,883.811,75.999,12592.168,-49.046,147966.05,31.0,39.367,51.647,10.438,Cylindrical,distributed,Moderate,Medium,Good,High,Shark Optimizer,1217.546,105.837
+Carbon Fiber,125.087,0.326,3072.79,883.531,76.001,12611.743,-49.047,147975.89,31.0,39.368,51.648,10.438,Rectangular,distributed,Low,Short,Poor,High,Chaotic Quantum Genetic,1217.611,105.829
+Carbon Fiber,125.088,0.326,3076.0,883.98,75.998,12607.171,-49.046,148033.7,31.0,39.367,51.647,10.437,Cylindrical,uniform,High,Medium,Good,Medium,Shark Optimizer,1217.612,105.827
+Carbon Fiber,125.09,0.326,3080.343,886.981,76.001,12626.543,-49.042,148264.6,31.0,39.37,51.648,10.442,Cylindrical,uniform,Low,Short,Good,Low,Shark Optimizer,1217.74,105.919
+Aluminum,125.089,0.326,3082.18,883.967,76.0,12651.203,-49.042,148244.64,31.0,39.368,51.647,10.44,Tapered,uniform,High,Medium,Poor,Medium,Shark Optimizer,1217.621,105.847
+Carbon Fiber,125.089,0.326,3074.114,883.591,76.001,12604.031,-49.045,148018.92,31.0,39.368,51.647,10.438,Cylindrical,point load,Low,Medium,Good,Low,Shark Optimizer,1217.58,105.864
+Carbon Fiber,125.087,0.326,3076.288,884.347,75.998,12597.08,-49.047,148029.14,31.0,39.367,51.647,10.437,Rectangular,point load,Low,Long,Good,Low,Chaotic Quantum Genetic,1217.548,105.835
+Carbon Fiber,125.09,0.326,3074.061,885.72,76.0,12601.369,-49.046,148176.45,31.0,39.368,51.647,10.438,Rectangular,uniform,Low,Medium,Good,Low,Chaotic Quantum Genetic,1217.746,105.84
+Aluminum,125.089,0.326,3074.573,884.354,76.003,12628.996,-49.046,148173.84,31.0,39.369,51.647,10.439,Cylindrical,uniform,Low,Medium,Poor,Medium,Shark Optimizer,1217.69,105.865
+Titanium,125.087,0.326,3072.349,883.926,75.997,12593.133,-49.047,148027.7,31.0,39.368,51.647,10.438,Rectangular,point load,Moderate,Short,Good,Medium,Chaotic Quantum Genetic,1217.535,105.833
+Carbon Fiber,125.087,0.326,3072.648,883.521,76.0,12590.103,-49.046,148034.53,31.0,39.368,51.647,10.438,Rectangular,distributed,Low,Long,Poor,High,Chaotic Quantum Genetic,1217.59,105.836
+Carbon Fiber,125.089,0.326,3074.641,883.74,76.0,12592.538,-49.044,147971.34,31.0,39.369,51.647,10.438,Cylindrical,point load,Low,Medium,Poor,Low,Shark Optimizer,1217.698,105.874
+Titanium,125.087,0.326,3071.806,883.385,75.998,12587.587,-49.048,147955.45,31.0,39.367,51.647,10.437,Cylindrical,point load,Moderate,Medium,Good,Medium,Shark Optimizer,1217.516,105.843
+Carbon Fiber,125.088,0.326,3077.816,884.455,76.002,12637.104,-49.045,148080.8,31.0,39.368,51.647,10.439,Cylindrical,distributed,High,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.584,105.864
+Aluminum,125.088,0.326,3072.223,884.018,76.0,12609.536,-49.044,148082.23,31.0,39.369,51.647,10.438,Tapered,uniform,Moderate,Medium,Good,High,Shark Optimizer,1217.623,105.839
+Aluminum,125.088,0.326,3071.782,883.461,75.997,12600.737,-49.047,147968.45,31.0,39.368,51.647,10.438,Rectangular,uniform,Moderate,Long,Excellent,Low,Shark Optimizer,1217.602,105.828
+Carbon Fiber,125.087,0.326,3072.742,883.547,75.998,12594.183,-49.046,148202.61,31.0,39.368,51.647,10.438,Rectangular,distributed,Low,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.53,105.839
+Carbon Fiber,125.088,0.326,3076.932,884.188,75.998,12591.209,-49.046,147979.36,31.0,39.368,51.647,10.439,Cylindrical,uniform,High,Short,Good,High,Shark Optimizer,1217.776,105.841
+Carbon Fiber,125.088,0.326,3072.846,883.9,75.997,12594.608,-49.048,147966.58,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Medium,Good,Low,Chaotic Quantum Genetic,1217.52,105.831
+Aluminum,125.09,0.326,3078.752,885.732,76.034,12604.753,-49.045,148116.34,31.0,39.37,51.647,10.44,Cylindrical,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1218.132,105.906
+Carbon Fiber,125.087,0.326,3075.679,885.162,76.001,12611.377,-49.046,148006.08,31.0,39.368,51.647,10.439,Cylindrical,point load,High,Medium,Good,Low,Shark Optimizer,1217.613,105.878
+Titanium,125.088,0.326,3073.562,883.39,76.0,12590.054,-49.047,148049.11,31.0,39.367,51.647,10.438,Tapered,uniform,Moderate,Medium,Poor,High,Shark Optimizer,1217.587,105.854
+Titanium,125.092,0.326,3081.701,884.05,76.003,12640.077,-49.045,148141.47,31.0,39.368,51.648,10.441,Rectangular,distributed,Low,Long,Poor,Medium,Shark Optimizer,1217.702,105.888
+Carbon Fiber,125.089,0.326,3072.071,883.449,75.998,12590.972,-49.046,147969.62,31.0,39.368,51.647,10.438,Cylindrical,distributed,Moderate,Medium,Excellent,High,Chaotic Quantum Genetic,1217.525,105.829
+Carbon Fiber,125.088,0.326,3073.452,883.603,75.998,12615.463,-49.046,148008.86,31.0,39.368,51.648,10.439,Cylindrical,uniform,Moderate,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.557,105.857
+Carbon Fiber,125.088,0.326,3073.818,883.629,75.998,12596.078,-49.046,148017.78,31.0,39.368,51.647,10.437,Tapered,distributed,High,Medium,Poor,High,Chaotic Quantum Genetic,1217.593,105.843
+Titanium,125.09,0.326,3078.465,886.989,76.001,12620.504,-49.044,148196.92,31.0,39.368,51.648,10.442,Rectangular,point load,Moderate,Medium,Good,Low,Shark Optimizer,1217.67,105.894
+Titanium,125.088,0.326,3074.607,883.62,76.003,12619.1,-49.047,148213.75,31.0,39.368,51.647,10.439,Rectangular,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1217.698,105.864
+Carbon Fiber,125.088,0.326,3078.437,883.746,76.001,12601.277,-49.046,148053.58,31.0,39.37,51.647,10.44,Tapered,distributed,Low,Medium,Poor,Medium,Shark Optimizer,1217.894,105.9
+Aluminum,125.087,0.326,3073.915,883.817,75.997,12626.481,-49.048,147956.97,31.0,39.368,51.647,10.438,Tapered,uniform,Low,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.534,105.841
+Aluminum,125.114,0.326,3073.547,884.693,75.999,12620.512,-49.045,148054.89,31.0,39.368,51.647,10.44,Rectangular,uniform,Low,Medium,Excellent,Medium,Shark Optimizer,1217.774,105.838
+Aluminum,125.087,0.326,3071.649,883.541,75.997,12588.013,-49.047,147949.94,31.0,39.367,51.647,10.437,Tapered,uniform,Moderate,Long,Good,High,Chaotic Quantum Genetic,1217.508,105.834
+Carbon Fiber,125.087,0.326,3074.558,883.746,76.004,12589.75,-49.047,147967.39,31.0,39.368,51.647,10.438,Cylindrical,point load,High,Long,Excellent,Medium,Shark Optimizer,1217.667,105.831
+Titanium,125.089,0.326,3075.875,884.26,75.999,12603.368,-49.045,148053.84,31.0,39.368,51.647,10.439,Cylindrical,point load,Low,Short,Excellent,Medium,Shark Optimizer,1217.624,105.867
+Carbon Fiber,125.088,0.326,3075.762,884.053,75.999,12616.191,-49.047,148015.53,31.0,39.369,51.647,10.439,Cylindrical,point load,Low,Medium,Excellent,Medium,Chaotic Quantum Genetic,1217.63,105.865
+Titanium,125.088,0.326,3074.081,883.638,76.003,12594.074,-49.046,148171.64,31.0,39.368,51.647,10.439,Rectangular,point load,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.554,105.86
+Carbon Fiber,125.087,0.326,3071.916,883.683,75.997,12602.941,-49.048,147969.81,31.0,39.367,51.647,10.437,Cylindrical,uniform,Low,Short,Excellent,Medium,Shark Optimizer,1217.665,105.834
+Carbon Fiber,125.086,0.326,3071.719,883.334,75.997,12587.737,-49.048,147948.81,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.51,105.826
+Titanium,125.088,0.326,3077.003,883.601,76.001,12599.504,-49.042,148199.94,31.0,39.37,51.648,10.44,Cylindrical,point load,Moderate,Long,Excellent,High,Shark Optimizer,1217.776,105.922
+Carbon Fiber,125.087,0.326,3074.556,885.321,76.001,12596.199,-49.047,147981.17,31.0,39.368,51.647,10.44,Cylindrical,distributed,Low,Long,Excellent,High,Shark Optimizer,1217.59,105.847
+Aluminum,125.088,0.326,3076.686,883.99,76.002,12611.395,-49.046,148071.75,31.0,39.368,51.647,10.439,Tapered,uniform,High,Medium,Good,Low,Shark Optimizer,1217.666,105.838
+Carbon Fiber,125.087,0.326,3072.942,883.609,75.998,12590.513,-49.047,147954.72,31.0,39.368,51.647,10.437,Cylindrical,distributed,High,Medium,Excellent,Medium,Shark Optimizer,1217.516,105.838
+Titanium,125.087,0.326,3073.017,883.939,76.0,12604.932,-49.045,147976.44,31.0,39.368,51.647,10.438,Cylindrical,point load,High,Short,Good,Medium,Chaotic Quantum Genetic,1217.763,105.853
+Aluminum,125.091,0.326,3074.002,884.473,76.004,12627.015,-49.046,148193.06,31.0,39.369,51.647,10.439,Cylindrical,distributed,Moderate,Medium,Excellent,Medium,Shark Optimizer,1217.676,105.917
+Carbon Fiber,125.087,0.326,3073.401,883.821,76.0,12592.237,-49.046,148002.75,31.0,39.368,51.647,10.437,Tapered,distributed,Low,Medium,Good,Medium,Chaotic Quantum Genetic,1217.551,105.848
+Titanium,125.089,0.326,3076.195,883.739,75.999,12601.937,-49.041,148211.55,31.0,39.369,51.648,10.439,Cylindrical,distributed,Moderate,Medium,Good,High,Shark Optimizer,1218.341,105.887
+Carbon Fiber,125.088,0.326,3072.654,883.522,75.998,12590.689,-49.046,148130.34,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Short,Poor,Medium,Shark Optimizer,1217.548,105.841
+Aluminum,125.092,0.326,3093.664,883.98,76.021,12606.187,-49.035,148203.14,31.0,39.37,51.648,10.439,Tapered,uniform,Low,Medium,Poor,Medium,Shark Optimizer,1217.763,105.884
+Aluminum,125.089,0.326,3077.404,885.196,76.006,12664.37,-49.041,148237.83,31.0,39.369,51.647,10.441,Tapered,uniform,Low,Medium,Poor,High,Shark Optimizer,1217.91,105.877
+Carbon Fiber,125.087,0.326,3075.929,883.587,76.002,12596.93,-49.047,147964.89,31.0,39.368,51.647,10.437,Cylindrical,point load,Low,Medium,Poor,Low,Chaotic Quantum Genetic,1217.653,105.85
+Aluminum,125.088,0.326,3074.104,884.805,75.998,12625.158,-49.044,148030.08,31.0,39.368,51.647,10.438,Tapered,point load,Moderate,Long,Excellent,High,Chaotic Quantum Genetic,1217.614,105.852
+Carbon Fiber,125.088,0.326,3073.204,883.891,75.999,12595.696,-49.047,147977.39,31.0,39.368,51.647,10.438,Cylindrical,uniform,Low,Short,Good,Low,Shark Optimizer,1217.565,105.845
+Titanium,125.087,0.326,3072.063,883.573,75.998,12590.446,-49.047,148130.52,31.0,39.367,51.647,10.437,Cylindrical,point load,High,Short,Good,High,Chaotic Quantum Genetic,1217.604,105.828
+Aluminum,125.09,0.326,3078.9,884.106,75.998,12607.946,-49.047,148028.75,31.0,39.368,51.647,10.439,Cylindrical,uniform,Low,Long,Poor,High,Shark Optimizer,1218.126,105.836
+Carbon Fiber,125.087,0.326,3072.573,883.474,75.997,12593.338,-49.047,148005.5,31.0,39.367,51.647,10.437,Rectangular,distributed,Low,Long,Excellent,Medium,Shark Optimizer,1217.536,105.836
+Titanium,125.09,0.326,3076.714,883.905,76.001,12592.673,-49.044,148080.84,31.0,39.368,51.648,10.439,Rectangular,distributed,Moderate,Medium,Poor,High,Shark Optimizer,1217.946,105.867
+Titanium,125.087,0.326,3072.15,883.378,75.998,12589.684,-49.048,148003.66,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Medium,Excellent,High,Shark Optimizer,1217.528,105.829
+Titanium,125.087,0.326,3071.621,883.342,75.997,12592.066,-49.048,147951.08,31.0,39.367,51.647,10.437,Rectangular,point load,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.55,105.828
+Titanium,125.09,0.326,3072.928,883.966,76.003,12615.87,-49.047,148048.72,31.0,39.368,51.647,10.439,Rectangular,distributed,Low,Short,Poor,Medium,Shark Optimizer,1217.573,105.873
+Titanium,125.087,0.326,3072.068,883.446,75.997,12595.846,-49.048,147945.69,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Short,Poor,Low,Chaotic Quantum Genetic,1217.507,105.826
+Aluminum,125.087,0.326,3076.601,883.858,75.998,12600.052,-49.043,148007.8,31.0,39.368,51.647,10.439,Rectangular,uniform,Moderate,Medium,Good,Medium,Shark Optimizer,1217.532,105.84
+Aluminum,125.087,0.326,3072.272,883.36,75.997,12594.234,-49.046,147992.58,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.533,105.841
+Carbon Fiber,125.087,0.326,3074.165,884.769,75.999,12596.904,-49.045,148019.1,31.0,39.367,51.647,10.441,Cylindrical,uniform,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.714,105.836
+Titanium,125.088,0.326,3076.369,884.086,75.999,12614.675,-49.046,148277.14,31.0,39.368,51.647,10.439,Tapered,uniform,High,Medium,Poor,High,Shark Optimizer,1217.668,105.869
+Titanium,125.088,0.326,3072.528,884.242,75.998,12593.616,-49.047,147979.81,31.0,39.367,51.647,10.439,Rectangular,point load,Moderate,Medium,Good,Low,Chaotic Quantum Genetic,1217.526,105.837
+Aluminum,125.088,0.326,3084.361,884.268,76.007,12602.111,-49.041,148191.83,31.0,39.401,51.648,10.442,Rectangular,distributed,Low,Medium,Poor,Medium,Shark Optimizer,1218.087,105.958
+Carbon Fiber,125.088,0.326,3080.57,884.393,76.0,12595.454,-49.044,148004.81,31.0,39.368,51.647,10.438,Rectangular,point load,High,Medium,Good,Medium,Chaotic Quantum Genetic,1217.651,105.938
+Aluminum,125.088,0.326,3073.066,883.587,75.998,12623.384,-49.047,148072.08,31.0,39.368,51.647,10.437,Cylindrical,distributed,Low,Short,Good,Medium,Chaotic Quantum Genetic,1217.557,105.848
+Aluminum,125.088,0.326,3072.176,884.554,75.997,12606.654,-49.046,147969.27,31.0,39.368,51.647,10.439,Cylindrical,uniform,Low,Long,Good,Medium,Chaotic Quantum Genetic,1217.665,105.883
+Aluminum,125.087,0.326,3071.94,883.741,75.998,12597.006,-49.047,147960.55,31.0,39.367,51.647,10.438,Tapered,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1217.526,105.83
+Carbon Fiber,125.09,0.326,3072.3,883.501,75.998,12588.047,-49.046,147986.75,31.0,39.367,51.647,10.437,Cylindrical,point load,Moderate,Medium,Poor,Low,Chaotic Quantum Genetic,1217.582,105.832
+Aluminum,125.087,0.326,3071.948,883.537,75.997,12589.729,-49.047,147958.44,31.0,39.367,51.647,10.437,Cylindrical,distributed,Moderate,Long,Good,Medium,Shark Optimizer,1217.593,105.836
+Carbon Fiber,125.088,0.326,3074.299,883.472,75.998,12596.891,-49.047,148000.25,31.0,39.368,51.647,10.439,Rectangular,uniform,Moderate,Long,Good,Medium,Chaotic Quantum Genetic,1217.61,105.842
+Titanium,125.089,0.326,3072.389,883.851,75.998,12593.875,-49.047,147990.75,31.0,39.368,51.647,10.438,Cylindrical,point load,Low,Short,Poor,High,Chaotic Quantum Genetic,1217.628,105.852
+Aluminum,125.087,0.326,3074.09,884.056,75.999,12605.096,-49.047,147964.8,31.0,39.368,51.647,10.438,Tapered,point load,High,Long,Good,High,Chaotic Quantum Genetic,1217.631,105.838
+Aluminum,125.088,0.326,3076.04,883.991,76.001,12604.179,-49.046,148180.3,31.0,39.368,51.648,10.442,Cylindrical,uniform,Low,Medium,Good,High,Shark Optimizer,1217.682,105.837
+Aluminum,125.088,0.326,3073.822,883.431,75.997,12595.556,-49.048,147968.64,31.0,39.367,51.647,10.438,Cylindrical,point load,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.572,105.826
+Aluminum,125.088,0.326,3078.908,883.942,76.003,12642.042,-49.044,148015.02,31.0,39.368,51.647,10.44,Tapered,uniform,High,Long,Good,Medium,Shark Optimizer,1217.708,105.849
+Aluminum,125.087,0.326,3071.898,883.524,75.997,12588.415,-49.048,147967.88,31.0,39.367,51.647,10.438,Tapered,uniform,Moderate,Long,Poor,High,Shark Optimizer,1217.528,105.826
+Aluminum,125.088,0.326,3074.058,883.615,76.0,12592.273,-49.045,148134.12,31.0,39.368,51.647,10.44,Rectangular,distributed,Moderate,Medium,Good,Medium,Shark Optimizer,1217.654,105.884
+Carbon Fiber,125.087,0.326,3081.519,883.657,75.998,12598.187,-49.045,147977.5,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Medium,Poor,Low,Shark Optimizer,1217.621,105.839
+Titanium,125.089,0.326,3074.977,884.06,75.999,12598.72,-49.047,147968.9,31.0,39.367,51.647,10.438,Tapered,uniform,High,Medium,Poor,Low,Chaotic Quantum Genetic,1217.584,105.832
+Titanium,125.087,0.326,3074.27,883.571,76.0,12588.91,-49.047,148001.6,31.0,39.368,51.647,10.438,Tapered,point load,Moderate,Medium,Good,High,Shark Optimizer,1217.54,105.843
+Carbon Fiber,125.087,0.326,3084.652,884.489,76.002,12601.911,-49.044,148056.36,31.0,39.369,51.647,10.439,Tapered,distributed,Low,Long,Excellent,Low,Shark Optimizer,1217.937,105.897
+Carbon Fiber,125.09,0.326,3078.846,883.894,76.002,12638.455,-49.041,148055.34,31.0,39.371,51.668,10.442,Cylindrical,point load,Moderate,Short,Poor,Low,Chaotic Quantum Genetic,1217.756,105.892
+Carbon Fiber,125.087,0.326,3072.371,883.93,75.998,12593.296,-49.046,148041.39,31.0,39.368,51.647,10.438,Tapered,distributed,Low,Medium,Poor,Low,Chaotic Quantum Genetic,1217.557,105.831
+Carbon Fiber,125.087,0.326,3072.475,883.398,75.998,12601.729,-49.047,147980.39,31.0,39.368,51.647,10.437,Cylindrical,uniform,High,Medium,Good,Medium,Shark Optimizer,1217.533,105.83
+Carbon Fiber,125.089,0.326,3072.237,883.645,76.0,12592.393,-49.047,147984.9,31.0,39.369,51.647,10.437,Rectangular,distributed,Low,Short,Good,Low,Shark Optimizer,1217.565,105.831
+Carbon Fiber,125.087,0.326,3073.03,883.803,76.005,12603.998,-49.041,148007.42,31.0,39.367,51.647,10.438,Rectangular,distributed,Low,Long,Excellent,Medium,Shark Optimizer,1217.593,105.845
+Carbon Fiber,125.088,0.326,3075.475,884.067,75.998,12600.069,-49.047,148041.38,31.0,39.367,51.647,10.437,Rectangular,uniform,High,Medium,Excellent,Medium,Shark Optimizer,1217.554,105.83
+Titanium,125.09,0.326,3074.76,884.281,76.006,12610.045,-49.045,148049.52,31.0,39.368,51.647,10.44,Cylindrical,point load,Moderate,Short,Excellent,Medium,Chaotic Quantum Genetic,1217.57,105.879
+Titanium,125.087,0.326,3072.747,883.303,75.997,12590.863,-49.048,147947.08,31.0,39.367,51.647,10.437,Cylindrical,point load,Low,Short,Poor,Low,Chaotic Quantum Genetic,1217.506,105.827
+Aluminum,125.09,0.326,3075.741,884.281,76.001,12600.509,-49.043,148071.9,31.0,39.369,51.647,10.439,Tapered,uniform,Moderate,Short,Good,High,Shark Optimizer,1217.661,105.843
+Titanium,125.087,0.326,3081.977,883.45,75.999,12596.099,-49.042,148199.97,31.0,39.368,51.647,10.438,Tapered,uniform,High,Medium,Good,High,Shark Optimizer,1217.585,105.841
+Titanium,125.088,0.326,3072.806,883.607,75.998,12611.646,-49.047,147986.3,31.0,39.369,51.647,10.438,Tapered,point load,Low,Short,Poor,High,Shark Optimizer,1217.738,105.873
+Aluminum,125.086,0.326,3071.668,883.298,75.997,12586.979,-49.048,147955.77,31.0,39.367,51.647,10.437,Cylindrical,uniform,Moderate,Short,Poor,High,Shark Optimizer,1217.521,105.824
+Titanium,125.088,0.326,3075.174,884.84,75.999,12605.27,-49.046,148036.98,31.0,39.368,51.647,10.439,Cylindrical,distributed,Low,Long,Excellent,High,Chaotic Quantum Genetic,1217.609,105.838
+Carbon Fiber,125.088,0.326,3078.41,883.92,75.999,12608.291,-49.045,148188.52,31.0,39.369,51.647,10.438,Cylindrical,point load,High,Short,Good,Medium,Shark Optimizer,1217.715,105.838
+Titanium,125.09,0.326,3076.315,883.829,76.002,12609.07,-49.045,148032.4,31.0,39.369,51.648,10.438,Cylindrical,distributed,Low,Medium,Poor,Low,Chaotic Quantum Genetic,1217.629,105.844
+Titanium,125.087,0.326,3071.884,883.563,75.998,12590.967,-49.047,147982.62,31.0,39.367,51.647,10.437,Cylindrical,point load,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.537,105.832
+Aluminum,125.091,0.326,3082.456,884.584,76.005,12601.607,-49.042,148219.75,31.0,39.369,51.648,10.441,Cylindrical,uniform,High,Medium,Good,High,Shark Optimizer,1217.794,105.873
+Titanium,125.088,0.326,3073.757,884.048,76.001,12593.279,-49.047,147986.22,31.0,39.368,51.648,10.437,Tapered,uniform,Moderate,Medium,Poor,High,Shark Optimizer,1217.704,105.849
+Carbon Fiber,125.088,0.326,3073.802,884.63,76.005,12619.349,-49.046,148136.4,31.0,39.369,51.648,10.439,Rectangular,uniform,High,Long,Good,Medium,Chaotic Quantum Genetic,1217.621,105.893
+Carbon Fiber,125.087,0.326,3072.05,883.547,75.998,12590.557,-49.047,147979.52,31.0,39.367,51.647,10.438,Cylindrical,point load,Low,Short,Excellent,Medium,Shark Optimizer,1217.524,105.825
+Carbon Fiber,125.091,0.326,3082.043,886.804,76.077,12605.434,-49.033,148251.11,31.0,39.369,51.648,10.446,Rectangular,distributed,Moderate,Long,Excellent,Medium,Chaotic Quantum Genetic,1217.883,106.025
+Aluminum,125.088,0.326,3073.133,884.029,76.002,12597.143,-49.044,148107.38,31.0,39.368,51.647,10.44,Rectangular,uniform,Moderate,Short,Excellent,High,Chaotic Quantum Genetic,1217.58,105.863
+Aluminum,125.088,0.326,3073.734,884.758,76.002,12589.701,-49.045,148152.77,31.0,39.368,51.648,10.438,Cylindrical,distributed,Low,Long,Good,Medium,Shark Optimizer,1217.57,105.841
+Carbon Fiber,125.089,0.326,3073.468,884.088,76.0,12629.623,-49.046,148153.7,31.0,39.37,51.648,10.439,Rectangular,point load,Moderate,Medium,Good,Low,Shark Optimizer,1217.694,105.887
+Aluminum,125.09,0.326,3075.773,884.345,75.999,12594.844,-49.045,147985.97,31.0,39.368,51.647,10.438,Rectangular,uniform,Moderate,Medium,Good,Low,Chaotic Quantum Genetic,1217.589,105.855
+Carbon Fiber,125.089,0.326,3075.468,884.116,76.0,12628.761,-49.045,147964.89,31.0,39.369,51.648,10.443,Cylindrical,uniform,Moderate,Medium,Good,Low,Chaotic Quantum Genetic,1217.741,105.87
+Titanium,125.087,0.326,3072.011,883.372,75.997,12589.823,-49.047,148052.06,31.0,39.368,51.647,10.438,Tapered,uniform,Moderate,Short,Good,High,Chaotic Quantum Genetic,1217.53,105.835
+Carbon Fiber,125.087,0.326,3073.628,883.46,75.999,12593.053,-49.047,147988.6,31.0,39.367,51.647,10.438,Cylindrical,distributed,Low,Medium,Excellent,High,Shark Optimizer,1217.608,105.83
+Titanium,125.091,0.326,3074.792,883.583,75.998,12593.665,-49.046,147984.12,31.0,39.368,51.647,10.44,Cylindrical,point load,Low,Short,Good,High,Chaotic Quantum Genetic,1217.617,105.85
+Titanium,125.087,0.326,3075.152,883.55,76.0,12607.055,-49.047,148080.67,31.0,39.368,51.647,10.439,Rectangular,distributed,Moderate,Long,Good,Medium,Shark Optimizer,1217.756,105.83
+Carbon Fiber,125.089,0.326,3079.123,883.974,75.998,12592.222,-49.045,148006.22,31.0,39.368,51.647,10.437,Cylindrical,point load,High,Long,Good,Medium,Shark Optimizer,1217.678,105.835
+Titanium,125.087,0.326,3073.665,883.616,75.997,12592.322,-49.046,148071.84,31.0,39.368,51.647,10.438,Tapered,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.54,105.834
+Carbon Fiber,125.087,0.326,3072.011,883.526,75.997,12595.571,-49.046,147952.53,31.0,39.368,51.647,10.438,Tapered,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.554,105.864
+Aluminum,125.087,0.326,3071.709,883.524,75.997,12591.354,-49.047,147963.92,31.0,39.368,51.647,10.437,Tapered,distributed,Moderate,Long,Good,High,Chaotic Quantum Genetic,1217.53,105.827
+Aluminum,125.087,0.326,3072.923,883.478,75.997,12603.829,-49.047,147976.7,31.0,39.367,51.647,10.437,Tapered,uniform,High,Medium,Poor,Medium,Chaotic Quantum Genetic,1217.532,105.825
+Carbon Fiber,125.088,0.326,3077.046,883.91,76.01,12593.615,-49.044,147992.34,31.0,39.369,51.647,10.439,Cylindrical,distributed,High,Medium,Excellent,Low,Chaotic Quantum Genetic,1217.613,105.845
+Carbon Fiber,125.087,0.326,3073.29,883.383,75.998,12591.568,-49.048,147955.27,31.0,39.368,51.647,10.437,Tapered,distributed,Low,Long,Excellent,High,Shark Optimizer,1217.574,105.831
+Aluminum,125.087,0.326,3071.856,883.386,75.997,12595.774,-49.046,147970.61,31.0,39.367,51.647,10.437,Rectangular,point load,Low,Long,Excellent,Medium,Shark Optimizer,1217.51,105.826
+Titanium,125.087,0.326,3072.479,883.63,75.999,12595.172,-49.046,148001.7,31.0,39.368,51.647,10.438,Rectangular,point load,Low,Short,Excellent,Medium,Chaotic Quantum Genetic,1217.578,105.842
+Aluminum,125.087,0.326,3072.312,883.717,75.999,12612.223,-49.045,148006.14,31.0,39.368,51.648,10.44,Tapered,uniform,Moderate,Medium,Good,High,Shark Optimizer,1217.544,105.83
+Carbon Fiber,125.089,0.326,3077.561,884.103,76.0,12631.469,-49.044,148175.16,31.0,39.37,51.648,10.443,Rectangular,uniform,High,Medium,Good,Medium,Shark Optimizer,1217.698,105.853
+Titanium,125.091,0.326,3078.536,884.868,76.0,12599.83,-49.046,148069.89,31.0,39.368,51.647,10.437,Cylindrical,point load,Moderate,Medium,Poor,Low,Shark Optimizer,1217.6,105.87
+Titanium,125.087,0.326,3072.112,883.471,75.998,12591.705,-49.047,148037.25,31.0,39.367,51.647,10.438,Cylindrical,point load,High,Short,Excellent,Low,Shark Optimizer,1217.542,105.831
+Titanium,125.087,0.326,3073.684,883.742,75.997,12628.517,-49.047,147989.08,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Short,Good,High,Shark Optimizer,1217.633,105.859
+Titanium,125.087,0.326,3073.696,883.648,75.997,12594.716,-49.047,147958.3,31.0,39.367,51.647,10.438,Cylindrical,point load,Moderate,Medium,Good,Low,Chaotic Quantum Genetic,1217.611,105.839
+Aluminum,125.092,0.326,3082.768,884.992,76.001,12601.544,-49.044,148164.34,31.0,39.37,51.647,10.439,Cylindrical,point load,Low,Medium,Poor,Medium,Shark Optimizer,1217.819,105.918
+Carbon Fiber,125.087,0.326,3073.669,883.806,75.999,12603.306,-49.046,147987.56,31.0,39.368,51.647,10.438,Tapered,distributed,Moderate,Medium,Good,Medium,Chaotic Quantum Genetic,1217.545,105.893
+Aluminum,125.089,0.326,3078.068,883.842,76.005,12618.384,-49.041,148208.72,31.0,39.368,51.648,10.44,Tapered,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1217.645,105.969
+Carbon Fiber,125.088,0.326,3073.659,885.698,76.002,12596.373,-49.045,147993.66,31.0,39.368,51.647,10.437,Rectangular,distributed,High,Medium,Good,Low,Shark Optimizer,1217.532,105.859
+Titanium,125.088,0.326,3073.098,883.585,75.999,12591.628,-49.045,148130.6,31.0,39.368,51.647,10.437,Tapered,distributed,High,Medium,Good,Medium,Shark Optimizer,1217.67,105.834
+Carbon Fiber,125.088,0.326,3080.082,884.414,75.999,12605.522,-49.046,148149.4,31.0,39.368,51.647,10.44,Cylindrical,distributed,Low,Medium,Good,Medium,Shark Optimizer,1217.635,105.927
+Aluminum,125.088,0.326,3074.781,883.809,75.999,12589.687,-49.046,147979.2,31.0,39.368,51.647,10.438,Cylindrical,point load,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.573,105.853
+Aluminum,125.087,0.326,3074.572,884.354,76.004,12601.068,-49.047,147982.7,31.0,39.368,51.647,10.438,Tapered,point load,Moderate,Medium,Excellent,Medium,Shark Optimizer,1217.577,105.889
+Aluminum,125.086,0.326,3072.198,883.307,75.997,12588.579,-49.048,147945.23,31.0,39.367,51.647,10.437,Tapered,distributed,Low,Short,Excellent,Medium,Chaotic Quantum Genetic,1217.508,105.828
+Carbon Fiber,125.087,0.326,3072.513,883.343,75.997,12588.134,-49.048,147946.0,31.0,39.367,51.647,10.437,Cylindrical,distributed,Low,Short,Good,Low,Shark Optimizer,1217.541,105.834
+Titanium,125.087,0.326,3072.296,883.621,75.998,12596.455,-49.047,147954.69,31.0,39.367,51.647,10.437,Cylindrical,point load,Moderate,Medium,Good,Medium,Shark Optimizer,1217.571,105.862
+Aluminum,125.089,0.326,3072.442,885.0,76.0,12600.575,-49.046,148054.4,31.0,39.368,51.647,10.439,Tapered,distributed,Moderate,Medium,Excellent,High,Shark Optimizer,1217.558,105.828
+Aluminum,125.087,0.326,3072.665,883.542,75.998,12589.542,-49.042,148021.73,31.0,39.367,51.647,10.437,Rectangular,distributed,Moderate,Long,Poor,Medium,Chaotic Quantum Genetic,1217.571,105.845
+Titanium,125.087,0.326,3072.354,883.461,75.999,12590.221,-49.046,148103.95,31.0,39.367,51.647,10.438,Rectangular,point load,High,Medium,Good,Medium,Shark Optimizer,1217.55,105.897
+Titanium,125.089,0.326,3074.674,883.793,76.001,12596.518,-49.044,148081.88,31.0,39.368,51.647,10.44,Cylindrical,point load,Low,Medium,Excellent,Low,Shark Optimizer,1217.721,105.882
+Carbon Fiber,125.09,0.326,3074.456,883.583,76.0,12623.822,-49.047,148102.3,31.0,39.369,51.647,10.437,Rectangular,distributed,Low,Medium,Excellent,Low,Shark Optimizer,1217.75,105.843
+Aluminum,125.088,0.326,3073.884,883.652,75.999,12594.722,-49.047,148000.22,31.0,39.368,51.647,10.439,Rectangular,uniform,Low,Long,Poor,Medium,Shark Optimizer,1217.55,105.886
+Aluminum,125.087,0.326,3073.497,884.184,75.998,12601.354,-49.047,148107.14,31.0,39.368,51.647,10.438,Cylindrical,distributed,Low,Medium,Good,High,Shark Optimizer,1217.574,105.893
+Titanium,125.093,0.326,3081.379,884.928,76.01,12644.113,-49.044,148221.22,31.0,39.37,51.648,10.439,Rectangular,distributed,Low,Medium,Good,Low,Shark Optimizer,1217.882,105.92
+Aluminum,125.088,0.326,3073.432,883.585,76.003,12592.003,-49.046,147996.5,31.0,39.368,51.647,10.437,Rectangular,point load,Moderate,Medium,Good,High,Chaotic Quantum Genetic,1217.536,105.836
+Carbon Fiber,125.088,0.326,3074.336,884.888,75.998,12603.551,-49.045,148066.86,31.0,39.368,51.648,10.44,Cylindrical,uniform,Low,Long,Poor,Low,Chaotic Quantum Genetic,1217.612,105.844
+Titanium,125.087,0.326,3071.656,883.42,75.997,12587.61,-49.048,147969.17,31.0,39.367,51.647,10.437,Rectangular,distributed,Moderate,Short,Good,Medium,Shark Optimizer,1217.52,105.836
+Carbon Fiber,125.09,0.326,3075.054,884.44,75.999,12601.121,-49.046,148021.8,31.0,39.368,51.647,10.441,Rectangular,point load,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.522,105.86
+Carbon Fiber,125.087,0.326,3075.142,883.77,75.999,12620.013,-49.046,148000.61,31.0,39.368,51.647,10.437,Cylindrical,point load,Moderate,Medium,Poor,Medium,Shark Optimizer,1217.554,105.865
+Aluminum,125.088,0.326,3072.512,883.607,75.999,12596.354,-49.047,148022.36,31.0,39.368,51.647,10.437,Cylindrical,point load,Low,Short,Poor,High,Shark Optimizer,1217.584,105.836
+Carbon Fiber,125.089,0.326,3078.448,884.292,76.002,12601.808,-49.046,148017.02,31.0,39.369,51.647,10.438,Cylindrical,uniform,High,Medium,Excellent,High,Shark Optimizer,1217.586,105.831
+Carbon Fiber,125.087,0.326,3075.651,884.834,75.998,12622.98,-49.045,148022.66,31.0,39.369,51.647,10.439,Tapered,uniform,High,Medium,Good,Medium,Shark Optimizer,1217.68,105.848
+Aluminum,125.088,0.326,3077.051,884.057,76.0,12599.062,-49.045,148090.34,31.0,39.368,51.647,10.438,Tapered,distributed,High,Medium,Good,Medium,Shark Optimizer,1217.62,105.886
+Carbon Fiber,125.087,0.326,3073.042,883.448,75.997,12593.979,-49.047,147986.61,31.0,39.368,51.647,10.437,Rectangular,distributed,Moderate,Medium,Poor,Medium,Chaotic Quantum Genetic,1217.522,105.851
+Titanium,125.088,0.326,3075.792,883.849,76.003,12596.875,-49.045,148118.02,31.0,39.368,51.647,10.438,Cylindrical,point load,Moderate,Medium,Poor,High,Shark Optimizer,1217.68,105.877
+Carbon Fiber,125.087,0.326,3075.494,884.543,75.999,12600.264,-49.047,147999.25,31.0,39.368,51.647,10.438,Cylindrical,point load,Low,Medium,Excellent,High,Chaotic Quantum Genetic,1217.628,105.841
+Carbon Fiber,125.089,0.326,3074.023,883.612,75.998,12593.514,-49.047,148001.64,31.0,39.368,51.647,10.437,Cylindrical,point load,Low,Medium,Poor,Low,Chaotic Quantum Genetic,1217.547,105.834
+Aluminum,125.088,0.326,3073.903,883.601,75.999,12607.281,-49.045,148035.17,31.0,39.369,51.647,10.438,Tapered,point load,Low,Medium,Excellent,Medium,Shark Optimizer,1217.607,105.865
+Carbon Fiber,125.087,0.326,3074.581,883.557,75.998,12588.499,-49.047,147975.64,31.0,39.367,51.647,10.437,Cylindrical,point load,High,Long,Poor,Low,Shark Optimizer,1217.574,105.831
+Carbon Fiber,125.087,0.326,3072.042,883.384,75.997,12589.463,-49.048,147951.58,31.0,39.367,51.647,10.437,Tapered,distributed,High,Long,Good,Medium,Chaotic Quantum Genetic,1217.509,105.831
+Carbon Fiber,125.087,0.326,3072.0,883.339,75.997,12587.717,-49.048,147957.66,31.0,39.367,51.647,10.437,Tapered,uniform,High,Long,Poor,Medium,Shark Optimizer,1217.516,105.824
+Aluminum,125.087,0.326,3071.646,883.355,75.997,12589.292,-49.048,147959.53,31.0,39.367,51.647,10.437,Cylindrical,distributed,Moderate,Long,Good,High,Chaotic Quantum Genetic,1217.518,105.829
+Aluminum,125.087,0.326,3074.735,884.134,75.998,12609.908,-49.046,147980.11,31.0,39.367,51.647,10.439,Rectangular,point load,Moderate,Medium,Good,Medium,Shark Optimizer,1217.547,105.922
+Carbon Fiber,125.087,0.326,3073.942,883.385,75.997,12590.898,-49.047,148023.39,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Long,Good,Medium,Chaotic Quantum Genetic,1217.559,105.83
+Carbon Fiber,125.087,0.326,3072.843,883.56,76.0,12589.242,-49.047,147954.08,31.0,39.368,51.647,10.437,Cylindrical,point load,Low,Short,Good,Low,Chaotic Quantum Genetic,1217.527,105.87
+Aluminum,125.087,0.326,3076.918,883.627,75.997,12591.444,-49.047,147977.27,31.0,39.368,51.647,10.438,Cylindrical,point load,Low,Medium,Good,High,Shark Optimizer,1217.616,105.826
+Carbon Fiber,125.087,0.326,3073.404,883.7,75.998,12606.737,-49.047,147984.05,31.0,39.367,51.647,10.438,Rectangular,uniform,Low,Medium,Good,Medium,Shark Optimizer,1217.514,105.857
+Aluminum,125.088,0.326,3072.119,883.495,75.997,12615.02,-49.047,147996.08,31.0,39.367,51.647,10.438,Cylindrical,distributed,Low,Long,Good,Medium,Shark Optimizer,1217.613,105.832
+Titanium,125.087,0.326,3071.908,883.409,75.997,12588.453,-49.047,147964.17,31.0,39.367,51.647,10.437,Rectangular,uniform,Moderate,Medium,Good,Medium,Shark Optimizer,1217.522,105.837
+Titanium,125.087,0.326,3077.792,883.436,75.998,12591.557,-49.047,147989.6,31.0,39.368,51.647,10.439,Cylindrical,distributed,Low,Medium,Good,Medium,Shark Optimizer,1217.582,105.926
+Carbon Fiber,125.087,0.326,3072.882,883.59,75.998,12590.573,-49.045,147960.78,31.0,39.368,51.647,10.437,Cylindrical,uniform,Low,Medium,Poor,Low,Shark Optimizer,1217.579,105.834

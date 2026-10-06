@@ -1,0 +1,29 @@
+Target,Model,CV_Accuracy,CV_F1_Macro
+Vibration Damping,Logistic Regression,0.358,0.3262
+Vibration Damping,Random Forest,0.944,0.9441
+Vibration Damping,Gradient Boosting,0.93,0.9297
+Vibration Damping,SVM (RBF),0.355,0.2548
+Vibration Damping,XGBoost,0.949,0.9491
+Vibration Damping,LightGBM,0.95,0.9503
+Vibration Damping,Voting (RF+GB),0.948,0.9477
+Computational Time,Logistic Regression,0.428,0.3958
+Computational Time,Random Forest,0.96,0.9606
+Computational Time,Gradient Boosting,0.947,0.9473
+Computational Time,SVM (RBF),0.379,0.2129
+Computational Time,XGBoost,0.96,0.9598
+Computational Time,LightGBM,0.965,0.9644
+Computational Time,Voting (RF+GB),0.96,0.9606
+Weight Efficiency,Logistic Regression,0.404,0.3744
+Weight Efficiency,Random Forest,0.961,0.9602
+Weight Efficiency,Gradient Boosting,0.931,0.9293
+Weight Efficiency,SVM (RBF),0.375,0.193
+Weight Efficiency,XGBoost,0.956,0.955
+Weight Efficiency,LightGBM,0.958,0.9574
+Weight Efficiency,Voting (RF+GB),0.96,0.9593
+Durability,Logistic Regression,0.454,0.4465
+Durability,Random Forest,0.95,0.9491
+Durability,Gradient Boosting,0.945,0.9445
+Durability,SVM (RBF),0.378,0.204
+Durability,XGBoost,0.951,0.9505
+Durability,LightGBM,0.95,0.9493
+Durability,Voting (RF+GB),0.955,0.9543

@@ -1,0 +1,31 @@
+True,Predicted,Fix_feature,Fix_delta_pct
+Short,Medium,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Short,Medium,Optimization Time (sec),+10%
+Medium,Short,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Medium,Short,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Short,Medium,Optimization Time (sec),+10%
+Long,Medium,Fuselage Length (m),+10%
+Short,Medium,Optimization Time (sec),+10%
+Short,Medium,Altitude (m),+50%
+Long,Medium,Optimization Time (sec),+10%
+Medium,Long,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Medium,Short,Optimization Time (sec),+10%
+Short,Medium,Temperature (°C),+10%
+Medium,Long,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Short,Medium,Optimization Time (sec),+10%
+Long,Medium,ρ (kg/m³),+20%
+Medium,Short,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Short,Long,Optimization Time (sec),+10%
+Long,Medium,Optimization Time (sec),+10%
+Short,Long,Optimization Time (sec),+10%
+Short,Medium,Optimization Time (sec),+10%
+Medium,Long,Optimization Time (sec),+10%

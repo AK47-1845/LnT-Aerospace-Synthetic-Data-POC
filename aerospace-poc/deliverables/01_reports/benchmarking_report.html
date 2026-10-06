@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Benchmarking Report</title>
+  <style>
+    body { margin:0; font-family: "Segoe UI", Arial, sans-serif; background:#0a0e1a; color:#f8fafc; }
+    main { max-width: 1180px; margin: 0 auto; padding: 28px; }
+    section { background:#101827; border:1px solid #1f2d45; border-radius:20px; padding:24px; margin-bottom:20px; }
+    h1, h2, h3 { margin:0 0 12px; }
+    p, li, td, th { color:#cbd5e1; line-height:1.6; }
+    table { width:100%; border-collapse: collapse; }
+    th, td { padding:10px 12px; border-bottom:1px solid #22304a; text-align:left; }
+    th { cursor:pointer; color:#ffffff; }
+    canvas { width:100%; height:420px; background:#0f172a; border:1px solid #22304a; border-radius:16px; }
+    .grid { display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:16px; }
+    .card { background:#0f172a; border:1px solid #22304a; border-radius:18px; padding:18px; }
+    .winner { text-align:center; background:linear-gradient(135deg, rgba(0,212,255,.16), rgba(16,24,39,.9)); animation:pulse 2.8s infinite; }
+    @keyframes pulse { 0% { box-shadow: 0 0 0 rgba(0,212,255,0); } 50% { box-shadow: 0 0 26px rgba(0,212,255,.18); } 100% { box-shadow: 0 0 0 rgba(0,212,255,0); } }
+    @media (max-width: 980px) { .grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <h1>Generative Library Models vs Alternatives</h1>
+      <p>This benchmark compares six model families under the same aerospace synthesis protocol so we can separate architectural tradeoffs from tuning noise. The focus is not just raw quality, but how each model balances engineering realism, statistical fidelity, downstream utility, privacy behavior, and operational practicality.</p>
+    </section>
+
+    <section>
+      <h2>Comparison Table</h2>
+      <table id="comparison"><thead><tr><th onclick="sortTable(0)">Model</th><th onclick="sortTable(1)">Type</th><th onclick="sortTable(2)">Composite</th><th onclick="sortTable(3)">Physics</th><th onclick="sortTable(4)">Stats</th><th onclick="sortTable(5)">ML Utility</th><th onclick="sortTable(6)">Privacy</th><th onclick="sortTable(7)">Speed</th><th onclick="sortTable(8)">Scalability</th></tr></thead><tbody><tr><td>Empirical</td><td>Resampling baseline</td><td>0.9631</td><td>0.9911</td><td>0.9828</td><td>0.9050</td><td>0.9828</td><td>Very fast</td><td>Perfectly scalable</td></tr><tr><td>KDE</td><td>Non-parametric density estimator</td><td>0.9650</td><td>0.9924</td><td>0.9828</td><td>0.9089</td><td>0.9828</td><td>Fast</td><td>Well-scalable</td></tr><tr><td>GMM</td><td>Parametric mixture model</td><td>0.8345</td><td>0.9897</td><td>0.9781</td><td>0.4019</td><td>0.9781</td><td>Moderate</td><td>Well-scalable</td></tr><tr><td>Copula</td><td>Dependency-structured probabilistic model</td><td>0.8124</td><td>0.9895</td><td>0.9669</td><td>0.3319</td><td>0.9669</td><td>Moderate</td><td>Scalable</td></tr><tr><td>TabuDiff</td><td>Diffusion-based generator</td><td>0.7965</td><td>0.9822</td><td>0.9107</td><td>0.3789</td><td>0.9107</td><td>Slow</td><td>Somewhat scalable</td></tr><tr><td>MaskedPredictor</td><td>Autoregressive masked model</td><td>0.4313</td><td>0.9587</td><td>0.0000</td><td>0.4408</td><td>0.0000</td><td>Very slow</td><td>Poor scalability</td></tr></tbody></table>
+    </section>
+
+    <section>
+      <h2>Interactive Radar Chart</h2>
+      <canvas id="radar" width="1000" height="420"></canvas>
+      <p>Click a model name below to toggle it on or off.</p>
+      <div id="legend"></div>
+    </section>
+
+    <section>
+      <h2>Model Profiles</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Empirical</h3>
+          <p><strong>Architecture:</strong> Resampling baseline.</p>
+          <p><strong>Best achieved score:</strong> 0.9969</p>
+          <p><strong>Worst achieved score:</strong> 0.9107</p>
+          <p><strong>Recommended for:</strong> production deployment.</p>
+          <p><strong>Not recommended for:</strong> high-novelty generative exploration.</p>
+        </article>
+        
+        <article class="card">
+          <h3>KDE</h3>
+          <p><strong>Architecture:</strong> Non-parametric density estimator.</p>
+          <p><strong>Best achieved score:</strong> 0.9965</p>
+          <p><strong>Worst achieved score:</strong> 0.9122</p>
+          <p><strong>Recommended for:</strong> production deployment.</p>
+          <p><strong>Not recommended for:</strong> extremely sparse settings.</p>
+        </article>
+        
+        <article class="card">
+          <h3>GMM</h3>
+          <p><strong>Architecture:</strong> Parametric mixture model.</p>
+          <p><strong>Best achieved score:</strong> 0.8535</p>
+          <p><strong>Worst achieved score:</strong> 0.8157</p>
+          <p><strong>Recommended for:</strong> benchmarking and diagnostics.</p>
+          <p><strong>Not recommended for:</strong> client-facing default deployment.</p>
+        </article>
+        
+        <article class="card">
+          <h3>Copula</h3>
+          <p><strong>Architecture:</strong> Dependency-structured probabilistic model.</p>
+          <p><strong>Best achieved score:</strong> 0.8309</p>
+          <p><strong>Worst achieved score:</strong> 0.7959</p>
+          <p><strong>Recommended for:</strong> benchmarking and diagnostics.</p>
+          <p><strong>Not recommended for:</strong> client-facing default deployment.</p>
+        </article>
+        
+        <article class="card">
+          <h3>TabuDiff</h3>
+          <p><strong>Architecture:</strong> Diffusion-based generator.</p>
+          <p><strong>Best achieved score:</strong> 0.8231</p>
+          <p><strong>Worst achieved score:</strong> 0.7284</p>
+          <p><strong>Recommended for:</strong> benchmarking and diagnostics.</p>
+          <p><strong>Not recommended for:</strong> client-facing default deployment.</p>
+        </article>
+        
+        <article class="card">
+          <h3>MaskedPredictor</h3>
+          <p><strong>Architecture:</strong> Autoregressive masked model.</p>
+          <p><strong>Best achieved score:</strong> 0.4398</p>
+          <p><strong>Worst achieved score:</strong> 0.4167</p>
+          <p><strong>Recommended for:</strong> benchmarking and diagnostics.</p>
+          <p><strong>Not recommended for:</strong> client-facing default deployment.</p>
+        </article>
+        </div>
+    </section>
+
+    <section>
+      <h2>Statistical Significance</h2>
+      <table><thead><tr><th>Pair</th><th>Mean composite difference</th><th>Practically significant (&gt; 0.05)?</th><th>Verdict</th></tr></thead><tbody><tr><td>Empirical vs KDE</td><td>-0.0019</td><td>No</td><td>Gap is small relative to operational needs.</td></tr><tr><td>Empirical vs GMM</td><td>+0.1286</td><td>Yes</td><td>Material quality gap in practice.</td></tr><tr><td>KDE vs GMM</td><td>+0.1305</td><td>Yes</td><td>Material quality gap in practice.</td></tr></tbody></table>
+    </section>
+
+    <section class="winner">
+      <h2>Champion: Empirical</h2>
+      <p>Seed 11 | Size 5000 | Score 0.9969</p>
+    </section>
+
+    <section>
+      <h2>Conclusion</h2>
+      <p>Use Empirical when you need the strongest proven single-run fidelity with the least operational complexity. Use KDE when you want nearly identical quality with a smoother sampling model and still-low compute cost. Keep GMM and Copula for classical baselines, and reserve TabuDiff or MaskedPredictor for future research rather than near-term delivery.</p>
+    </section>
+  </main>
+  <script>
+    const profiles = [{"Model": "Empirical", "Mean Composite": 0.9631, "Max Composite": 0.9969, "Mean Physics": 0.9911, "Mean Statistical Similarity": 0.9828, "Mean TSTR": 0.905, "Mean Privacy": 0.9828, "Type": "Resampling baseline", "Speed": "Very fast", "Scalability": "Perfectly scalable", "Speed Score": 0.99, "Scalability Score": 0.99, "Best": 0.996866, "Worst": 0.910677}, {"Model": "KDE", "Mean Composite": 0.965, "Max Composite": 0.9965, "Mean Physics": 0.9924, "Mean Statistical Similarity": 0.9828, "Mean TSTR": 0.9089, "Mean Privacy": 0.9828, "Type": "Non-parametric density estimator", "Speed": "Fast", "Scalability": "Well-scalable", "Speed Score": 0.85, "Scalability Score": 0.88, "Best": 0.996522, "Worst": 0.912233}, {"Model": "GMM", "Mean Composite": 0.8345, "Max Composite": 0.8535, "Mean Physics": 0.9897, "Mean Statistical Similarity": 0.9781, "Mean TSTR": 0.4019, "Mean Privacy": 0.9781, "Type": "Parametric mixture model", "Speed": "Moderate", "Scalability": "Well-scalable", "Speed Score": 0.72, "Scalability Score": 0.85, "Best": 0.853462, "Worst": 0.815734}, {"Model": "Copula", "Mean Composite": 0.8124, "Max Composite": 0.8309, "Mean Physics": 0.9895, "Mean Statistical Similarity": 0.9669, "Mean TSTR": 0.3319, "Mean Privacy": 0.9669, "Type": "Dependency-structured probabilistic model", "Speed": "Moderate", "Scalability": "Scalable", "Speed Score": 0.68, "Scalability Score": 0.8, "Best": 0.830934, "Worst": 0.795862}, {"Model": "TabuDiff", "Mean Composite": 0.7965, "Max Composite": 0.8231, "Mean Physics": 0.9822, "Mean Statistical Similarity": 0.9107, "Mean TSTR": 0.3789, "Mean Privacy": 0.9107, "Type": "Diffusion-based generator", "Speed": "Slow", "Scalability": "Somewhat scalable", "Speed Score": 0.25, "Scalability Score": 0.55, "Best": 0.823095, "Worst": 0.728358}, {"Model": "MaskedPredictor", "Mean Composite": 0.4313, "Max Composite": 0.4398, "Mean Physics": 0.9587, "Mean Statistical Similarity": 0.0, "Mean TSTR": 0.4408, "Mean Privacy": 0.0, "Type": "Autoregressive masked model", "Speed": "Very slow", "Scalability": "Poor scalability", "Speed Score": 0.12, "Scalability Score": 0.3, "Best": 0.439776, "Worst": 0.416666}];
+    const colors = {"Empirical": "#00d4ff", "KDE": "#4db06d", "GMM": "#f59e0b", "Copula": "#ef4444", "TabuDiff": "#8b5cf6", "MaskedPredictor": "#6b7280"};
+    const visible = Object.fromEntries(profiles.map(p => [p.Model, true]));
+    function sortTable(colIdx) {
+      const body = document.getElementById('comparison').tBodies[0];
+      const rows = Array.from(body.rows);
+      rows.sort((a, b) => a.cells[colIdx].textContent.localeCompare(b.cells[colIdx].textContent, undefined, {numeric:true}));
+      rows.forEach(row => body.appendChild(row));
+    }
+    function renderLegend() {
+      const container = document.getElementById('legend');
+      container.innerHTML = profiles.map(p => `<button style="margin:8px;padding:8px 12px;border-radius:999px;border:1px solid #22304a;background:${visible[p.Model] ? colors[p.Model] : '#111827'};color:${visible[p.Model] ? '#00131c' : '#cbd5e1'};cursor:pointer" onclick="toggleModel('${p.Model}')">${p.Model}</button>`).join('');
+    }
+    function toggleModel(model) { visible[model] = !visible[model]; renderLegend(); drawRadar(); }
+    function drawRadar() {
+      const canvas = document.getElementById('radar');
+      const ctx = canvas.getContext('2d');
+      const axes = ['Mean Physics','Mean Statistical Similarity','Mean TSTR','Mean Privacy','Speed Score','Scalability Score'];
+      const labels = ['Physics','Statistics','ML Utility','Privacy','Speed','Scalability'];
+      const cx = canvas.width / 2;
+      const cy = canvas.height / 2 + 10;
+      const radius = 150;
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.strokeStyle = '#22304a';
+      for (let ring = 1; ring <= 5; ring++) {
+        ctx.beginPath();
+        axes.forEach((_, idx) => {
+          const angle = -Math.PI/2 + idx * 2*Math.PI/axes.length;
+          const x = cx + (radius * ring/5) * Math.cos(angle);
+          const y = cy + (radius * ring/5) * Math.sin(angle);
+          idx === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        });
+        ctx.closePath();
+        ctx.stroke();
+      }
+      axes.forEach((_, idx) => {
+        const angle = -Math.PI/2 + idx * 2*Math.PI/axes.length;
+        const x = cx + radius * Math.cos(angle);
+        const y = cy + radius * Math.sin(angle);
+        ctx.beginPath(); ctx.moveTo(cx, cy); ctx.lineTo(x, y); ctx.stroke();
+        ctx.fillStyle = '#cbd5e1';
+        ctx.fillText(labels[idx], cx + (radius+24) * Math.cos(angle) - 22, cy + (radius+24) * Math.sin(angle));
+      });
+      profiles.filter(p => visible[p.Model]).forEach(p => {
+        ctx.strokeStyle = colors[p.Model];
+        ctx.fillStyle = colors[p.Model] + '33';
+        ctx.lineWidth = 2.5;
+        ctx.beginPath();
+        axes.forEach((axis, idx) => {
+          const angle = -Math.PI/2 + idx * 2*Math.PI/axes.length;
+          const x = cx + radius * p[axis] * Math.cos(angle);
+          const y = cy + radius * p[axis] * Math.sin(angle);
+          idx === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+        });
+        ctx.closePath(); ctx.fill(); ctx.stroke();
+      });
+    }
+    renderLegend();
+    drawRadar();
+  </script>
+</body>
+</html>

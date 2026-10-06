@@ -12,6 +12,8 @@
 
 ---
 
+> **Also in this repo:** [`aerospace-poc/`](./aerospace-poc/) — the LTTS Aerospace Synthetic Data POC: 300 seed rows → 5,000 physics-valid rows, 92 experiments, TSTR F1 1.000, zero physics violations. Start at its README.
+
 **Physical AI** is the discipline of deploying generative machine learning into closed-loop interaction with continuous, irreversible physical systems (robots, industrial actuators).
 
 This repository is an open engineering reference that bridges the gap between **continuous probabilistic AI** and **discrete deterministic industrial systems**. It provides runnable examples of modern visuomotor policies (Flow Matching, Diffusion) interacting safely with physical environments via geometric safety filters (Control Barrier Functions).

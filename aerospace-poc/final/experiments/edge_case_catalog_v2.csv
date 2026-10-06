@@ -1,0 +1,29 @@
+edge_case_id,feature,description,triggering_predicate,severity,category,target_examples,boundary_val,direction
+EC_001,E (GPa),Extremely low E (GPa) (<= 51.8084),E (GPa) <= 51.80835826956507,High,extreme,50,51.80835826956507,low
+EC_002,E (GPa),Extremely high E (GPa) (>= 199.7862),E (GPa) >= 199.78618946563827,High,extreme,50,199.78618946563827,high
+EC_003,ν,Extremely low ν (<= 0.3008),ν <= 0.3007640836984698,High,extreme,50,0.3007640836984698,low
+EC_004,ν,Extremely high ν (>= 0.3498),ν >= 0.34976765505020563,High,extreme,50,0.34976765505020563,high
+EC_005,ρ (kg/m³),Extremely low ρ (kg/m³) (<= 1549.8531),ρ (kg/m³) <= 1549.8530573689527,High,extreme,50,1549.8530573689527,low
+EC_006,ρ (kg/m³),Extremely high ρ (kg/m³) (>= 4425.1641),ρ (kg/m³) >= 4425.164057821261,High,extreme,50,4425.164057821261,high
+EC_007,Tensile Strength (MPa),Extremely low Tensile Strength (MPa) (<= 279.3725),Tensile Strength (MPa) <= 279.3725478311068,High,extreme,50,279.3725478311068,low
+EC_008,Tensile Strength (MPa),Extremely high Tensile Strength (MPa) (>= 1483.2892),Tensile Strength (MPa) >= 1483.289245823905,High,extreme,50,1483.289245823905,high
+EC_009,Young’s Modulus,Extremely low Young’s Modulus (<= 50.7529),Young’s Modulus <= 50.75287566769071,High,extreme,50,50.75287566769071,low
+EC_010,Young’s Modulus,Extremely high Young’s Modulus (>= 98.6528),Young’s Modulus >= 98.65275730436686,High,extreme,50,98.65275730436686,high
+EC_011,Altitude (m),Extremely low Altitude (m) (<= 5192.6482),Altitude (m) <= 5192.648170976203,High,extreme,50,5192.648170976203,low
+EC_012,Altitude (m),Extremely high Altitude (m) (>= 19750.4987),Altitude (m) >= 19750.49867894535,High,extreme,50,19750.49867894535,high
+EC_013,Temperature (°C),Extremely low Temperature (°C) (<= -59.6698),Temperature (°C) <= -59.6698207468,High,extreme,50,-59.6698207468,low
+EC_014,Temperature (°C),Extremely high Temperature (°C) (>= -40.1221),Temperature (°C) >= -40.1220670232,High,extreme,50,-40.1220670232,high
+EC_015,Pressure (Pa),Extremely low Pressure (Pa) (<= 101592.5918),Pressure (Pa) <= 101592.59183364303,High,extreme,50,101592.59183364303,low
+EC_016,Pressure (Pa),Extremely high Pressure (Pa) (>= 197566.5287),Pressure (Pa) >= 197566.52872888674,High,extreme,50,197566.52872888674,high
+EC_017,Operational Life (years),Extremely low Operational Life (years) (<= 20.0000),Operational Life (years) <= 20.0,High,extreme,50,20.0,low
+EC_018,Operational Life (years),Extremely high Operational Life (years) (>= 39.0000),Operational Life (years) >= 39.0,High,extreme,50,39.0,high
+EC_019,Wing Span (m),Extremely low Wing Span (m) (<= 20.8898),Wing Span (m) <= 20.889825711538993,High,extreme,50,20.889825711538993,low
+EC_020,Wing Span (m),Extremely high Wing Span (m) (>= 59.0204),Wing Span (m) >= 59.02043956315804,High,extreme,50,59.02043956315804,high
+EC_021,Fuselage Length (m),Extremely low Fuselage Length (m) (<= 30.3779),Fuselage Length (m) <= 30.3778646678832,High,extreme,50,30.3778646678832,low
+EC_022,Fuselage Length (m),Extremely high Fuselage Length (m) (>= 69.6920),Fuselage Length (m) >= 69.69202836937717,High,extreme,50,69.69202836937717,high
+EC_023,Structural Thickness (mm),Extremely low Structural Thickness (mm) (<= 5.1228),Structural Thickness (mm) <= 5.122823695456173,High,extreme,50,5.122823695456173,low
+EC_024,Structural Thickness (mm),Extremely high Structural Thickness (mm) (>= 14.8800),Structural Thickness (mm) >= 14.88002806336015,High,extreme,50,14.88002806336015,high
+EC_025,Number of Iterations,Extremely low Number of Iterations (<= 547.9300),Number of Iterations <= 547.93,High,extreme,50,547.93,low
+EC_026,Number of Iterations,Extremely high Number of Iterations (>= 1971.0000),Number of Iterations >= 1971.0,High,extreme,50,1971.0,high
+EC_027,Optimization Time (sec),Extremely low Optimization Time (sec) (<= 52.0058),Optimization Time (sec) <= 52.005765616845636,High,extreme,50,52.005765616845636,low
+EC_028,Optimization Time (sec),Extremely high Optimization Time (sec) (>= 148.7788),Optimization Time (sec) >= 148.77880308838223,High,extreme,50,148.77880308838223,high

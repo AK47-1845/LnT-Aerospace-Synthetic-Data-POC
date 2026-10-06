@@ -1,0 +1,28 @@
+Vibration Damping:
+  ρ (kg/m³): 0.0756
+  Young’s Modulus: 0.0752
+  Temperature (°C): 0.0717
+  Optimization Time (sec): 0.0693
+  E (GPa): 0.0685
+
+Computational Time:
+  Wing Span (m): 0.0810
+  Fuselage Length (m): 0.0751
+  Altitude (m): 0.0748
+  Young’s Modulus: 0.0702
+  Temperature (°C): 0.0685
+
+Weight Efficiency:
+  Optimization Time (sec): 0.0759
+  Wing Span (m): 0.0742
+  Fuselage Length (m): 0.0710
+  Young’s Modulus: 0.0694
+  E (GPa): 0.0683
+
+Durability:
+  Altitude (m): 0.0759
+  E (GPa): 0.0754
+  Wing Span (m): 0.0728
+  Tensile Strength (MPa): 0.0717
+  Number of Iterations: 0.0696
+

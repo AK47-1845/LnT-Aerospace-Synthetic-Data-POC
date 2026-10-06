@@ -1,0 +1,37 @@
+Model,Target,chi2,p_value,df,consistent
+KDE,Vibration Damping,0.235,0.8891,2.0,Yes
+KDE,Computational Time,0.06,0.9704,2.0,Yes
+KDE,Weight Efficiency,0.005,0.9976,2.0,Yes
+KDE,Durability,0.057,0.972,2.0,Yes
+GMM,Vibration Damping,0.369,0.8314,2.0,Yes
+GMM,Computational Time,0.025,0.9877,2.0,Yes
+GMM,Weight Efficiency,0.031,0.9844,2.0,Yes
+GMM,Durability,0.055,0.9728,2.0,Yes
+Copula,Vibration Damping,0.215,0.898,2.0,Yes
+Copula,Computational Time,0.05,0.9752,2.0,Yes
+Copula,Weight Efficiency,0.045,0.9778,2.0,Yes
+Copula,Durability,0.033,0.9837,2.0,Yes
+TabuDiff,Vibration Damping,9.692,0.0079,2.0,No
+TabuDiff,Computational Time,25.351,0.0,2.0,No
+TabuDiff,Weight Efficiency,20.247,0.0,2.0,No
+TabuDiff,Durability,3.906,0.1419,2.0,Yes
+TabuDiffPremium,Vibration Damping,8.657,0.0132,2.0,No
+TabuDiffPremium,Computational Time,2.918,0.2325,2.0,Yes
+TabuDiffPremium,Weight Efficiency,5.592,0.061,2.0,Yes
+TabuDiffPremium,Durability,3.956,0.1384,2.0,Yes
+TVAE,Vibration Damping,56.308,0.0,1.0,No
+TVAE,Computational Time,,,,N/A
+TVAE,Weight Efficiency,610.876,0.0,2.0,No
+TVAE,Durability,398.676,0.0,2.0,No
+TVAEPremium,Vibration Damping,35.796,0.0,1.0,No
+TVAEPremium,Computational Time,,,,N/A
+TVAEPremium,Weight Efficiency,650.183,0.0,2.0,No
+TVAEPremium,Durability,458.831,0.0,2.0,No
+CTGANPremium,Vibration Damping,45.747,0.0,2.0,No
+CTGANPremium,Computational Time,31.33,0.0,2.0,No
+CTGANPremium,Weight Efficiency,35.941,0.0,2.0,No
+CTGANPremium,Durability,0.039,0.9809,2.0,Yes
+MaskedPredictor,Vibration Damping,0.0,1.0,2.0,Yes
+MaskedPredictor,Computational Time,0.0,1.0,2.0,Yes
+MaskedPredictor,Weight Efficiency,0.0,1.0,2.0,Yes
+MaskedPredictor,Durability,0.0,1.0,2.0,Yes

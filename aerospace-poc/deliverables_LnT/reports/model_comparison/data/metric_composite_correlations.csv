@@ -1,0 +1,8 @@
+Metric,Spearman_r,p_value
+Physics Consistency,0.0765,0.471262
+Statistical Similarity,0.971,0.0
+KS p-value (mean),0.9274,0.0
+KL divergence,-0.9695,0.0
+ML Utility (TSTR),0.3095,0.002832
+Privacy / Detection AUC,0.971,0.0
+Correlation Matrix Matching density,0.9223,0.0

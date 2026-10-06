@@ -1,0 +1,9 @@
+Feature,N_unique,Mode,Mode_count,Values,Balance_ratio
+Material Type,3,Carbon Fiber,109,Carbon Fiber=109 | Titanium=99 | Aluminum=92,0.844
+Structural Shape,3,Rectangular,109,Rectangular=109 | Cylindrical=99 | Tapered=92,0.844
+Load Distribution,3,point load,114,point load=114 | distributed=94 | uniform=92,0.807
+Vibration Damping,3,Moderate,109,Moderate=109 | Low=104 | High=87,0.798
+Computational Time,3,Medium,119,Medium=119 | Long=92 | Short=89,0.748
+Weight Efficiency,3,Good,109,Good=109 | Poor=97 | Excellent=94,0.862
+Durability,3,Medium,108,Medium=108 | Low=99 | High=93,0.861
+Quantum Algorithm Type,2,Shark Optimizer,172,Shark Optimizer=172 | Chaotic Quantum Genetic=128,0.744

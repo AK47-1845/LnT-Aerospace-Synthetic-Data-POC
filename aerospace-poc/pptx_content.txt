@@ -1,0 +1,79 @@
+=== SLIDE 1 ===
+TEAM BRIEFING
+Aerospace Structural
+Design Dataset
+Understanding the Data + What We Expect From You
+300
+Rows
+22
+Features
+3 Types
+Material Classes
+
+=== SLIDE 2 ===
+WHAT IS THIS DATASET?
+Overview
+A Kaggle dataset of 300 simulated aircraft structural configurations.
+Each row = one design attempt.
+Given a material, geometry, and flight environment — what does the structure's performance look like?
+Your job: generate more rows that look and behave like this data.
+Material & Physical Properties
+What the structure is made of — material type, stiffness (E), density (ρ), Poisson ratio (ν), tensile strength.
+Flight Environment
+Where it flies — altitude (5k–20k m), temperature (–60 to –40 °C), pressure (100k–200k Pa).
+Geometry & Structure
+How it's built — wing span, fuselage length, wall thickness, cross-section shape, load type.
+
+=== SLIDE 3 ===
+FEATURE REFERENCE — INPUTS & TARGETS
+Input feature
+
+=== SLIDE 4 ===
+FEATURE REFERENCE — INPUTS & TARGETS
+TARGET VARIABLES  (what to predict)
+Vibration Damping
+Low · Moderate · High
+Computational Time
+Short · Medium · Long
+Weight Efficiency
+Poor · Good · Excellent
+Durability
+Low · Medium · High
+Target variable
+
+=== SLIDE 5 ===
+WHAT WE EXPECT FROM YOU
+Treat this as a data understanding + generation problem, not just a fill-in-the-blanks task.
+01
+Statistical Fidelity
+Distributions, spread, skew — not just valid ranges. The shape of the data matters.
+02
+Feature Interdependencies
+Variables don't exist in isolation. Understand what drives what before you generate.
+03
+Input → Output Coherence
+Target variables must follow logically from the input configuration. No random label assignment.
+04
+Class Balance & Edge Cases
+Handle class imbalance in target variables. Rare but realistic combinations should also be representable — can you justify how?
+
+=== SLIDE 6 ===
+VALIDATION — WHAT TO CHECK & HOW
+MINIMUM BAR
+Schema match — 22 columns, correct names, correct dtypes
+No nulls, no out-of-range values
+Categorical levels match exactly (case-sensitive)
+Class distribution across target variables — not skewed to one label
+≥ 300 rows
+DEEPER VALIDATIONS — YOU FIGURE OUT THE REST
+I/P → O/P Correlations
+Correlation matrix · Grouped stats by target class · Conditional distributions
+Feature Structure
+Per-column histograms vs reference · KS test · KL divergence · Joint pair plots
+Class Balance
+Class frequency counts · Chi-square test · Compare target distributions
+Rare Case Realism
+Isolation Forest · LOF · Nearest-neighbour distance to reference rows
+Overall Similarity
+Train/test on real vs synthetic · MMD · TSTR / TRTS evaluation
+

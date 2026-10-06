@@ -1,0 +1,14 @@
+model,size,timestamp,tstr_mean,ks_pass_rate,schema_ok,path,epsilon
+ctgan_premium,300,2026-03-17T23:55:12.064725,0.3575,0.0,True,d:\aero\final\per_model_datasets\ctgan_premium_300.csv,
+ctgan_premium,600,2026-03-17T23:56:18.262353,0.3208,0.0,True,d:\aero\final\per_model_datasets\ctgan_premium_600.csv,
+ctgan_premium,1000,2026-03-17T23:57:36.724838,0.3508,0.0,True,d:\aero\final\per_model_datasets\ctgan_premium_1000.csv,
+ctgan_premium_e1000,1000,2026-03-17T23:59:45.357361,0.3275,0.0,True,d:\aero\final\per_model_datasets\ctgan_premium_e1000_1000.csv,
+copula,300,2026-03-18T00:00:03.527441,0.3483,0.8571,True,d:\aero\final\per_model_datasets\copula_300.csv,
+copula,600,2026-03-18T00:00:04.760116,0.3483,0.9286,True,d:\aero\final\per_model_datasets\copula_600.csv,
+copula,1000,2026-03-18T00:00:05.676289,0.3442,0.9286,True,d:\aero\final\per_model_datasets\copula_1000.csv,
+tabudiff_premium,300,2026-03-18T00:00:28.533281,0.395,0.0,True,d:\aero\final\per_model_datasets\tabudiff_premium_300.csv,
+tabudiff_premium,600,2026-03-18T00:00:51.236792,0.3792,0.0,True,d:\aero\final\per_model_datasets\tabudiff_premium_600.csv,
+tabudiff_premium,1000,2026-03-18T00:01:14.235669,0.3892,0.0,True,d:\aero\final\per_model_datasets\tabudiff_premium_1000.csv,
+dp_tvae_premium_eps0p5,1000,2026-03-18T00:01:16.806324,0.3425,0.0,True,d:\aero\final\per_model_datasets\dp_tvae_premium_eps0p5_1000.csv,0.5
+dp_tvae_premium_eps1p0,1000,2026-03-18T00:01:19.169528,0.3533,0.0,True,d:\aero\final\per_model_datasets\dp_tvae_premium_eps1p0_1000.csv,1.0
+dp_tvae_premium_eps2p0,1000,2026-03-18T00:01:21.380321,0.3467,0.0,True,d:\aero\final\per_model_datasets\dp_tvae_premium_eps2p0_1000.csv,2.0

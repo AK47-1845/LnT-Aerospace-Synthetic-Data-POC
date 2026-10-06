@@ -1,0 +1,17 @@
+# Local-only artifacts: large, private, or regenerable. Never commit these.
+# (This repo also hosts the Physical AI Atlas at root; the POC lives in aerospace-poc/.)
+
+/LTTS what to build ( 30 sept meet )/
+/LTTS what to build ( 30 sept meet ).zip
+/Personal Website.zip
+*.zip
+.env
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+~$*
+*.tmp

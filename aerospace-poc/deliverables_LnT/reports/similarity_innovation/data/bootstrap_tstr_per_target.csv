@@ -1,0 +1,37 @@
+model,target,TSTR_mean,TSTR_std
+CTGANPremium,Computational Time,0.3362,0.0352
+CTGANPremium,Durability,0.3229,0.033
+CTGANPremium,Vibration Damping,0.3167,0.0301
+CTGANPremium,Weight Efficiency,0.3336,0.0351
+Copula,Computational Time,0.3529,0.0408
+Copula,Durability,0.3274,0.041
+Copula,Vibration Damping,0.3376,0.0378
+Copula,Weight Efficiency,0.33,0.0441
+GMM,Computational Time,0.4004,0.0344
+GMM,Durability,0.3879,0.0362
+GMM,Vibration Damping,0.375,0.0421
+GMM,Weight Efficiency,0.3667,0.0397
+KDE,Computational Time,0.6911,0.0413
+KDE,Durability,0.6997,0.0422
+KDE,Vibration Damping,0.696,0.0383
+KDE,Weight Efficiency,0.6941,0.0324
+MaskedPredictor,Computational Time,0.4057,0.0351
+MaskedPredictor,Durability,0.4001,0.0421
+MaskedPredictor,Vibration Damping,0.3799,0.0395
+MaskedPredictor,Weight Efficiency,0.4007,0.0368
+TVAE,Computational Time,0.3914,0.0252
+TVAE,Durability,0.3682,0.0261
+TVAE,Vibration Damping,0.3343,0.0318
+TVAE,Weight Efficiency,0.3679,0.029
+TVAEPremium,Computational Time,0.3914,0.0252
+TVAEPremium,Durability,0.3774,0.0357
+TVAEPremium,Vibration Damping,0.3502,0.0306
+TVAEPremium,Weight Efficiency,0.3542,0.0251
+TabuDiff,Computational Time,0.4162,0.0321
+TabuDiff,Durability,0.3671,0.0357
+TabuDiff,Vibration Damping,0.3601,0.0419
+TabuDiff,Weight Efficiency,0.3478,0.0335
+TabuDiffPremium,Computational Time,0.3804,0.0347
+TabuDiffPremium,Durability,0.3918,0.0341
+TabuDiffPremium,Vibration Damping,0.386,0.0369
+TabuDiffPremium,Weight Efficiency,0.3882,0.0335

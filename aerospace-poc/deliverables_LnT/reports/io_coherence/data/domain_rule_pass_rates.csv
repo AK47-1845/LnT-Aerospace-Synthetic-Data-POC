@@ -1,0 +1,121 @@
+Dataset,Rule,Desc,Pass_rate,N_applicable
+Real,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,0.3429,35
+Real,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+Real,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,0.6304,46
+Real,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,0.3297,91
+Real,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,0.7647,17
+Real,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,0.2414,58
+Real,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,0.7387,111
+Real,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,0.3163,98
+Real,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+Real,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,0.7273,33
+Real,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+Real,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,0.5385,39
+KDE,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,0.3694,555
+KDE,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+KDE,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,0.6319,747
+KDE,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,0.3316,1514
+KDE,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,0.7651,298
+KDE,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,0.2468,936
+KDE,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,0.7379,1812
+KDE,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,0.3216,1620
+KDE,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+KDE,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,0.7533,531
+KDE,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+KDE,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,0.5186,619
+GMM,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,0.2395,572
+GMM,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+GMM,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,0.6408,774
+GMM,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,0.3091,1556
+GMM,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,0.7172,297
+GMM,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,0.3106,1069
+GMM,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,0.7191,1912
+GMM,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,0.3086,1643
+GMM,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+GMM,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,0.7248,556
+GMM,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+GMM,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,0.6899,716
+Copula,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,0.3054,537
+Copula,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+Copula,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,0.6388,789
+Copula,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,0.2976,1569
+Copula,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,0.68,350
+Copula,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,0.2813,1070
+Copula,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,0.7054,1904
+Copula,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,0.3082,1645
+Copula,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+Copula,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,0.677,548
+Copula,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+Copula,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,0.6681,717
+TabuDiff,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,0.2685,432
+TabuDiff,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+TabuDiff,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,0.7286,991
+TabuDiff,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,0.1922,645
+TabuDiff,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,0.561,246
+TabuDiff,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,0.3082,1327
+TabuDiff,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,0.5305,2228
+TabuDiff,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,0.3312,1576
+TabuDiff,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+TabuDiff,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,0.7763,304
+TabuDiff,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+TabuDiff,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,0.6054,740
+TabuDiffPremium,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,0.275,80
+TabuDiffPremium,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+TabuDiffPremium,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,0.6619,139
+TabuDiffPremium,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,0.411,326
+TabuDiffPremium,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,0.72,75
+TabuDiffPremium,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,0.2889,135
+TabuDiffPremium,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,0.7396,265
+TabuDiffPremium,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,0.2703,344
+TabuDiffPremium,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+TabuDiffPremium,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,0.678,59
+TabuDiffPremium,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+TabuDiffPremium,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,0.6,115
+TVAE,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,,0
+TVAE,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+TVAE,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,,0
+TVAE,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,,0
+TVAE,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,,0
+TVAE,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,,0
+TVAE,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,,0
+TVAE,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,,0
+TVAE,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+TVAE,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,,0
+TVAE,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+TVAE,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,0.875,8
+TVAEPremium,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,,0
+TVAEPremium,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+TVAEPremium,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,,0
+TVAEPremium,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,,0
+TVAEPremium,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,,0
+TVAEPremium,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,,0
+TVAEPremium,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,,0
+TVAEPremium,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,,0
+TVAEPremium,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+TVAEPremium,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,,0
+TVAEPremium,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+TVAEPremium,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,1.0,3
+CTGANPremium,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,,0
+CTGANPremium,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+CTGANPremium,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,,0
+CTGANPremium,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,,0
+CTGANPremium,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,,0
+CTGANPremium,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,,0
+CTGANPremium,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,,0
+CTGANPremium,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,,0
+CTGANPremium,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+CTGANPremium,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,,0
+CTGANPremium,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+CTGANPremium,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,,0
+MaskedPredictor,R01_titanium_thick_highDur,Titanium + Thick wall → High Durability,0.2667,15
+MaskedPredictor,R02_carbonfiber_lightload_highWE,Carbon Fiber + Distributed load → Excellent Weight Efficiency,,0
+MaskedPredictor,R03_highalt_lowtemp_modVD,High Altitude (>15000 m) + Low Temp → Moderate/High Vibration Damping,0.5946,37
+MaskedPredictor,R04_highiter_longCT,High Iterations (>1500) → Long Computational Time,0.2727,55
+MaskedPredictor,R05_aluminum_thinwall_lowDur,Aluminum + Thin wall (<7mm) → Low/Medium Durability,1.0,3
+MaskedPredictor,R06_shortopttime_shortCT,Short Optimization Time (<70s) → Short Computational Time,0.4,10
+MaskedPredictor,R07_largewingspan_goodWE,Large Wing Span (>45m) → Good/Excellent Weight Efficiency,0.7733,75
+MaskedPredictor,R08_highE_highDur,High Young's Modulus (>150 GPa) → High Durability,0.2432,37
+MaskedPredictor,R09_cqg_lowiter_shortCT,CQG Algorithm + Low Iterations (<700) → Short Computational Time,,0
+MaskedPredictor,R10_highpressure_highoplife,High Pressure (>180000 Pa) + Long Op Life (>30yr) → High Durability,0.7143,7
+MaskedPredictor,R11_symm_shape_lowVD,Symmetrical shape → Low Vibration Damping,,0
+MaskedPredictor,R12_titanium_highE_excellentWE,Titanium + E > 130 GPa → Good/Excellent Weight Efficiency,0.5476,42

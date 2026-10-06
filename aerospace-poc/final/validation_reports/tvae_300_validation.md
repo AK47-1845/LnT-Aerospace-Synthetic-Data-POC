@@ -1,0 +1,153 @@
+# Validation Report: tvae_300
+*Generated: 2026-03-17 23:14:38*
+
+## Table of Contents
+1. [Tier 1 — Minimum Bar](#tier-1--minimum-bar)
+2. [Tier 2 — Statistical Fidelity](#tier-2--statistical-fidelity)
+3. [Tier 2 — ML Utility (TSTR/TRTS)](#tier-2--ml-utility)
+4. [Tier 2 — Rare Case Realism](#tier-2--rare-case-realism)
+5. [Tier 2 — Overall Similarity](#tier-2--overall-similarity)
+6. [Class Balance](#class-balance)
+7. [Conclusion](#conclusion)
+
+---
+
+## Tier 1 — Minimum Bar
+
+**Overall Tier 1 Result: ❌ FAIL**
+
+| Check | Status | Detail |
+|---|---|---|
+| Schema Match (22 columns) | ✅ | Expected 22 cols, got 22.  |
+| Null Values | ✅ | 0 null values |
+| Numeric Range Compliance | ✅ | All within real-data bounds |
+| Categorical Level Validity | ❌ | Structural Shape: missing levels {'Tapered'}; Load Distribution: missing levels {'distributed'}; Quantum Algorithm Type: missing levels {'Chaotic Quantum Genetic'}; Vibration Damping: missing levels {'High', 'Moderate'}; Computational Time: missing levels {'Short', 'Medium'}; Weight Efficiency: missing levels {'Poor'}; Durability: missing levels {'Medium'} |
+| Row Count (≥ 300) | ✅ | 300 rows |
+| Class Degeneracy Check | ❌ | Vibration Damping:High=0; Vibration Damping:Moderate=0; Computational Time:Short=0; Computational Time:Medium=0; Weight Efficiency:Poor=0; Durability:Medium=0 |
+| Duplicate Rows (informational) | ✅ | 0 duplicates (0.0%) |
+
+---
+
+## Tier 2 — Statistical Fidelity
+
+| Metric | Value | Interpretation |
+|---|---|---|
+| KS Pass Rate | 0.0 | Fraction of features with KS p-value > 0.05 |
+| Mean KS p-value | 0.0 | Higher = more similar distributions |
+| Mean KL Divergence | 15.8453 | Lower = better (0 = identical) |
+| Mean Wasserstein Distance | 0.814 | Lower = better (normalized) |
+| Mean JS Divergence | 0.5502 | Lower = better (0–1 bounded) |
+| Correlation Frobenius Norm | 2.0532 | Lower = better (0 = identical) |
+
+### Per-Feature KS Test Results
+
+| Feature | KS Statistic | p-value | Pass (p > 0.05) |
+|---|---|---|---|
+| E (GPa) | 0.4633 | 0.0000 | ❌ |
+| ν | 0.4767 | 0.0000 | ❌ |
+| ρ (kg/m³) | 0.4867 | 0.0000 | ❌ |
+| Tensile Strength (MPa) | 0.4633 | 0.0000 | ❌ |
+| Young’s Modulus | 0.4800 | 0.0000 | ❌ |
+| Altitude (m) | 0.4867 | 0.0000 | ❌ |
+| Temperature (°C) | 0.5100 | 0.0000 | ❌ |
+| Pressure (Pa) | 0.4800 | 0.0000 | ❌ |
+| Operational Life (years) | 0.3600 | 0.0000 | ❌ |
+| Wing Span (m) | 0.4767 | 0.0000 | ❌ |
+| Fuselage Length (m) | 0.4767 | 0.0000 | ❌ |
+| Structural Thickness (mm) | 0.5067 | 0.0000 | ❌ |
+| Number of Iterations | 0.4800 | 0.0000 | ❌ |
+| Optimization Time (sec) | 0.5000 | 0.0000 | ❌ |
+
+![Histogram Comparison](../reports/plots/tvae_300_histograms.png)
+
+---
+
+## Tier 2 — ML Utility
+
+### TSTR (Train on Synthetic, Test on Real)
+
+| Target | Accuracy | Macro F1 |
+|---|---|---|
+| Vibration Damping | 0.29 | 0.1499 |
+| Computational Time | 0.3067 | 0.1565 |
+| Weight Efficiency | 0.31 | 0.2353 |
+| Durability | 0.33 | 0.212 |
+| **Mean** | **0.3092** | **0.1884** |
+
+### TRTS (Train on Real, Test on Synthetic)
+
+| Target | Accuracy |
+|---|---|
+| Vibration Damping | 0.0 |
+| Computational Time | 0.0067 |
+| Weight Efficiency | 0.4267 |
+| Durability | 0.1067 |
+| **Mean** | **0.135** |
+
+### Feature Importance Alignment (FI-MAE)
+Lower MAE = synthetic data learned the same physical rules as real data.
+
+| Target | FI-MAE |
+|---|---|
+| Vibration Damping | 0.0556 |
+| Computational Time | 0.0556 |
+| Weight Efficiency | 0.0133 |
+| Durability | 0.02 |
+| **Mean** | **0.0361** |
+
+---
+
+## Tier 2 — Rare Case Realism
+
+| Metric | Value | Target |
+|---|---|---|
+| Isolation Forest Anomaly Rate | 0.0% | ~5% |
+| Mean Distance to Real Anomalies | None | Lower = more realistic |
+| NN Distance Mean | 2.3831 | Lower = closer to real |
+| NN Distance Median | 2.3436 | |
+| NN Distance P95 | 2.595 | |
+
+---
+
+## Tier 2 — Overall Similarity
+
+| Metric | Value | Interpretation |
+|---|---|---|
+| MMD Score | 0.710995 | Lower = more similar (0 = identical) |
+| Discriminator AUC | 1.0 | Near 0.5 = indistinguishable from real |
+| GMM Log-Likelihood | -13.9699 | Higher = more plausible |
+
+![PCA Overlay](../reports/plots/tvae_300_pca.png)
+
+---
+
+## Class Balance
+
+![Class Balance](../reports/plots/tvae_300_class_balance.png)
+
+### Chi-Square Test (Synthetic vs Real Distribution)
+
+| Target | Chi² Statistic | Degrees of Freedom |
+|---|---|---|
+| Vibration Damping | 565.3846 | 2 |
+| Computational Time | 678.2609 | 2 |
+| Weight Efficiency | 145.298 | 2 |
+| Durability | 579.3092 | 2 |
+
+---
+
+## Conclusion
+
+**Dataset:** tvae_300
+**Overall Grade:** F
+**Verdict:** ❌ **DOES NOT MEET MINIMUM BAR** — This dataset should not be used.
+
+### Key Metrics Summary
+- TSTR Mean Accuracy: **0.3092** (benchmark: >0.85 = excellent)
+- KS Pass Rate: **0.0000** (benchmark: >0.80 = excellent)
+- Mean FI-MAE: **0.0361** (benchmark: <0.01 = excellent)
+- Discriminator AUC: **1.0000** (benchmark: <0.6 = excellent)
+- MMD Score: **0.710995** (benchmark: <0.1 = excellent)
+
+---
+*Report generated by the Aerospace Synthetic Data Validation Pipeline v2.0*

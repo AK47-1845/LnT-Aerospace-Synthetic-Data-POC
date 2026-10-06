@@ -1,0 +1,31 @@
+True,Predicted,Fix_feature,Fix_delta_pct
+High,Low,Optimization Time (sec),+10%
+High,Moderate,Optimization Time (sec),+10%
+High,Low,Optimization Time (sec),+10%
+Moderate,High,Optimization Time (sec),+10%
+Low,Moderate,Optimization Time (sec),+10%
+High,Moderate,Optimization Time (sec),+10%
+High,Moderate,Optimization Time (sec),+10%
+Low,Moderate,Optimization Time (sec),+10%
+High,Moderate,Optimization Time (sec),+10%
+High,Moderate,Temperature (°C),-10%
+High,Moderate,Optimization Time (sec),+10%
+High,Low,Optimization Time (sec),+10%
+High,Moderate,Optimization Time (sec),+10%
+Low,Moderate,Optimization Time (sec),+10%
+High,Low,Optimization Time (sec),+10%
+Moderate,Low,Optimization Time (sec),+10%
+Moderate,Low,Optimization Time (sec),+10%
+Low,High,Optimization Time (sec),+10%
+High,Moderate,Structural Thickness (mm),-10%
+Moderate,Low,Fuselage Length (m),-10%
+Moderate,Low,Optimization Time (sec),+10%
+Moderate,High,Optimization Time (sec),+10%
+High,Moderate,Optimization Time (sec),+10%
+Low,Moderate,Optimization Time (sec),+10%
+High,Low,Optimization Time (sec),+10%
+High,Moderate,Optimization Time (sec),+10%
+Moderate,Low,Optimization Time (sec),+10%
+High,Low,Optimization Time (sec),+10%
+Low,Moderate,Optimization Time (sec),+10%
+Low,Moderate,Optimization Time (sec),+10%

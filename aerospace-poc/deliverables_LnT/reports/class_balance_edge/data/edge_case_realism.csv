@@ -1,0 +1,29 @@
+scenario,category,variable_stressed,n_rows,if_anomaly_pct,lof_anomaly_pct,nn_dist_mean,realism_score,description
+wingspan_extreme_small,Geometry,Wingspan Extreme Small,50,0.0,0.0,0.0361,69.3,Wing span <24 m. Short-range jet or fighter configuration — high wing loading.
+density_extreme_light,Material,Density Extreme Light,50,0.0,10.0,0.0362,81.3,"Density <1,800 kg/m3. Ultra-lightweight materials — Carbon Fiber or thin Aluminum."
+long_optimization,Optimization,Long Optimization,50,0.0,10.0,0.0362,81.3,Optimization time >145 sec. Computationally expensive convergence — complex search spaces.
+chaotic_quantum_only,Optimization,Chaotic Quantum Only,50,6.0,0.0,0.0361,82.5,Chaotic Quantum Genetic algorithm only. Quantum-inspired genetic algorithm with chaotic initialization.
+thickness_extreme_thin,Geometry,Thickness Extreme Thin,50,4.0,0.0,0.0361,83.1,Structural thickness <6 mm. Thin-shell structure — risk of buckling under compressive load.
+excellent_weight_efficiency,Target,Excellent Weight Efficiency,50,0.0,4.0,0.0361,83.1,All Excellent Weight Efficiency rows. Optimal lightweight structural designs.
+temperature_extreme_cold,Flight Envelope,Temperature Extreme Cold,50,16.0,32.0,0.0359,84.9,Temperature at coldest 5th percentile (<-57 degrees C). Extreme cold soak scenario.
+tensile_extreme_high,Material,Tensile Extreme High,50,28.0,12.0,0.036,87.3,"Tensile strength >1,400 MPa. Ultra-high-strength alloys for extreme load scenarios."
+thickness_extreme_thick,Geometry,Thickness Extreme Thick,50,22.0,18.0,0.036,87.3,Structural thickness >14.5 mm. Heavily reinforced structure — armored or pressure vessel.
+short_optimization,Optimization,Short Optimization,50,22.0,16.0,0.0358,87.9,Optimization time <60 sec. Fast convergence — simpler structural problems or efficient search.
+density_extreme_heavy,Material,Density Extreme Heavy,50,28.0,10.0,0.036,87.9,"Density >4,200 kg/m3. Heavy structural material — likely dense Titanium alloy."
+pressure_extreme_high,Flight Envelope,Pressure Extreme High,50,16.0,10.0,0.0362,91.5,"Pressure at 95th percentile (>190,000 Pa). Near sea-level equivalent — low-altitude pressurization."
+modulus_extreme_high,Material,Modulus Extreme High,50,16.0,6.0,0.0356,92.7,Young's modulus >185 GPa. Highest stiffness — Carbon Fiber composites at maximum grade.
+tensile_extreme_low,Material,Tensile Extreme Low,50,20.0,2.0,0.0361,92.7,Tensile strength <370 MPa. Lowest-grade structural materials — near yield limit.
+material_titanium_only,Material,Material Titanium Only,50,10.0,10.0,0.0357,93.3,"Titanium-only structure set. Balanced strength-to-weight — engine pylons, landing gear."
+operational_life_short,Lifecycle,Operational Life Short,50,14.0,6.0,0.036,93.3,Operational life 20-22 years. Short-service aircraft — possibly military or regional commuter.
+altitude_extreme_low,Flight Envelope,Altitude Extreme Low,50,8.0,10.0,0.0362,93.9,"Altitude at 5th percentile (<7,000 m). Simulates low-altitude flight or climb/descent phase."
+high_durability_cluster,Target,High Durability Cluster,50,10.0,4.0,0.0361,95.1,All High-Durability configurations. Best-case scenario for structural longevity design.
+pressure_extreme_low,Flight Envelope,Pressure Extreme Low,50,12.0,2.0,0.0358,95.1,"Pressure at 5th percentile (<110,000 Pa). Very low ambient pressure — high-altitude regime."
+wingspan_extreme_large,Geometry,Wingspan Extreme Large,50,6.0,6.0,0.0362,95.7,Wing span >56 m. Wide-body or UAV with high aspect ratio — maximum bending moment scenario.
+material_aluminum_only,Material,Material Aluminum Only,50,8.0,4.0,0.0362,95.7,Aluminum-only structure set. Lower density but lower strength — budget aerospace applications.
+altitude_extreme_high,Flight Envelope,Altitude Extreme High,50,6.0,6.0,0.036,95.7,"Altitude at 95th percentile (>17,500 m). Simulates stratospheric flight above commercial ceiling."
+operational_life_long,Lifecycle,Operational Life Long,50,6.0,4.0,0.036,96.3,Operational life 37-39 years. Long-service aircraft requiring enhanced fatigue analysis.
+poor_weight_efficiency,Target,Poor Weight Efficiency,50,4.0,4.0,0.0361,96.9,All Poor Weight Efficiency rows. Overweight structural designs — candidates for optimization.
+temperature_moderate,Flight Envelope,Temperature Moderate,50,4.0,4.0,0.0362,96.9,Temperature near mean (-50 degrees C). Nominal cruise temperature band.
+shark_optimizer_only,Optimization,Shark Optimizer Only,50,4.0,4.0,0.036,96.9,Shark Optimizer algorithm only. Nature-inspired metaheuristic mimicking shark predation behavior.
+low_durability_cluster,Target,Low Durability Cluster,50,2.0,2.0,0.0361,98.1,All Low-Durability configurations. Identifies input feature patterns associated with early structural degradation.
+material_carbonfiber_only,Material,Material Carbonfiber Only,50,2.0,2.0,0.0361,98.1,Carbon Fiber-only structure set. Highest specific stiffness — primary flight structures.

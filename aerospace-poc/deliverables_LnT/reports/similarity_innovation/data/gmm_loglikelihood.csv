@@ -1,0 +1,11 @@
+Model,LogLik,Relative
+TabuDiffPremium,-22.2277,1.3892
+Copula,-21.9311,1.3707
+GMM,-21.5375,1.3461
+TabuDiff,-20.6523,1.2908
+KDE,-18.2795,1.1425
+Real (self),-15.9999,1.0
+MaskedPredictor,-14.7274,0.9205
+CTGANPremium,-11.7358,0.7335
+TVAE,-10.9033,0.6815
+TVAEPremium,-10.7707,0.6732

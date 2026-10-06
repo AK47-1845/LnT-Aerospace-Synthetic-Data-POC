@@ -1,0 +1,6 @@
+EXECUTIVE SIGNOFF SUMMARY - 20260315_100903
+BEST MODEL: Empirical (Score: 0.9969)
+ACTION: Proceed with synthesis using Empirical configurations.
+LINKS:
+-> Start here: explainability/20260315_100903/index.html
+-> Full Metric Analysis: explainability/20260315_100903/metrics_comments.md

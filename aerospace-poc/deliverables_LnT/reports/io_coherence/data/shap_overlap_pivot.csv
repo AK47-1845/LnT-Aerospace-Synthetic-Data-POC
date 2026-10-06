@@ -1,0 +1,10 @@
+Model,Computational Time,Durability,Vibration Damping,Weight Efficiency,Mean_overlap
+CTGANPremium,3,3,3,3,3.0
+Copula,3,3,3,3,3.0
+GMM,3,3,3,3,3.0
+KDE,3,3,3,3,3.0
+MaskedPredictor,3,3,3,3,3.0
+TabuDiffPremium,3,3,3,3,3.0
+TabuDiff,3,3,3,3,3.0
+TVAEPremium,0,3,2,3,2.0
+TVAE,0,3,2,3,2.0

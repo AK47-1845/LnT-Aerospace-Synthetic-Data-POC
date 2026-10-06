@@ -1,0 +1,37 @@
+Model,Target,SHAP_top5_real,SHAP_top5_syn,SHAP_overlap
+KDE,Vibration Damping,"ρ (kg/m³), ν, E (GPa)","ρ (kg/m³), E (GPa), ν",3
+GMM,Vibration Damping,"ρ (kg/m³), ν, E (GPa)","ρ (kg/m³), ν, E (GPa)",3
+Copula,Vibration Damping,"ρ (kg/m³), ν, E (GPa)","ν, E (GPa), ρ (kg/m³)",3
+TabuDiff,Vibration Damping,"ρ (kg/m³), ν, E (GPa)","E (GPa), ρ (kg/m³), ν",3
+TabuDiffPremium,Vibration Damping,"ρ (kg/m³), ν, E (GPa)","ρ (kg/m³), E (GPa), ν",3
+TVAE,Vibration Damping,"ρ (kg/m³), ν, E (GPa)","ν, E (GPa)",2
+TVAEPremium,Vibration Damping,"ρ (kg/m³), ν, E (GPa)","ν, E (GPa)",2
+CTGANPremium,Vibration Damping,"ρ (kg/m³), ν, E (GPa)","E (GPa), ν, ρ (kg/m³)",3
+MaskedPredictor,Vibration Damping,"ρ (kg/m³), ν, E (GPa)","ν, ρ (kg/m³), E (GPa)",3
+KDE,Computational Time,"ν, E (GPa), ρ (kg/m³)","ν, ρ (kg/m³), E (GPa)",3
+GMM,Computational Time,"ν, E (GPa), ρ (kg/m³)","ν, ρ (kg/m³), E (GPa)",3
+Copula,Computational Time,"ν, E (GPa), ρ (kg/m³)","ν, ρ (kg/m³), E (GPa)",3
+TabuDiff,Computational Time,"ν, E (GPa), ρ (kg/m³)","ν, ρ (kg/m³), E (GPa)",3
+TabuDiffPremium,Computational Time,"ν, E (GPa), ρ (kg/m³)","ν, E (GPa), ρ (kg/m³)",3
+TVAE,Computational Time,"ν, E (GPa), ρ (kg/m³)","Quantum Algorithm Type, Load Distribution, Structural Shape, Material Type, Optimization Time (sec)",0
+TVAEPremium,Computational Time,"ν, E (GPa), ρ (kg/m³)","Quantum Algorithm Type, Load Distribution, Structural Shape, Material Type, Optimization Time (sec)",0
+CTGANPremium,Computational Time,"ν, E (GPa), ρ (kg/m³)","E (GPa), ρ (kg/m³), ν",3
+MaskedPredictor,Computational Time,"ν, E (GPa), ρ (kg/m³)","ν, ρ (kg/m³), E (GPa)",3
+KDE,Weight Efficiency,"ν, ρ (kg/m³), E (GPa)","ρ (kg/m³), ν, E (GPa)",3
+GMM,Weight Efficiency,"ν, ρ (kg/m³), E (GPa)","ν, E (GPa), ρ (kg/m³)",3
+Copula,Weight Efficiency,"ν, ρ (kg/m³), E (GPa)","ν, ρ (kg/m³), E (GPa)",3
+TabuDiff,Weight Efficiency,"ν, ρ (kg/m³), E (GPa)","ρ (kg/m³), ν, E (GPa)",3
+TabuDiffPremium,Weight Efficiency,"ν, ρ (kg/m³), E (GPa)","ρ (kg/m³), ν, E (GPa)",3
+TVAE,Weight Efficiency,"ν, ρ (kg/m³), E (GPa)","ν, ρ (kg/m³), E (GPa)",3
+TVAEPremium,Weight Efficiency,"ν, ρ (kg/m³), E (GPa)","ν, ρ (kg/m³), E (GPa)",3
+CTGANPremium,Weight Efficiency,"ν, ρ (kg/m³), E (GPa)","E (GPa), ρ (kg/m³), ν",3
+MaskedPredictor,Weight Efficiency,"ν, ρ (kg/m³), E (GPa)","ρ (kg/m³), ν, E (GPa)",3
+KDE,Durability,"ρ (kg/m³), ν, E (GPa)","ρ (kg/m³), ν, E (GPa)",3
+GMM,Durability,"ρ (kg/m³), ν, E (GPa)","ρ (kg/m³), ν, E (GPa)",3
+Copula,Durability,"ρ (kg/m³), ν, E (GPa)","ρ (kg/m³), E (GPa), ν",3
+TabuDiff,Durability,"ρ (kg/m³), ν, E (GPa)","E (GPa), ρ (kg/m³), ν",3
+TabuDiffPremium,Durability,"ρ (kg/m³), ν, E (GPa)","ρ (kg/m³), E (GPa), ν",3
+TVAE,Durability,"ρ (kg/m³), ν, E (GPa)","ν, ρ (kg/m³), E (GPa)",3
+TVAEPremium,Durability,"ρ (kg/m³), ν, E (GPa)","ρ (kg/m³), ν, E (GPa)",3
+CTGANPremium,Durability,"ρ (kg/m³), ν, E (GPa)","E (GPa), ρ (kg/m³), ν",3
+MaskedPredictor,Durability,"ρ (kg/m³), ν, E (GPa)","E (GPa), ρ (kg/m³), ν",3
